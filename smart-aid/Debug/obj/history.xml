@@ -1,104 +1,101 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F072R8 -DSTM32F0xx -DUSE_HAL_DRIVER -DSTM32F407xx -I..\..\..\workspace\smart-aid\libs\damogranlabs\UART -I..\..\..\workspace\smart-aid\cmsis_core -I..\..\..\workspace\smart-aid -I..\..\..\workspace -I..\..\..\workspace\smart-aid\cmsis_lib -I..\..\..\workspace\smart-aid\semihosting -I..\..\.. -I..\..\..\workspace\smart-aid\keypad -I..\..\..\workspace\smart-aid\STM32F0-AnyPinServo-master -I..\..\..\workspace\smart-aid\libs\damogranlabs\GPIO -I..\..\..\workspace\smart-aid\cmsis_boot -I..\..\..\.. -I..\..\..\workspace\smart-aid\libs\damogranlabs -I..\..\..\workspace\smart-aid\libs\damogranlabs\MILLIS -I..\..\..\workspace\smart-aid\lcd1602 -I..\..\..\workspace\smart-aid\libs -I..\..\..\workspace\smart-aid\cmsis_lib\include">
-      <target file="stm32f0xx_rtc.o" lastModified="160ef642c26">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_rtc.c" lastModified="160e9efd8c2"/>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F072R8 -DSTM32F0xx -DUSE_HAL_DRIVER -DSTM32F407xx -I..\..\..\workspace\smart-aid-uart -I..\..\..\workspace\smart-aid-uart\cmsis_lib -I..\..\..\workspace\smart-aid-uart\libs -I..\..\.. -I..\..\..\workspace\smart-aid-uart\STM32F0-AnyPinServo-master -I..\..\..\workspace -I..\..\..\workspace\smart-aid-uart\cmsis_core -I..\..\..\workspace\smart-aid-uart\lcd1602 -I..\..\..\.. -I..\..\..\workspace\smart-aid-uart\libs\damogranlabs -I..\..\..\workspace\smart-aid-uart\libs\damogranlabs\GPIO -I..\..\..\workspace\smart-aid-uart\keypad -I..\..\..\workspace\smart-aid-uart\libs\damogranlabs\UART -I..\..\..\workspace\smart-aid-uart\cmsis_boot -I..\..\..\workspace\smart-aid-uart\cmsis_lib\include -I..\..\..\workspace\smart-aid-uart\libs\damogranlabs\MILLIS -I..\..\..\workspace\smart-aid-uart\semihosting">
+      <target file="stm32f0xx_rtc.o" lastModified="160ef9c6879">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_rtc.c" lastModified="160ef9a352c"/>
       </target>
-      <target file="stm32f0xx_can.o" lastModified="160ef643035">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_can.c" lastModified="160e78c5570"/>
+      <target file="stm32f0xx_can.o" lastModified="160ef9c6d28">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_can.c" lastModified="160ef9a351d"/>
       </target>
-      <target file="APS.o" lastModified="160ef64d297">
-         <source file="..\..\..\STM32F0-AnyPinServo-master\APS.c" lastModified="160ef61b40d"/>
+      <target file="APS.o" lastModified="160ef9c6749">
+         <source file="..\..\..\STM32F0-AnyPinServo-master\APS.c" lastModified="160ef9a3494"/>
       </target>
-      <target file="tm_stm32f4_gpio.o" lastModified="160ef642f41">
-         <source file="..\..\..\..\tm_stm32f4_gpio.c" lastModified="160ef061185"/>
+      <target file="systick_millis.o" lastModified="160ef9c6112">
+         <source file="..\..\..\libs\damogranlabs\MILLIS\systick_millis.c" lastModified="160ef9a3551"/>
       </target>
-      <target file="systick_millis.o" lastModified="160ef6a5f31">
-         <source file="..\..\..\libs\damogranlabs\MILLIS\systick_millis.c" lastModified="160ef6a5d19"/>
+      <target file="printf.o" lastModified="160ef9c64f4">
+         <source file="..\..\..\stdio\printf.c" lastModified="160ef9a3592"/>
       </target>
-      <target file="printf.o" lastModified="160ef642925">
-         <source file="..\..\..\stdio\printf.c" lastModified="160e582ceda"/>
+      <target file="stm32f0xx_tim.o" lastModified="160ef9c6a4f">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_tim.c" lastModified="160ef9a3533"/>
       </target>
-      <target file="stm32f0xx_tim.o" lastModified="160ef64d37e">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_tim.c" lastModified="160ef64ae4f"/>
+      <target file="stm32f0xx_adc.o" lastModified="160ef9c60bd">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_adc.c" lastModified="160ef9a351b"/>
       </target>
-      <target file="stm32f0xx_adc.o" lastModified="160ef64267f">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_adc.c" lastModified="160e645bc4f"/>
+      <target file="LCD1602_main.o" lastModified="160ef9c61bc">
+         <source file="..\..\..\LCD1602_main.c" lastModified="160ef9a3481"/>
       </target>
-      <target file="LCD1602_main.o" lastModified="160ef642782">
-         <source file="..\..\..\LCD1602_main.c" lastModified="160eb68592b"/>
+      <target file="stm32f0xx_exti.o" lastModified="160ef9c6bff">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_exti.c" lastModified="160ef9a3521"/>
       </target>
-      <target file="stm32f0xx_exti.o" lastModified="160ef642eae">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_exti.c" lastModified="160e4ae485c"/>
+      <target file="stm32f0xx_gpio.o" lastModified="160ef9c67b1">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_gpio.c" lastModified="160ef9a3523"/>
       </target>
-      <target file="stm32f0xx_gpio.o" lastModified="160ef642b25">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_gpio.c" lastModified="160e4ae4861"/>
+      <target file="main_lcd1602.o" lastModified="160ef9c6293">
+         <source file="..\..\..\main_lcd1602.c" lastModified="160ef9a3559"/>
       </target>
-      <target file="main_lcd1602.o" lastModified="160ef8a8fb0">
-         <source file="..\..\..\main_lcd1602.c" lastModified="160ef8a8d55"/>
+      <target file="stm32f030xx_uart_print.o" lastModified="160ef9c6ba6">
+         <source file="..\..\..\libs\damogranlabs\UART\stm32f030xx_uart_print.c" lastModified="160ef9a3555"/>
       </target>
-      <target file="stm32f030xx_uart_print.o" lastModified="160ef642e5d">
-         <source file="..\..\..\libs\damogranlabs\UART\stm32f030xx_uart_print.c" lastModified="160e4ae48ae"/>
+      <target file="stm32f0xx_spi.o" lastModified="160ef9c6610">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_spi.c" lastModified="160ef9a352e"/>
       </target>
-      <target file="stm32f0xx_spi.o" lastModified="160ef642a16">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_spi.c" lastModified="160e9efcba0"/>
+      <target file="stm32f0xx_gpio_init.o" lastModified="160ef9c6b28">
+         <source file="..\..\..\libs\damogranlabs\GPIO\stm32f0xx_gpio_init.c" lastModified="160ef9a354b"/>
       </target>
-      <target file="stm32f0xx_gpio_init.o" lastModified="160ef642de0">
-         <source file="..\..\..\libs\damogranlabs\GPIO\stm32f0xx_gpio_init.c" lastModified="160e4ae4898"/>
+      <target file="stm32f0xx_syscfg.o" lastModified="160ef9c6c98">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_syscfg.c" lastModified="160ef9a3530"/>
       </target>
-      <target file="stm32f0xx_syscfg.o" lastModified="160ef642fbb">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_syscfg.c" lastModified="160e4ae4888"/>
+      <target file="tm_stm32f4_keypad.o" lastModified="160ef9c6c3f">
+         <source file="..\..\..\keypad\tm_stm32f4_keypad.c" lastModified="160ef9a3540"/>
       </target>
-      <target file="tm_stm32f4_keypad.o" lastModified="160ef642ee3">
-         <source file="..\..\..\keypad\tm_stm32f4_keypad.c" lastModified="160ee7945c4"/>
+      <target file="stm32f0xx_rcc.o" lastModified="160ef9c6048">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_rcc.c" lastModified="160ef9a3529"/>
       </target>
-      <target file="stm32f0xx_rcc.o" lastModified="160ef642604">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_rcc.c" lastModified="160e4ae4883"/>
+      <target file="i2c_lcd.o" lastModified="160ef9c6fcb">
+         <source file="..\..\..\lcd1602\i2c_lcd.c" lastModified="160ef9a3543"/>
       </target>
-      <target file="i2c_lcd.o" lastModified="160ef643144">
-         <source file="..\..\..\lcd1602\i2c_lcd.c" lastModified="15f45f55f76"/>
+      <target file="I2CSAVE.o" lastModified="160ef9ce075">
+         <source file="..\..\..\I2CSAVE.c" lastModified="160ef9a347f"/>
       </target>
-      <target file="I2CSAVE.o" lastModified="160ef8a5799">
-         <source file="..\..\..\..\LAB2_KD_IOT\I2CSAVE.c" lastModified="160ef8a542f"/>
+      <target file="stm32f0xx_dac.o" lastModified="160ef9c6e11">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_dac.c" lastModified="160ef9a351f"/>
       </target>
-      <target file="stm32f0xx_dac.o" lastModified="160ef6430d8">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_dac.c" lastModified="160e649f6fe"/>
+      <target file="syscalls.o" lastModified="160ef9c68e1">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="160ef9a3593"/>
       </target>
-      <target file="stm32f0xx_misc.o" lastModified="160ef64307e">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_misc.c" lastModified="160e4ae487e"/>
+      <target file="sh_cmd.o" lastModified="160ef9c67c9">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="160ef9a355c"/>
       </target>
-      <target file="syscalls.o" lastModified="160ef642c89">
-         <source file="..\..\..\syscalls\syscalls.c" lastModified="160e4ae48cb"/>
+      <target file="stm32f0xx_misc.o" lastModified="160ef9c6d84">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_misc.c" lastModified="160ef9a3527"/>
       </target>
-      <target file="sh_cmd.o" lastModified="160ef642b89">
-         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="160e4bb7ac9"/>
+      <target file="startup_stm32f0xx.o" lastModified="160ef9c6450">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="160ef9a34f0"/>
       </target>
-      <target file="stm32f0xx_usart.o" lastModified="160ef642d03">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_usart.c" lastModified="160e4ae488a"/>
+      <target file="stm32f0xx_usart.o" lastModified="160ef9c6974">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_usart.c" lastModified="160ef9a3535"/>
       </target>
-      <target file="startup_stm32f0xx.o" lastModified="160ef6428aa">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="160e4ae480a"/>
+      <target file="stm32f0xx_i2c.o" lastModified="160ef9c66c5">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_i2c.c" lastModified="160ef9a3525"/>
       </target>
-      <target file="stm32f0xx_i2c.o" lastModified="160ef642a8e">
-         <source file="..\..\..\cmsis_lib\source\stm32f0xx_i2c.c" lastModified="160e9f05bec"/>
+      <target file="system_stm32f0xx.o" lastModified="160ef9c6ab9">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="160ef9a34f8"/>
       </target>
-      <target file="system_stm32f0xx.o" lastModified="160ef642d7f">
-         <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="160e9de5858"/>
+      <target file="analog_test.o" lastModified="160ef9ce024">
+         <source file="..\..\..\analog_test.c" lastModified="160ef9a34ec"/>
       </target>
-      <target file="stm32f0xx_keypad_d1md1m.o" lastModified="160ef64298c">
-         <source file="..\..\..\keypad\stm32f0xx_keypad_d1md1m.c" lastModified="160ef1aedf0"/>
+      <target file="stm32f0xx_keypad_d1md1m.o" lastModified="160ef9c6565">
+         <source file="..\..\..\keypad\stm32f0xx_keypad_d1md1m.c" lastModified="160ef9a3539"/>
       </target>
-      <target file="analog_test.o" lastModified="160ef7a47ef">
-         <source file="..\..\..\..\LAB2_KD_IOT\analog_test.c" lastModified="160ef7a4562"/>
+      <target file="semihosting.o" lastModified="160ef9c5fb7">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="160ef9a355a"/>
       </target>
-      <target file="semihosting.o" lastModified="160ef64257c">
-         <source file="..\..\..\semihosting\semihosting.c" lastModified="160e4bb7ab3"/>
+      <target file="before_code_change.o" lastModified="160ef9ce0bf">
+         <source file="..\..\..\before_code_change.c" lastModified="160ef9a34ed"/>
       </target>
-      <target file="before_code_change.o" lastModified="160ef888de1">
-         <source file="..\..\..\..\LAB2_KD_IOT\before_code_change.c" lastModified="160ef888809"/>
-      </target>
-      <target file="main.o" lastModified="160ef8b73bf">
-         <source file="..\..\..\main.c" lastModified="160ef8b55a7"/>
+      <target file="main.o" lastModified="160ef9c6434">
+         <source file="..\..\..\main.c" lastModified="160ef9a3557"/>
       </target>
    </processor>
 </history>

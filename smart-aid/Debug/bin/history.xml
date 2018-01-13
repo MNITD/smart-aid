@@ -1,40 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="5.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=smart-aid.map -O0 --gc-sections -LG:\IoT\CoIDE\configuration\ProgramData\smart-aid -TG:\IoT\CoIDE\configuration\ProgramData\smart-aid/arm-gcc-link.ld -g">
-      <target file="smart-aid.elf" lastModified="160ef8b75f4">
-         <source file="..\obj\semihosting.o" lastModified="160ef64257c"/>
-         <source file="..\obj\stm32f0xx_rcc.o" lastModified="160ef642604"/>
-         <source file="..\obj\stm32f0xx_adc.o" lastModified="160ef64267f"/>
-         <source file="..\obj\systick_millis.o" lastModified="160ef6a5f31"/>
-         <source file="..\obj\LCD1602_main.o" lastModified="160ef642782"/>
-         <source file="..\obj\main_lcd1602.o" lastModified="160ef8a8fb0"/>
-         <source file="..\obj\main.o" lastModified="160ef8b73bf"/>
-         <source file="..\obj\startup_stm32f0xx.o" lastModified="160ef6428aa"/>
-         <source file="..\obj\printf.o" lastModified="160ef642925"/>
-         <source file="..\obj\stm32f0xx_keypad_d1md1m.o" lastModified="160ef64298c"/>
-         <source file="..\obj\stm32f0xx_spi.o" lastModified="160ef642a16"/>
-         <source file="..\obj\stm32f0xx_i2c.o" lastModified="160ef642a8e"/>
-         <source file="..\obj\APS.o" lastModified="160ef64d297"/>
-         <source file="..\obj\stm32f0xx_gpio.o" lastModified="160ef642b25"/>
-         <source file="..\obj\analog_test.o" lastModified="160ef7a47ef"/>
-         <source file="..\obj\sh_cmd.o" lastModified="160ef642b89"/>
-         <source file="..\obj\stm32f0xx_rtc.o" lastModified="160ef642c26"/>
-         <source file="..\obj\syscalls.o" lastModified="160ef642c89"/>
-         <source file="..\obj\stm32f0xx_usart.o" lastModified="160ef642d03"/>
-         <source file="..\obj\I2CSAVE.o" lastModified="160ef8a5799"/>
-         <source file="..\obj\stm32f0xx_tim.o" lastModified="160ef64d37e"/>
-         <source file="..\obj\system_stm32f0xx.o" lastModified="160ef642d7f"/>
-         <source file="..\obj\stm32f0xx_gpio_init.o" lastModified="160ef642de0"/>
-         <source file="..\obj\stm32f030xx_uart_print.o" lastModified="160ef642e5d"/>
-         <source file="..\obj\stm32f0xx_exti.o" lastModified="160ef642eae"/>
-         <source file="..\obj\tm_stm32f4_keypad.o" lastModified="160ef642ee3"/>
-         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="160ef642f41"/>
-         <source file="..\obj\before_code_change.o" lastModified="160ef888de1"/>
-         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="160ef642fbb"/>
-         <source file="..\obj\stm32f0xx_can.o" lastModified="160ef643035"/>
-         <source file="..\obj\stm32f0xx_misc.o" lastModified="160ef64307e"/>
-         <source file="..\obj\stm32f0xx_dac.o" lastModified="160ef6430d8"/>
-         <source file="..\obj\i2c_lcd.o" lastModified="160ef643144"/>
+   <processor signature="5.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=smart-aid.map -O0 --gc-sections -LD:\CooCox\CoIDE\configuration\ProgramData\smart-aid -TD:\CooCox\CoIDE\configuration\ProgramData\smart-aid/arm-gcc-link.ld -g">
+      <target file="smart-aid.elf" lastModified="160ef9ce34d">
+         <source file="..\obj\semihosting.o" lastModified="160ef9c5fb7"/>
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="160ef9c6048"/>
+         <source file="..\obj\stm32f0xx_adc.o" lastModified="160ef9c60bd"/>
+         <source file="..\obj\systick_millis.o" lastModified="160ef9c6112"/>
+         <source file="..\obj\LCD1602_main.o" lastModified="160ef9c61bc"/>
+         <source file="..\obj\main_lcd1602.o" lastModified="160ef9c6293"/>
+         <source file="..\obj\main.o" lastModified="160ef9c6434"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="160ef9c6450"/>
+         <source file="..\obj\printf.o" lastModified="160ef9c64f4"/>
+         <source file="..\obj\stm32f0xx_keypad_d1md1m.o" lastModified="160ef9c6565"/>
+         <source file="..\obj\stm32f0xx_spi.o" lastModified="160ef9c6610"/>
+         <source file="..\obj\stm32f0xx_i2c.o" lastModified="160ef9c66c5"/>
+         <source file="..\obj\APS.o" lastModified="160ef9c6749"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="160ef9c67b1"/>
+         <source file="..\obj\analog_test.o" lastModified="160ef9ce024"/>
+         <source file="..\obj\sh_cmd.o" lastModified="160ef9c67c9"/>
+         <source file="..\obj\stm32f0xx_rtc.o" lastModified="160ef9c6879"/>
+         <source file="..\obj\syscalls.o" lastModified="160ef9c68e1"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="160ef9c6974"/>
+         <source file="..\obj\I2CSAVE.o" lastModified="160ef9ce075"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="160ef9c6a4f"/>
+         <source file="..\obj\system_stm32f0xx.o" lastModified="160ef9c6ab9"/>
+         <source file="..\obj\stm32f0xx_gpio_init.o" lastModified="160ef9c6b28"/>
+         <source file="..\obj\stm32f030xx_uart_print.o" lastModified="160ef9c6ba6"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="160ef9c6bff"/>
+         <source file="..\obj\tm_stm32f4_keypad.o" lastModified="160ef9c6c3f"/>
+         <source file="..\obj\before_code_change.o" lastModified="160ef9ce0bf"/>
+         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="160ef9c6c98"/>
+         <source file="..\obj\stm32f0xx_can.o" lastModified="160ef9c6d28"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="160ef9c6d84"/>
+         <source file="..\obj\stm32f0xx_dac.o" lastModified="160ef9c6e11"/>
+         <source file="..\obj\i2c_lcd.o" lastModified="160ef9c6fcb"/>
       </target>
    </processor>
 </history>
