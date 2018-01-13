@@ -1,206 +1,91 @@
 #include "stm32f0xx.h"
+#include "string.h"
+#include "semihosting.h"
+#include <stdio.h>
+#include "stm32f0xx_rcc.h"
+//#include "tm_stm32f4_keypad.h"
+
+#include <stm32f0xx_rcc.h>
+#include <stm32f0xx_gpio.h>
+#include <stm32f0xx_misc.h>
+#include "stm32f0xx_keypad_d1md1m.h"
+//#include <stm32f0xx_dma.h>
+
+//ADC_InitTypeDef A;
+GPIO_InitTypeDef G;
+NVIC_InitTypeDef N;
+//DMA_InitTypeDef D;
+
+//#define ROW1 GPIOA->GPIO_Pin_9
 
 
+void initgpio()
+{
+	GPIO_InitTypeDef GPIO_InitStructure;
+	RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA | RCC_AHBPeriph_GPIOB | RCC_AHBPeriph_GPIOC, ENABLE);
 
-#include "i2c_lcd.h"
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0 | GPIO_Pin_6 | GPIO_Pin_7 | GPIO_Pin_8 | GPIO_Pin_9 ;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_10MHz;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+	GPIO_Init(GPIOC, &GPIO_InitStructure);
 
-#define I2C1_OWN_ADDRESS (0x27)
+//	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0 | GPIO_Pin_1 ;
+//	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_10MHz;
+//	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+//	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+//	GPIO_Init(GPIOB, &GPIO_InitStructure);
 
+//	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8 | GPIO_Pin_9 | GPIO_Pin_10 | GPIO_Pin_11 ;
+//	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_10MHz;
+//	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+//	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+//	GPIO_Init(GPIOA, &GPIO_InitStructure);
 
-
-uint32_t prescaler_us;
-uint32_t prescaler_ms;
-
-void InitDelayTIM6(void){
-	RCC->APB1ENR |= RCC_APB1ENR_TIM6EN; // enable TIM6 timer
-}
-/*void gpioInit(void);
-void i2cInit(void);
-void delay(uint32_t t);
-*/
-
-//const uint8_t mes[] = "STM32F4 + I2C + LCD";
-const uint8_t mes[] = "TMW";
-const uint8_t mes1[] = "AAA";
-
-uint8_t str [20];
-
-int TIM6delay_us(uint16_t value){
-	TIM6->PSC = prescaler_us; // apply current prescaler
-	TIM6->ARR = value;  // countdown limitation
-	TIM6->CNT = 0; // assure countdown  set to 0
-	TIM6->CR1 |= TIM_CR1_CEN;  //enable timer (automatic start)
-		while((TIM6->SR & TIM_SR_UIF)==0){}  // check for interuptions upon timer owerflow
-		// till counting is over
-		TIM6->SR &=~TIM_SR_UIF; // reset flag
-	return 0;
-}
-int TIM6delay_ms(uint16_t value){
-	TIM6->PSC = prescaler_ms; // apply current prescaler
-	TIM6->ARR = value;  // countdown limitation
-	TIM6->CNT = 0; // assure countdown  set to 0
-	TIM6->CR1 |= TIM_CR1_CEN;  //enable timer (automatic start)
-		while((TIM6->SR & TIM_SR_UIF)==0){}  // check for interuptions upon timer owerflow
-		// till counting is over
-		TIM6->SR &=~TIM_SR_UIF; // reset flag
-	return 0;
-}
-
-int main(void) {
-
-SystemInit();
-
-RCC->AHBENR |= RCC_AHBENR_GPIOCEN;
-
-
-  GPIOC->MODER = (GPIOC->MODER & ~(GPIO_MODER_MODER6 | GPIO_MODER_MODER7)) \
-				 | (GPIO_MODER_MODER6_0 | GPIO_MODER_MODER7_0);
-
-  		prescaler_ms = SystemCoreClock / 1000;
-  		prescaler_us = SystemCoreClock / 1000000;
-
-	gpioInit();
-	i2cInit();
-	InitDelayTIM6();
-//	delay_init();
-	TIM6delay_ms(100);
-	lcd_Init();
-	/*TIM6delay_ms(10);
-	lcd_Init();*/
-
-	lcd_Command(0xC0);
-	sprintf(str, mes1);
-	lcd_PrintC(str);
-
-
-	lcd_Command(0x80);
-	sprintf(str, mes);
-	lcd_PrintC(str);
-
-	TIM6delay_ms(1000);
-	lcd_Command(0x01);
-	lcd_Command(0x80);
-
-	sprintf(str, "ABO");
-	lcd_PrintC(str);
-	sprintf(str, "ABO");
-	lcd_PrintC(str);
-
-	TIM6delay_ms(1000);
-	lcd_Command(0x01);
-	lcd_Command(0xC0);
-
-	/*lcd_PrintC(mes);
-	lcd_PrintC(mes);*/
-
-//	lcd_Goto(1, 0);
-
-	sprintf(str, "Value of Pi");
-	lcd_PrintC(str);
-	//lcd_PrintC('A');
-	//lcd_PrintC("ABO");
-	//TIM6delay_ms(1000);
-	//lcd_PrintC("Hello world");
-	//lcd_PrintC("CSUCU");
-/*
-	lcd_Goto(1, 3);
-	lcd_PrintC("\"Hello world!\"");
-
-	lcd_Goto(1, 0);
-	lcd_PrintC("how.net.ua");
-
-
-*/
-    while(1) {
-    	//iii2c_send(0xAA);
-    	/*GPIOC->ODR ^= 1<<6;
-    	TIM6delay_us(65000);*/
-
-    }
-/*    lcd_PrintC(mes);
-
-    delay_ms(100000);*/
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8 | GPIO_Pin_9 | GPIO_Pin_10 | GPIO_Pin_15;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_10MHz;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;
+	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_DOWN;
+	GPIO_Init(GPIOA, &GPIO_InitStructure);
 }
 
-//void delay(uint32_t t) {
-//	uint32_t i = 0;
-//	for (; i < t; i++);
-//}
-
-void gpioInit(void) {
-	//GPIO_InitTypeDef gpio;
-	//RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
-
-	RCC->AHBENR |= RCC_AHBENR_GPIOBEN;
-
-	/* Select output mode (01) on PC8 and PC9 */
-	/*gpio.GPIO_Pin = GPIO_Pin_6 | GPIO_Pin_7;
-		gpio.GPIO_Mode = GPIO_Mode_AF;*/
-	  GPIOB->MODER = (GPIOB->MODER & ~(GPIO_MODER_MODER6 | GPIO_MODER_MODER7)) \
-					 | (GPIO_MODER_MODER6_1 | GPIO_MODER_MODER7_1);
-
-	 //gpio.GPIO_Speed = GPIO_Speed_50MHz;
-	  //GPIOB->OSPEEDR = 0xFFFF;
-
-	 // gpio.GPIO_PuPd = GPIO_PuPd_UP;
-	  //GPIOB->PUPDR |= GPIO_PUPDR_PUPDR6_0 | GPIO_PUPDR_PUPDR7_0;
-
-	  GPIOB->OTYPER |= GPIO_OTYPER_OT_6 | GPIO_OTYPER_OT_7;
-
-	/*
-	gpio.GPIO_OType = GPIO_OType_OD;
-	*/
-	//GPIO_Init(GPIOB, &gpio);
 
 
-
-	//GPIO_PinAFConfig(GPIOB, GPIO_PinSource6, GPIO_AF_I2C1);
-	//GPIO_PinAFConfig(GPIOB, GPIO_PinSource7, GPIO_AF_I2C1);
-
-	GPIOB->AFR[0] = (GPIOB ->AFR[0] &~ (GPIO_AFRL_AFRL6 | GPIO_AFRL_AFRL7))\
-		                  | (1 << (6 * 4)) | (1 << (7 * 4));
+int main (void) {
+	SystemInit();
+	uint32_t  i = 0;
+	initgpio();
 
 
+		//TODO make Enum Strings ?
+
+	TM_KEYPAD_Button_t pressedBtn;
+	while(1){
+		while(1)
+		{
+		GPIOC->BSRR = GPIO_Pin_6;//set bit as high
+		GPIOC->BRR = GPIO_Pin_7;//set bit as low
+		GPIOC->BRR = GPIO_Pin_8;//set bit as low
+		GPIOC->BRR = GPIO_Pin_9;//set bit as low
+
+		{
+		if(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_8))//read input bit PB12
+			printf("The value is 8 \n\r");
+		if(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_9)) //read input bit PB11
+			printf("The value is 9 \n\r");
+		if(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_10)) //read input bit PB10
+			printf("The value is 10 \n\r");
+		if(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_15)) //read input bit PB2
+			printf("The value is 11 \n\r");
+		}}
+
+
+//		pressedBtn = TM_KEYPAD_Read();
+//		printf("test: %d\n\r", GPIOA->IDR & GPIO_Pin_10 );
+//		printf("The value is %s\n\r", pressedBtn);
+
+	}
 }
 
-void i2cInit(void) {
-	//I2C_InitTypeDef i2c;
 
-	//RCC_APB1PeriphClockCmd(RCC_APB1Periph_I2C1, ENABLE);
-	RCC->APB1ENR |= RCC_APB1ENR_I2C1EN;
-
-	  /* Configure I2C2, master */
-	  /* (1) Timing register value is computed with the AN4235 xls file,
-	   fast Mode @400kHz with I2CCLK = 48MHz, rise time = 140ns, fall time = 40ns */
-	  /* (2) Periph enable */
-	  /* (3) Slave address = 0x5A, write transfer, 1 byte to transmit, autoend */
-	I2C1->CR1 &= ~(I2C_CR1_PE) /*| I2C_CR1_GCEN | I2C_CR1_WUPEN*/; /* (2) */
-
-	I2C1->TIMINGR = (uint32_t)0x00E0D3FF /*0x205078C1 *//*0x108065BE*//*0x60201B6B*//* 0x40422631*/; /* (1) */
-
-	  I2C1->CR1 |= I2C_CR1_PE /*| I2C_CR1_GCEN | I2C_CR1_WUPEN*/; /* (2) */
-
-	  I2C1->CR2 |=  I2C_CR2_AUTOEND | (1<<16) | (I2C1_OWN_ADDRESS<<1); /* (3) */
-
-
-
-
-	/*i2c.I2C_ClockSpeed = 50000;
-	i2c.I2C_Mode = I2C_Mode_I2C;
-	i2c.I2C_DutyCycle = I2C_DutyCycle_2;
-	i2c.I2C_OwnAddress1 = 0x00;
-	i2c.I2C_Ack = I2C_Ack_Enable;
-	i2c.I2C_AcknowledgedAddress = I2C_AcknowledgedAddress_7bit;
-	I2C_Init(I2C1, &i2c);
-
-	I2C_Cmd(I2C1, ENABLE);*/
-}
-/*
-void iii2c_send(uint8_t data){
-	// start I2C master transmission sequence
-	while(!(I2C1->ISR & I2C_ISR_TXE) == (I2C_ISR_TXE)) // Check Tx empty
-	{
-	  I2C1->TXDR = data; // Byte to send
-	  I2C1->CR2 |= I2C_CR2_START; // Go
-}
-}*/
