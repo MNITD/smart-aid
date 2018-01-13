@@ -19,256 +19,32 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-<part id="13"/>
-<part id="14"/>
-<part id="15"/>
-<part id="16"/>
-<part id="17"/>
-<part id="18"/>
-<part id="19"/>
-<part id="20"/>
-<part id="21"/>
-<part id="22"/>
-<part id="23"/>
-<part id="24"/>
-<part id="25"/>
-<part id="26"/>
-<part id="27"/>
-<part id="28"/>
-<part id="29"/>
-<part id="30"/>
-<part id="31"/>
-<part id="32"/>
-<part id="33"/>
-<part id="34"/>
-<part id="36"/>
-<part id="35"/>
-<part id="37"/>
-<part id="38"/>
-<part id="39"/>
-<part id="40"/>
-<part id="41"/>
-<part id="42"/>
-<part id="43"/>
-<part id="44"/>
-<part id="45"/>
-<part id="46"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="G:/IoT/CoIDE/workspace/smart-aid/main.c" title="main.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/main.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="G:/IoT/CoIDE/workspace/smart-aid/main.c" title="main.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1742" selectionTopPixel="935"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="semihosting.h" partName="semihosting.h" path="G:/IoT/CoIDE/workspace/smart-aid/semihosting/semihosting.h" title="semihosting.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/semihosting/semihosting.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/semihosting/semihosting.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="341" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_gpio.h" partName="stm32f0xx_gpio.h" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_gpio.h" title="stm32f0xx_gpio.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_gpio.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_lib/include/stm32f0xx_gpio.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="5305" selectionTopPixel="5080"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_adc.c" partName="stm32f0xx_adc.c" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/source/stm32f0xx_adc.c" title="stm32f0xx_adc.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/source/stm32f0xx_adc.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_lib/source/stm32f0xx_adc.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" partName="Repository" title="Repository" tooltip="Repository" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">
-<subPage horizontalPosition="0" selectedItemId="1947" subPageIndex="2" verticalPosition="44"/>
-</input>
-</editor>
-<editor id="org.coocox.welcome.ui.WelcomePage" name="" partName="welcome" title="welcome" tooltip="" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">&#x0A;<org.coocox.welcome.ui.WelcomePage/>
-</input>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" title="main.c" tooltip="G:\IoT\CoIDE\workspace\STM32F0-ADCModes-master\main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/G:/IoT/CoIDE/workspace/STM32F0-ADCModes-master/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1784" selectionTopPixel="815"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_usart.h" partName="stm32f0xx_usart.h" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_usart.h" title="stm32f0xx_usart.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_usart.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_lib/include/stm32f0xx_usart.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_keypad.h" partName="tm_stm32f4_keypad.h" path="G:/IoT/CoIDE/workspace/smart-aid/keypad/tm_stm32f4_keypad.h" title="tm_stm32f4_keypad.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/keypad/tm_stm32f4_keypad.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/keypad/tm_stm32f4_keypad.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3386" selectionTopPixel="2026"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_gpio.h" partName="tm_stm32f4_gpio.h" title="tm_stm32f4_gpio.h" tooltip="G:\IoT\CoIDE\workspace\tm_stm32f4_gpio.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/G:/IoT/CoIDE/workspace/tm_stm32f4_gpio.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1320"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_keypad.c" partName="tm_stm32f4_keypad.c" path="G:/IoT/CoIDE/workspace/smart-aid/keypad/tm_stm32f4_keypad.c" title="tm_stm32f4_keypad.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/keypad/tm_stm32f4_keypad.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/keypad/tm_stm32f4_keypad.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="2841" selectionTopPixel="174"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="defines.h" partName="defines.h" path="G:/IoT/CoIDE/workspace/defines.h" title="defines.h" tooltip="G:/IoT/CoIDE/workspace/defines.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/keypad/defines.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_keypad.h" partName="tm_stm32f4_keypad.h" title="tm_stm32f4_keypad.h" tooltip="G:\IoT\CoIDE\workspace\tm_stm32f4_keypad.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/G:/IoT/CoIDE/workspace/tm_stm32f4_keypad.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2951" selectionTopPixel="1802"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_gpio.h" partName="tm_stm32f4_gpio.h" title="tm_stm32f4_gpio.h" tooltip="G:\IoT\CoIDE\workspace\smart-aid\keypad\tm_stm32f4_gpio.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/G:/IoT/CoIDE/workspace/smart-aid/keypad/tm_stm32f4_gpio.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="3" selectionOffset="11057" selectionTopPixel="5018"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" title="main.c" tooltip="G:\IoT\CoIDE\workspace\smart-aid\main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/G:/IoT/CoIDE/workspace/smart-aid/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2487" selectionTopPixel="1394"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f0xx.h" partName="system_stm32f0xx.h" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_boot/system_stm32f0xx.h" title="system_stm32f0xx.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_boot/system_stm32f0xx.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_boot/system_stm32f0xx.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="LCD1602_main.c" partName="LCD1602_main.c" title="LCD1602_main.c" tooltip="G:\IoT\CoIDE\workspace\Lab4 (2)\LCD1602_main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/G:/IoT/CoIDE/workspace/Lab4%20(2)/LCD1602_main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="i2c_lcd.h" partName="i2c_lcd.h" title="i2c_lcd.h" tooltip="G:\IoT\CoIDE\workspace\Lab4 (2)\lcd1602\i2c_lcd.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/G:/IoT/CoIDE/workspace/Lab4%20(2)/lcd1602/i2c_lcd.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="98" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="LCD1602_main.c" partName="LCD1602_main.c" path="G:/IoT/CoIDE/workspace/smart-aid/LCD1602_main.c" title="LCD1602_main.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/LCD1602_main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/lcd/LCD1602_main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="609" selectionTopPixel="2599"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="i2c_lcd.h" partName="i2c_lcd.h" path="G:/IoT/CoIDE/workspace/smart-aid/lcd1602/i2c_lcd.h" title="i2c_lcd.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/lcd1602/i2c_lcd.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/lcd/i2c_lcd.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="130" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="i2c_lcd.c" partName="i2c_lcd.c" path="G:/IoT/CoIDE/workspace/smart-aid/lcd1602/i2c_lcd.c" title="i2c_lcd.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/lcd1602/i2c_lcd.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/lcd/i2c_lcd.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="1731" selectionTopPixel="429"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="analog_test.c" partName="analog_test.c" path="G:/IoT/CoIDE/workspace/LAB2_KD_IOT/analog_test.c" title="analog_test.c" tooltip="G:/IoT/CoIDE/workspace/LAB2_KD_IOT/analog_test.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/analog_test.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="418" selectionTopPixel="2276"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="before_code_change.c" partName="before_code_change.c" path="G:/IoT/CoIDE/workspace/LAB2_KD_IOT/before_code_change.c" title="before_code_change.c" tooltip="G:/IoT/CoIDE/workspace/LAB2_KD_IOT/before_code_change.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/before_code_change.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="2781" selectionTopPixel="1411"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="semihosting.c" partName="semihosting.c" path="G:/IoT/CoIDE/workspace/smart-aid/semihosting/semihosting.c" title="semihosting.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/semihosting/semihosting.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/semihosting/semihosting.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="797"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="printf.c" partName="printf.c" path="G:/IoT/CoIDE/workspace/smart-aid/stdio/printf.c" title="printf.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/stdio/printf.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/stdio/printf.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="732" selectionTopPixel="30"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="I2CSAVE.c" partName="I2CSAVE.c" path="G:/IoT/CoIDE/workspace/LAB2_KD_IOT/I2CSAVE.c" title="I2CSAVE.c" tooltip="G:/IoT/CoIDE/workspace/LAB2_KD_IOT/I2CSAVE.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/I2CSAVE.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="8025" selectionOffset="0" selectionTopPixel="85"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="LCD1602_main.c" partName="LCD1602_main.c" path="G:/IoT/CoIDE/workspace/smart-aid/LCD1602_main.c" title="LCD1602_main.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/LCD1602_main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/syscalls/LCD1602_main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4039" selectionTopPixel="849"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main_lcd1602.c" partName="main_lcd1602.c" path="G:/IoT/CoIDE/workspace/smart-aid/main_lcd1602.c" title="main_lcd1602.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/main_lcd1602.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/main_lcd1602.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1028" selectionTopPixel="731"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_keypad_d1md1m.c" partName="stm32f0xx_keypad_d1md1m.c" path="G:/IoT/CoIDE/workspace/smart-aid/keypad/stm32f0xx_keypad_d1md1m.c" title="stm32f0xx_keypad_d1md1m.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/keypad/stm32f0xx_keypad_d1md1m.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/d1md1mkeypad/stm32f0xx_keypad_d1md1m.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="1962" selectionTopPixel="892"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_keypad_d1md1m.h" partName="stm32f0xx_keypad_d1md1m.h" path="G:/IoT/CoIDE/workspace/smart-aid/keypad/stm32f0xx_keypad_d1md1m.h" title="stm32f0xx_keypad_d1md1m.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/keypad/stm32f0xx_keypad_d1md1m.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/d1md1mkeypad/stm32f0xx_keypad_d1md1m.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="173" selectionTopPixel="986"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_gpio.c" partName="tm_stm32f4_gpio.c" path="G:/IoT/CoIDE/workspace/tm_stm32f4_gpio.c" title="tm_stm32f4_gpio.c" tooltip="G:/IoT/CoIDE/workspace/tm_stm32f4_gpio.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/keypad/tm_stm32f4_gpio.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="1320" selectionTopPixel="336"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_rtc.h" partName="stm32f0xx_rtc.h" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_rtc.h" title="stm32f0xx_rtc.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_rtc.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_lib/include/stm32f0xx_rtc.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_spi.h" partName="stm32f0xx_spi.h" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_spi.h" title="stm32f0xx_spi.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_spi.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_lib/include/stm32f0xx_spi.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_misc.h" partName="stm32f0xx_misc.h" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_misc.h" title="stm32f0xx_misc.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_misc.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_lib/include/stm32f0xx_misc.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="2004"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_dac.h" partName="stm32f0xx_dac.h" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_dac.h" title="stm32f0xx_dac.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_dac.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_lib/include/stm32f0xx_dac.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_gpio.h" partName="tm_stm32f4_gpio.h" path="G:/IoT/CoIDE/workspace/tm_stm32f4_gpio.h" title="tm_stm32f4_gpio.h" tooltip="G:/IoT/CoIDE/workspace/tm_stm32f4_gpio.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/keypad/tm_stm32f4_gpio.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="92" selectionOffset="12585" selectionTopPixel="5763"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx.h" partName="stm32f0xx.h" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_boot/stm32f0xx.h" title="stm32f0xx.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_boot/stm32f0xx.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_boot/stm32f0xx.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="57018" selectionTopPixel="13701"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_gpio.c" partName="stm32f0xx_gpio.c" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/source/stm32f0xx_gpio.c" title="stm32f0xx_gpio.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/source/stm32f0xx_gpio.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_lib/source/stm32f0xx_gpio.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="13649" selectionTopPixel="6765"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_rcc.h" partName="stm32f0xx_rcc.h" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_rcc.h" title="stm32f0xx_rcc.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_lib/include/stm32f0xx_rcc.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_lib/include/stm32f0xx_rcc.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="14459" selectionTopPixel="6264"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" title="main.c" tooltip="G:\IoT\CoIDE\workspace\smart-aid\STM32F0-AnyPinServo-master\main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/G:/IoT/CoIDE/workspace/smart-aid/STM32F0-AnyPinServo-master/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="131" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="APS.h" partName="APS.h" path="G:/IoT/CoIDE/workspace/smart-aid/STM32F0-AnyPinServo-master/APS.h" title="APS.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/STM32F0-AnyPinServo-master/APS.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/servo/APS.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="1479" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="systick_millis.c" partName="systick_millis.c" path="G:/IoT/CoIDE/workspace/smart-aid/libs/damogranlabs/MILLIS/systick_millis.c" title="systick_millis.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/libs/damogranlabs/MILLIS/systick_millis.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/damogranlabs/millis/systick_millis.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1826" selectionTopPixel="547"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="AnyPinServo.h" partName="AnyPinServo.h" path="G:/IoT/CoIDE/workspace/smart-aid/STM32F0-AnyPinServo-master/AnyPinServo.h" title="AnyPinServo.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/STM32F0-AnyPinServo-master/AnyPinServo.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/servo/AnyPinServo.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="APS.c" partName="APS.c" path="G:/IoT/CoIDE/workspace/smart-aid/STM32F0-AnyPinServo-master/APS.c" title="APS.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/STM32F0-AnyPinServo-master/APS.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/servo/APS.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1276"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="systick_millis.h" partName="systick_millis.h" path="G:/IoT/CoIDE/workspace/smart-aid/libs/damogranlabs/MILLIS/systick_millis.h" title="systick_millis.h" tooltip="G:/IoT/CoIDE/workspace/smart-aid/libs/damogranlabs/MILLIS/systick_millis.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/damogranlabs/millis/systick_millis.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1284" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f0xx.s" partName="startup_stm32f0xx.s" path="G:/IoT/CoIDE/workspace/smart-aid/cmsis_boot/startup/startup_stm32f0xx.s" title="startup_stm32f0xx.s" tooltip="G:/IoT/CoIDE/workspace/smart-aid/cmsis_boot/startup/startup_stm32f0xx.s" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/cmsis_boot/startup/startup_stm32f0xx.s"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2882" selectionTopPixel="1054"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="syscalls.c" partName="syscalls.c" path="G:/IoT/CoIDE/workspace/smart-aid/syscalls/syscalls.c" title="syscalls.c" tooltip="G:/IoT/CoIDE/workspace/smart-aid/syscalls/syscalls.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/smart-aid/syscalls/syscalls.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" title="main.c" tooltip="G:\IoT\CoIDE\workspace\lcd1602\main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/G:/IoT/CoIDE/workspace/lcd1602/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="137" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="1" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="33">
+<viewState CommonNavigator.LINKING_ENABLED="1" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="43">
 <expanded>
 <element path="/smart-aid"/>
 <element path="/smart-aid/cmsis_boot"/>
 <element path="/smart-aid/cmsis_boot/startup"/>
 <element path="/smart-aid/cmsis_lib"/>
 <element path="/smart-aid/cmsis_lib/include"/>
+<element path="/smart-aid/cmsis_lib/source"/>
 <element path="/smart-aid/damogranlabs"/>
 <element path="/smart-aid/damogranlabs/millis"/>
+<element path="/smart-aid/delay"/>
 <element path="/smart-aid/lcd"/>
 <element path="/smart-aid/servo"/>
 <element path="/smart-aid/stdio"/>
@@ -437,8 +213,8 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
 <hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
-<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
 <hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.coocox.codebugger.trace.ui.traceview"/>
 <view id="org.eclipse.debug.ui.VariableView"/>
@@ -520,141 +296,34 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/main_lcd1602.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/before_code_change.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/smart-aid/cmsis_boot/startup/startup_stm32f0xx.s"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/I2CSAVE.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/analog_test.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/syscalls/LCD1602_main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/lcd/i2c_lcd.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/lcd/i2c_lcd.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/lcd/LCD1602_main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/stdio/printf.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/delay/delay.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/delay/delay.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/smart-aid/cmsis_boot/startup/startup_stm32f0xx.s"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/lcd/i2c_lcd.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/servo/AnyPinServo.h"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/G:/IoT/CoIDE/workspace/smart-aid/STM32F0-AnyPinServo-master/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/damogranlabs/millis/systick_millis.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/cmsis_lib/include/stm32f0xx_rcc.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/servo/APS.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/damogranlabs/millis/systick_millis.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/syscalls/syscalls.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/smart-aid/cmsis_lib/source/stm32f0xx_gpio.c"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/G:/IoT/CoIDE/workspace/STM32F0-ADCModes-master/main.c"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/G:/IoT/CoIDE/workspace/lcd1602/main.c"/>
 </editors>
-<item historyLabel="main_lcd1602.c" index="1">
-<position info="not_deleted" x="36" y="328"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4042" y="0"/>
-</item>
-<item historyLabel="main_lcd1602.c" index="1">
-<position info="not_deleted" x="1842" y="2460"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3998" y="0"/>
-</item>
-<item historyLabel="main_lcd1602.c" index="1">
-<position info="not_deleted" x="490" y="813"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="10156" y="0"/>
-</item>
-<item historyLabel="main_lcd1602.c" index="1">
-<position info="not_deleted" x="2" y="4302"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="10156" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="9696" y="23"/>
-</item>
-<item historyLabel="main_lcd1602.c" index="1">
-<position info="not_deleted" x="368" y="21"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1692" y="0"/>
-</item>
-<item historyLabel="main_lcd1602.c" index="1">
-<position info="not_deleted" x="2" y="4302"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1692" y="0"/>
-</item>
-<item historyLabel="i2c_lcd.c" index="7">
-<position info="not_deleted" x="4385" y="0"/>
-</item>
-<item historyLabel="i2c_lcd.c" index="7">
-<position info="not_deleted" x="5614" y="21"/>
-</item>
-<item historyLabel="main_lcd1602.c" index="1">
-<position info="not_deleted" x="2" y="4302"/>
-</item>
-<item historyLabel="i2c_lcd.h" index="8">
-<position info="not_deleted" x="130" y="8"/>
-</item>
-<item historyLabel="i2c_lcd.c" index="7">
-<position info="not_deleted" x="5614" y="21"/>
-</item>
-<item historyLabel="LCD1602_main.c" index="9">
-<position info="not_deleted" x="609" y="16"/>
-</item>
-<item historyLabel="analog_test.c" index="5">
-<position info="not_deleted" x="418" y="0"/>
-</item>
-<item historyLabel="before_code_change.c" index="2">
-<position info="not_deleted" x="2781" y="4"/>
-</item>
-<item historyLabel="I2CSAVE.c" index="4">
-<position info="not_deleted" x="3989" y="962"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1371" y="0"/>
-</item>
-<item historyLabel="main_lcd1602.c" index="1">
-<position info="not_deleted" x="663" y="13"/>
-</item>
-<item historyLabel="I2CSAVE.c" index="4">
-<position info="not_deleted" x="2" y="8023"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1371" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="915" y="12"/>
-</item>
-<item historyLabel="I2CSAVE.c" index="4">
-<position info="not_deleted" x="6269" y="85"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="9259" y="0"/>
-</item>
-<item historyLabel="I2CSAVE.c" index="4">
-<position info="not_deleted" x="267" y="48"/>
-</item>
-<item historyLabel="main_lcd1602.c" index="1">
-<position info="not_deleted" x="663" y="13"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="407" y="0"/>
-</item>
-<item historyLabel="LCD1602_main.c" index="6">
-<position info="not_deleted" x="4039" y="0"/>
-</item>
-<item historyLabel="printf.c" index="10">
-<position info="not_deleted" x="732" y="0"/>
-</item>
-<item historyLabel="syscalls.c" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="before_code_change.c" index="2">
-<position info="not_deleted" x="2781" y="4"/>
-</item>
-<item historyLabel="I2CSAVE.c" index="4">
-<position info="not_deleted" x="0" y="8025"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="407" y="0"/>
-</item>
 <item historyLabel="main_lcd1602.c" index="1">
 <position info="not_deleted" x="0" y="4304"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="407" y="0"/>
 </item>
-<item historyLabel="i2c_lcd.c" index="7">
+<item historyLabel="i2c_lcd.c" index="3">
 <position info="not_deleted" x="1731" y="19"/>
 </item>
-<item historyLabel="i2c_lcd.h" index="8">
+<item historyLabel="i2c_lcd.h" index="4">
 <position info="not_deleted" x="130" y="8"/>
 </item>
 <item historyLabel="main_lcd1602.c" index="1">
@@ -669,7 +338,7 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="9593" y="0"/>
 </item>
-<item historyLabel="startup_stm32f0xx.s" index="3">
+<item historyLabel="startup_stm32f0xx.s" index="2">
 <position info="not_deleted" x="2882" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
@@ -678,8 +347,122 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="9532" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="0">
-<position info="not_deleted" x="1699" y="8"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="886" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="626" y="0"/>
+</item>
+<item historyLabel="delay.h" index="5">
+<position info="not_deleted" x="291" y="13"/>
+</item>
+<item historyLabel="delay.c" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="delay.h" index="5">
+<position info="not_deleted" x="217" y="12"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="484" y="0"/>
+</item>
+<item historyLabel="delay.h" index="5">
+<position info="not_deleted" x="208" y="8"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="484" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8201" y="2"/>
+</item>
+<item historyLabel="startup_stm32f0xx.s" index="7">
+<position info="not_deleted" x="2882" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8296" y="0"/>
+</item>
+<item historyLabel="i2c_lcd.c" index="8">
+<position info="not_deleted" x="1731" y="19"/>
+</item>
+<item historyLabel="i2c_lcd.c" index="8">
+<position info="not_deleted" x="4385" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8446" y="0"/>
+</item>
+<item historyLabel="AnyPinServo.h" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8446" y="0"/>
+</item>
+<item historyLabel="main.c" index="10">
+<position info="not_deleted" x="131" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8446" y="0"/>
+</item>
+<item historyLabel="systick_millis.c" index="11">
+<position info="not_deleted" x="1826" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8446" y="0"/>
+</item>
+<item historyLabel="stm32f0xx_rcc.h" index="12">
+<position info="not_deleted" x="14459" y="18"/>
+</item>
+<item historyLabel="APS.c" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f0xx_rcc.h" index="12">
+<position info="not_deleted" x="14459" y="18"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8446" y="0"/>
+</item>
+<item historyLabel="systick_millis.h" index="14">
+<position info="not_deleted" x="1284" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8446" y="0"/>
+</item>
+<item historyLabel="syscalls.c" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8446" y="0"/>
+</item>
+<item historyLabel="stm32f0xx_gpio.c" index="16">
+<position info="not_deleted" x="13649" y="8"/>
+</item>
+<item historyLabel="delay.h" index="5">
+<position info="not_deleted" x="208" y="8"/>
+</item>
+<item historyLabel="delay.c" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="delay.h" index="5">
+<position info="not_deleted" x="208" y="8"/>
+</item>
+<item historyLabel="delay.c" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f0xx_gpio.c" index="16">
+<position info="not_deleted" x="13649" y="8"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8446" y="0"/>
+</item>
+<item historyLabel="main.c" index="17">
+<position info="not_deleted" x="215" y="1"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="6927" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="18">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -691,32 +474,26 @@
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="LCD.coproj" tooltip="G:\IoT\CoIDE\workspace\lcd1602\LCD.coproj">
 <persistable uri="file:/G:/IoT/CoIDE/workspace/lcd1602/LCD.coproj"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="syscalls.c" tooltip="smart-aid/syscalls/syscalls.c">
-<persistable path="/smart-aid/syscalls/syscalls.c"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="G:\IoT\CoIDE\workspace\lcd1602\main.c">
+<persistable uri="file:/G:/IoT/CoIDE/workspace/lcd1602/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f0xx.s" tooltip="smart-aid/cmsis_boot/startup/startup_stm32f0xx.s">
-<persistable path="/smart-aid/cmsis_boot/startup/startup_stm32f0xx.s"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="smart-aid/main.c">
+<persistable path="/smart-aid/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="systick_millis.h" tooltip="smart-aid/damogranlabs/millis/systick_millis.h">
-<persistable path="/smart-aid/damogranlabs/millis/systick_millis.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="delay.c" tooltip="smart-aid/delay/delay.c">
+<persistable path="/smart-aid/delay/delay.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="APS.c" tooltip="smart-aid/servo/APS.c">
-<persistable path="/smart-aid/servo/APS.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="delay.h" tooltip="smart-aid/delay/delay.h">
+<persistable path="/smart-aid/delay/delay.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="AnyPinServo.h" tooltip="smart-aid/servo/AnyPinServo.h">
-<persistable path="/smart-aid/servo/AnyPinServo.h"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="smart-aid.coproj" tooltip="G:\IoT\CoIDE\workspace\smart-aid\smart-aid.coproj">
+<persistable uri="file:/G:/IoT/CoIDE/workspace/smart-aid/smart-aid.coproj"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="systick_millis.c" tooltip="smart-aid/damogranlabs/millis/systick_millis.c">
-<persistable path="/smart-aid/damogranlabs/millis/systick_millis.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="APS.h" tooltip="smart-aid/servo/APS.h">
-<persistable path="/smart-aid/servo/APS.h"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="G:\IoT\CoIDE\workspace\smart-aid\main.c">
+<persistable uri="file:/G:/IoT/CoIDE/workspace/smart-aid/main.c"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="G:\IoT\CoIDE\workspace\smart-aid\STM32F0-AnyPinServo-master\main.c">
 <persistable uri="file:/G:/IoT/CoIDE/workspace/smart-aid/STM32F0-AnyPinServo-master/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f0xx.c" tooltip="smart-aid/cmsis_boot/system_stm32f0xx.c">
-<persistable path="/smart-aid/cmsis_boot/system_stm32f0xx.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_rcc.h" tooltip="smart-aid/cmsis_lib/include/stm32f0xx_rcc.h">
 <persistable path="/smart-aid/cmsis_lib/include/stm32f0xx_rcc.h"/>
@@ -730,8 +507,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_gpio.h" tooltip="smart-aid/keypad/tm_stm32f4_gpio.h">
 <persistable path="/smart-aid/keypad/tm_stm32f4_gpio.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_dac.h" tooltip="smart-aid/cmsis_lib/include/stm32f0xx_dac.h">
-<persistable path="/smart-aid/cmsis_lib/include/stm32f0xx_dac.h"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lcd.h" tooltip="G:\IoT\CoIDE\workspace\smart-aid\Project_17\lcd.h">
+<persistable uri="file:/G:/IoT/CoIDE/workspace/smart-aid/Project_17/lcd.h"/>
 </file>
 </mruList>
 </workbench>

@@ -1,10 +1,12 @@
+
+#define RCC_AHBPeriph_GPIOB               RCC_AHBENR_GPIOBEN
+//#endif
 #ifndef _I2C_LCD_H_
 #define _I2C_LCD_H_
 
-//#include "stm32f0xx_i2c.h"
-
 #include "stm32f0xx.h"
-
+#include "stm32f0xx_i2c.h"
+#include "stm32f0xx_gpio.h"
 
 // Адрес PCF8574
 #define LCD_ADDR	0x27
@@ -41,6 +43,11 @@
 #define RW		PCF_P1
 #define RS		PCF_P0
 #define BL		PCF_P3
+
+
+void gpioInit(void);
+void i2cInit(void);
+
 
 // Внутрення переменная
 uint8_t backlightState;

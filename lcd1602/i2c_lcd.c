@@ -5,6 +5,69 @@
 uint8_t backlightState = 1;
 
 
+#define I2C1_OWN_ADDRESS (0x27) // extra important ! Real address of LCD device
+
+
+void gpioInit(void) {
+	GPIO_InitTypeDef gpio_i2c;
+	RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOB, ENABLE);
+
+	/* Select output mode (01) on PC8 and PC9 */
+	gpio_i2c.GPIO_Pin = GPIO_Pin_6 | GPIO_Pin_7;
+	gpio_i2c.GPIO_Mode = GPIO_Mode_AF;
+	gpio_i2c.GPIO_Speed = GPIO_Speed_50MHz;
+	gpio_i2c.GPIO_PuPd = GPIO_PuPd_UP;
+	gpio_i2c.GPIO_OType = GPIO_OType_OD;
+
+	GPIO_Init(GPIOB, &gpio_i2c);
+
+
+
+//	GPIO_PinAFConfig(GPIOB, GPIO_PinSource6, GPIO_AF_I2C1);
+//	GPIO_PinAFConfig(GPIOB, GPIO_PinSource7, GPIO_AF_I2C1);
+
+	GPIOB->AFR[0] = (GPIOB ->AFR[0] &~ (GPIO_AFRL_AFRL6 | GPIO_AFRL_AFRL7))\
+		                  | (1 << (6 * 4)) | (1 << (7 * 4));
+
+
+}
+
+void i2cInit(void) {
+//	I2C_InitTypeDef i2c;
+
+//	RCC_APB1PeriphClockCmd(RCC_APB1Periph_I2C1, ENABLE);
+	RCC->APB1ENR |= RCC_APB1ENR_I2C1EN;
+
+	  /* Configure I2C2, master */
+	  /* (1) Timing register value is computed with the AN4235 xls file,
+	   fast Mode @400kHz with I2CCLK = 48MHz, rise time = 140ns, fall time = 40ns */
+	  /* (2) Periph enable */
+	  /* (3) Slave address = 0x5A, write transfer, 1 byte to transmit, autoend */
+	I2C1->CR1 &= ~(I2C_CR1_PE) /*| I2C_CR1_GCEN | I2C_CR1_WUPEN*/; /* (2) */
+
+	I2C1->TIMINGR = (uint32_t)0x00E0D3FF /*0x205078C1 *//*0x108065BE*//*0x60201B6B*//* 0x40422631*/; /* (1) */
+
+	  I2C1->CR1 |= I2C_CR1_PE /*| I2C_CR1_GCEN | I2C_CR1_WUPEN*/; /* (2) */
+
+	  I2C1->CR2 |=  I2C_CR2_AUTOEND | (1<<16) | (I2C1_OWN_ADDRESS<<1); /* (3) */
+
+//	i2c.I2C_ClockSpeed = 50000;
+//	i2c.I2C_Mode = I2C_Mode_I2C;
+//	i2c.I2C_DutyCycle = I2C_DutyCycle_2;
+//	i2c.I2C_OwnAddress1 = 0x27;
+//	i2c.I2C_Ack = I2C_Ack_Enable;
+//	i2c.I2C_AcknowledgedAddress = I2C_AcknowledgedAddress_7bit;
+//	I2C_Init(I2C1, &i2c);
+
+	I2C_Cmd(I2C1, ENABLE);
+}
+
+// LCD  ==================================
+
+
+
+
+
 void lcd_Goto(uint8_t row, uint8_t col) {
 //#ifdef LCD_2004
 //	switch (row){
