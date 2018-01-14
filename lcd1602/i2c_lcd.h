@@ -65,5 +65,6 @@ void lcd_Command(uint8_t com); // отправить комманду в ЖКИ
 void lcd_Data(uint8_t com);  // отправить данные в ЖКИ
 
 
-
+int LCD_launch(void);
+void LCD_test_run(void);
 #endif

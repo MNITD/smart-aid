@@ -145,4 +145,7 @@ void APS_WaitForUpdate(void);
  */
 uint8_t APS_GetStatus(void);
 
+int servo_45_0_45_test_loop(void);
+
+
 #endif

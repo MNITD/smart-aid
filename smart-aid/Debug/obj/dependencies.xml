@@ -1,11 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dependencies>
    <includePath signature="/I..\..\..\workspace\smart-aid\libs\damogranlabs\UART /I..\..\..\workspace\smart-aid\cmsis_core /I..\..\..\workspace\smart-aid\delay /I..\..\..\workspace\smart-aid /I..\..\..\workspace /I..\..\..\workspace\smart-aid\cmsis_lib /I..\..\..\workspace\smart-aid\semihosting /I..\..\.. /I..\..\..\workspace\smart-aid\keypad /I..\..\..\workspace\smart-aid\STM32F0-AnyPinServo-master /I..\..\..\workspace\smart-aid\libs\damogranlabs\GPIO /I..\..\..\workspace\smart-aid\cmsis_boot /I..\..\..\.. /I..\..\..\workspace\smart-aid\libs\damogranlabs /I..\..\..\workspace\smart-aid\libs\damogranlabs\MILLIS /I..\..\..\workspace\smart-aid\lcd1602 /I..\..\..\workspace\smart-aid\libs /I..\..\..\workspace\smart-aid\cmsis_lib\include">
-      <source file="..\..\..\..\LAB2_KD_IOT\I2CSAVE.c" lastModified="160ef8a542f">
-      </source>
       <source file="..\..\..\cmsis_boot\system_stm32f0xx.h" lastModified="160e4ae4820">
-      </source>
-      <source file="..\..\..\..\LAB2_KD_IOT\analog_test.c" lastModified="160ef7a4562">
       </source>
       <source file="..\..\..\..\tm_stm32f4_gpio.c" lastModified="160ef061185">
          <include file="..\..\..\..\tm_stm32f4_gpio.h"/>
@@ -41,7 +37,7 @@
       <source file="..\..\..\cmsis_lib\include\stm32f0xx_tim.h" lastModified="160ef64ae36">
          <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
       </source>
-      <source file="..\..\..\STM32F0-AnyPinServo-master\APS.h" lastModified="160ef61b40d">
+      <source file="..\..\..\STM32F0-AnyPinServo-master\APS.h" lastModified="160f0c9d544">
          <include file="..\..\..\cmsis_lib\include\stm32f0xx_gpio.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f0xx_rcc.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f0xx_tim.h"/>
@@ -49,11 +45,21 @@
       </source>
       <source file="..\..\..\semihosting\sh_cmd.s" lastModified="160e4bb7ac9">
       </source>
-      <source file="..\..\..\STM32F0-AnyPinServo-master\APS.c" lastModified="160ef61b40d">
+      <source file="..\..\..\STM32F0-AnyPinServo-master\APS.c" lastModified="160f0cc2bcd">
          <include file="..\..\..\STM32F0-AnyPinServo-master\APS.h"/>
+      </source>
+      <source file="..\..\..\adc_photoresistor.h" lastModified="160f0ad9ab6">
+         <include file="..\..\..\cmsis_lib\include\stm32f0xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f0xx_gpio.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
       </source>
       <source file="..\..\..\cmsis_lib\source\stm32f0xx_rtc.c" lastModified="160e9efd8c2">
          <include file="..\..\..\cmsis_lib\include\stm32f0xx_rtc.h"/>
+      </source>
+      <source file="..\..\..\adc_photoresistor.c" lastModified="160f0ad9a90">
+         <include file="..\..\..\adc_photoresistor.h"/>
+      </source>
+      <source file="..\..\..\I2CSAVE.c" lastModified="160ef8a542f">
       </source>
       <source file="..\..\..\cmsis_lib\source\stm32f0xx_rcc.c" lastModified="160e4ae4883">
          <include file="..\..\..\cmsis_lib\include\stm32f0xx_rcc.h"/>
@@ -125,8 +131,6 @@
       </source>
       <source file="..\..\..\semihosting\semihosting.h" lastModified="160e4bb7abb">
       </source>
-      <source file="..\..\..\..\LAB2_KD_IOT\before_code_change.c" lastModified="160ef888809">
-      </source>
       <source file="..\..\..\libs\damogranlabs\UART\stm32f030xx_uart_print.h" lastModified="160e4ae5c3b">
          <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f0xx_usart.h"/>
@@ -140,14 +144,14 @@
       <source file="..\..\..\semihosting\semihosting.c" lastModified="160e4bb8283">
          <include file="..\..\..\semihosting\semihosting.h"/>
       </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f0xx_i2c.c" lastModified="160e9f05bec">
-         <include file="..\..\..\cmsis_lib\include\stm32f0xx_i2c.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f0xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\lcd1602\i2c_lcd.h" lastModified="160f021c160">
+      <source file="..\..\..\lcd1602\i2c_lcd.h" lastModified="160f08cfac8">
          <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f0xx_i2c.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f0xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f0xx_i2c.c" lastModified="160e9f05bec">
+         <include file="..\..\..\cmsis_lib\include\stm32f0xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f0xx_rcc.h"/>
       </source>
       <source file="..\..\..\delay\delay.h" lastModified="15f3c543fbe">
          <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
@@ -156,25 +160,25 @@
          <include file="..\..\..\cmsis_lib\include\stm32f0xx_spi.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f0xx_rcc.h"/>
       </source>
+      <source file="..\..\..\libs\damogranlabs\UART\stm32f030xx_uart_print.c" lastModified="160e4ae48ae">
+         <include file="..\..\..\libs\damogranlabs\UART\stm32f030xx_uart_print.h"/>
+      </source>
       <source file="..\..\..\cmsis_lib\include\stm32f0xx_i2c.h" lastModified="160e9f05be6">
          <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
       </source>
-      <source file="..\..\..\libs\damogranlabs\UART\stm32f030xx_uart_print.c" lastModified="160e4ae48ae">
-         <include file="..\..\..\libs\damogranlabs\UART\stm32f030xx_uart_print.h"/>
+      <source file="..\..\..\lcd1602\i2c_lcd.c" lastModified="160f08de977">
+         <include file="..\..\..\lcd1602\i2c_lcd.h"/>
       </source>
       <source file="..\..\..\cmsis_lib\include\stm32f0xx_spi.h" lastModified="160e9efcb98">
          <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
       </source>
-      <source file="..\..\..\lcd1602\i2c_lcd.c" lastModified="160f021c149">
-         <include file="..\..\..\lcd1602\i2c_lcd.h"/>
-      </source>
       <source file="..\..\..\delay\delay.c" lastModified="15f3f2d9196">
          <include file="..\..\..\delay\delay.h"/>
       </source>
-      <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="160e4ae480a">
-      </source>
       <source file="..\..\..\cmsis_lib\include\stm32f0xx_syscfg.h" lastModified="160e4ae4857">
          <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="160e4ae480a">
       </source>
       <source file="..\..\..\cmsis_lib\include\stm32f0xx_usart.h" lastModified="160e4ae4858">
          <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
@@ -187,6 +191,8 @@
       </source>
       <source file="..\..\..\cmsis_lib\source\stm32f0xx_syscfg.c" lastModified="160e4ae4888">
          <include file="..\..\..\cmsis_lib\include\stm32f0xx_syscfg.h"/>
+      </source>
+      <source file="..\..\..\before_code_change.c" lastModified="160ef888809">
       </source>
       <source file="..\..\..\cmsis_core\core_cm0.h" lastModified="160e4ae4c0d">
          <include file="..\..\..\cmsis_core\core_cmInstr.h"/>

@@ -452,3 +452,52 @@ void lcd_checkBusy(void)
 	I2C1->CR2 &=  ~I2C_CR2_RD_WRN;
 
 }
+
+int LCD_launch(void ) {
+		gpioInit();
+				i2cInit();
+				InitDelayTIM6();
+				delay_init();
+				TIM6delay_ms(100);
+				lcd_Init();
+	}
+void LCD_test_run(void){
+	// LCD ====================================================
+
+
+	const uint8_t mes [] = "TWA";
+	const uint8_t mes1 [] = "AAA";
+
+	uint8_t str [20];
+
+			lcd_Command(0xC0);
+			sprintf(str, mes1);
+			lcd_PrintC(str);
+
+
+			lcd_Command(0x80);
+			sprintf(str, mes);
+			lcd_PrintC(str);
+
+			TIM6delay_ms(1000);
+			lcd_Command(0x01);
+			lcd_Command(0x80);
+
+			sprintf(str, "ABO");
+			lcd_PrintC(str);
+			sprintf(str, "ABO");
+			lcd_PrintC(str);
+
+			TIM6delay_ms(1000);
+			lcd_Command(0x01);
+			lcd_Command(0xC0);
+
+			/*lcd_PrintC(mes);
+			lcd_PrintC(mes);*/
+
+	//		lcd_Goto(1, 0);
+
+			sprintf(str, "Value of Pi");
+			lcd_PrintC(str);
+		// LCD ===================================================
+}
