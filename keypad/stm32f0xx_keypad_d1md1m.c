@@ -1,116 +1,103 @@
 #include "stm32f0xx_keypad_d1md1m.h"
 
 
-/* Pins configuration, columns are outputs */
-#define KEYPAD_COLUMN_1_HIGH		GPIO_SetBits(KEYPAD_COLUMN_1_PORT, KEYPAD_COLUMN_1_PIN)
-#define KEYPAD_COLUMN_1_LOW			GPIO_ResetBits(KEYPAD_COLUMN_1_PORT, KEYPAD_COLUMN_1_PIN)
-#define KEYPAD_COLUMN_2_HIGH		GPIO_SetBits(KEYPAD_COLUMN_2_PORT, KEYPAD_COLUMN_2_PIN)
-#define KEYPAD_COLUMN_2_LOW			GPIO_ResetBits(KEYPAD_COLUMN_2_PORT, KEYPAD_COLUMN_2_PIN)
-#define KEYPAD_COLUMN_3_HIGH		GPIO_SetBits(KEYPAD_COLUMN_3_PORT, KEYPAD_COLUMN_3_PIN)
-#define KEYPAD_COLUMN_3_LOW			GPIO_ResetBits(KEYPAD_COLUMN_3_PORT, KEYPAD_COLUMN_3_PIN)
-#define KEYPAD_COLUMN_4_HIGH		GPIO_SetBits(KEYPAD_COLUMN_4_PORT, KEYPAD_COLUMN_4_PIN)
-#define KEYPAD_COLUMN_4_LOW			GPIO_ResetBits(KEYPAD_COLUMN_4_PORT, KEYPAD_COLUMN_4_PIN)
 
-#define TM_GPIO_GetInputPinValue(GPIOx, GPIO_Pin)	(((GPIOx)->IDR & (GPIO_Pin)) == 0 ? 0 : 1)
+void keypad_init_GPIO_IN(GPIO_TypeDef* PORT, uint16_t Pin ){
+	GPIO_InitTypeDef GPIO_InitStructure;
+	GPIO_InitStructure.GPIO_Pin = Pin;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_10MHz;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;
+	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_DOWN;
+	GPIO_Init(PORT, &GPIO_InitStructure);
+};
 
-/* Read input pins */
-#define KEYPAD_ROW_1_CHECK			(!TM_GPIO_GetInputPinValue(KEYPAD_ROW_1_PORT, KEYPAD_ROW_1_PIN))
-#define KEYPAD_ROW_2_CHECK			(!TM_GPIO_GetInputPinValue(KEYPAD_ROW_2_PORT, KEYPAD_ROW_2_PIN))
-#define KEYPAD_ROW_3_CHECK			(!TM_GPIO_GetInputPinValue(KEYPAD_ROW_3_PORT, KEYPAD_ROW_3_PIN))
-#define KEYPAD_ROW_4_CHECK			(!TM_GPIO_GetInputPinValue(KEYPAD_ROW_4_PORT, KEYPAD_ROW_4_PIN))
-
-uint8_t KEYPAD_INT_Buttons[4][4] = {
-	{0x01, 0x02, 0x03, 0x0C},
-	{0x04, 0x05, 0x06, 0x0D},
-	{0x07, 0x08, 0x09, 0x0E},
-	{0x0A, 0x00, 0x0B, 0x0F},
+void keypad_init_GPIO_OUT(GPIO_TypeDef* PORT, uint16_t Pin){
+	GPIO_InitTypeDef GPIO_InitStructure;
+	GPIO_InitStructure.GPIO_Pin = Pin;
+		GPIO_InitStructure.GPIO_Speed = GPIO_Speed_10MHz;
+		GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+		GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+		GPIO_Init(PORT, &GPIO_InitStructure);
 };
 
 
-/* Private functions */
-void TM_KEYPAD_INT_SetColumn(uint8_t column);
-uint8_t TM_KEYPAD_INT_CheckRow(uint8_t column);
-uint8_t TM_KEYPAD_INT_Read(void);
 
-/* Private variables */
-//TM_KEYPAD_Type_t TM_KEYPAD_INT_KeypadType;
-static TM_KEYPAD_Button_t KeypadStatus = TM_KEYPAD_Button_NOPRESSED;
-//GPIO_Speed_2MHz;
-//uint32_t GPIO_Pin;
-//GPIOMode_TypeDef GPIO_Mode;
-//GPIOSpeed_TypeDef GPIO_Speed;
-//GPIOOType_TypeDef GPIO_OType;
-//GPIOPuPd_TypeDef GPIO_PuPd;
-
-void D1m_GPIO_init(
-		GPIO_TypeDef* GPIOx,
-		uint16_t GPIO_Pin,
-		GPIOMode_TypeDef GPIO_Mode,
-		GPIOSpeed_TypeDef GPIO_Speed,
-		GPIOOType_TypeDef GPIO_OType,
-		GPIOPuPd_TypeDef GPIO_PuPd )
+void initgpio_keyboard()
 {
 	GPIO_InitTypeDef GPIO_InitStructure;
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin;
-		GPIO_InitStructure.GPIO_Speed = GPIO_Speed;
-		GPIO_InitStructure.GPIO_Mode = GPIO_Mode;
-		GPIO_InitStructure.GPIO_OType = GPIO_OType;
-		GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd;
-		GPIO_Init(GPIOB, &GPIO_InitStructure);
+	RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA | RCC_AHBPeriph_GPIOB | RCC_AHBPeriph_GPIOC, ENABLE);
+	keypad_init_GPIO_OUT(KEYPAD_ROW_4_PORT, KEYPAD_ROW_4_PIN);
+	keypad_init_GPIO_OUT(KEYPAD_ROW_3_PORT, KEYPAD_ROW_3_PIN);
+	keypad_init_GPIO_OUT(KEYPAD_ROW_2_PORT, KEYPAD_ROW_2_PIN);
+	keypad_init_GPIO_OUT(KEYPAD_ROW_1_PORT, KEYPAD_ROW_1_PIN);
+
+
+	keypad_init_GPIO_IN(KEYPAD_COLUMN_4_PORT, KEYPAD_COLUMN_4_PIN);
+	keypad_init_GPIO_IN(KEYPAD_COLUMN_3_PORT, KEYPAD_COLUMN_3_PIN);
+	keypad_init_GPIO_IN(KEYPAD_COLUMN_2_PORT, KEYPAD_COLUMN_2_PIN);
+	keypad_init_GPIO_IN(KEYPAD_COLUMN_1_PORT, KEYPAD_COLUMN_1_PIN);
+
 }
 
-void D1m_KEYPAD_Init(void){
-		/* Set keyboard type */
-//		TM_KEYPAD_INT_KeypadType = type;
-
-		/* Columns are output */
-		/* Column 1 */
-
-	D1m_GPIO_init(KEYPAD_COLUMN_1_PORT, KEYPAD_COLUMN_1_PIN, GPIO_Mode_OUT, GPIO_OType_PP, GPIO_PuPd_UP, GPIO_Speed_10MHz);
-		/* Column 2 */
-	D1m_GPIO_init(KEYPAD_COLUMN_2_PORT, KEYPAD_COLUMN_2_PIN, GPIO_Mode_OUT, GPIO_OType_PP, GPIO_PuPd_UP, GPIO_Speed_10MHz);
-		/* Column 3 */
-	D1m_GPIO_init(KEYPAD_COLUMN_3_PORT, KEYPAD_COLUMN_3_PIN, GPIO_Mode_OUT, GPIO_OType_PP, GPIO_PuPd_UP, GPIO_Speed_10MHz);
-		/* Column 3 */
-
-	D1m_GPIO_init(KEYPAD_COLUMN_4_PORT, KEYPAD_COLUMN_4_PIN, GPIO_Mode_OUT, GPIO_OType_PP, GPIO_PuPd_UP, GPIO_Speed_10MHz);
+void keypadRowHight(GPIO_TypeDef* PORT, uint16_t PIN){
+	PORT->BSRR = PIN;
+}
+void keypadRowLow(GPIO_TypeDef* PORT, uint16_t PIN){
+	PORT->BRR = PIN;
+}
 
 
-		/* Rows are inputs */
-		/* Row 1 */
-	D1m_GPIO_init(KEYPAD_ROW_1_PORT, KEYPAD_ROW_1_PIN, GPIO_Mode_IN, GPIO_OType_PP, GPIO_PuPd_DOWN, GPIO_Speed_10MHz);
-		/* Row 2 */
-	D1m_GPIO_init(KEYPAD_ROW_2_PORT, KEYPAD_ROW_2_PIN, GPIO_Mode_IN, GPIO_OType_PP, GPIO_PuPd_DOWN, GPIO_Speed_10MHz);
-		/* Row 3 */
-	D1m_GPIO_init(KEYPAD_ROW_3_PORT, KEYPAD_ROW_3_PIN, GPIO_Mode_IN, GPIO_OType_PP, GPIO_PuPd_DOWN, GPIO_Speed_10MHz);
-		/* Row 4 */
-	D1m_GPIO_init(KEYPAD_ROW_4_PORT, KEYPAD_ROW_4_PIN, GPIO_Mode_IN, GPIO_OType_PP, GPIO_PuPd_DOWN, GPIO_Speed_10MHz);
+int read_active_colomn(void){
+	if(GPIO_ReadInputDataBit(KEYPAD_COLUMN_1_PORT, KEYPAD_COLUMN_1_PIN))//read input bit PB12
+		return 1;
+	if(GPIO_ReadInputDataBit(KEYPAD_COLUMN_2_PORT, KEYPAD_COLUMN_2_PIN)) //read input bit PB11
+		return 2;
+	if(GPIO_ReadInputDataBit(KEYPAD_COLUMN_3_PORT, KEYPAD_COLUMN_3_PIN)) //read input bit PB10
+		return 3;
+	if(GPIO_ReadInputDataBit(KEYPAD_COLUMN_4_PORT, KEYPAD_COLUMN_4_PIN)) //read input bit PB2
+		return 4;
+	return 0;
+}
 
-		/* All columns high */
-		TM_KEYPAD_INT_SetColumn(0);
-	}
 
-/* Private */
-void TM_KEYPAD_INT_SetColumn(uint8_t column) {
-	/* Set rows high */
-	KEYPAD_COLUMN_1_HIGH;
-	KEYPAD_COLUMN_2_HIGH;
-	KEYPAD_COLUMN_3_HIGH;
-	KEYPAD_COLUMN_4_HIGH;
+void setColHight(int col){
+	keypadRowLow(KEYPAD_ROW_1_PORT, KEYPAD_ROW_1_PIN);
+	keypadRowLow(KEYPAD_ROW_2_PORT, KEYPAD_ROW_2_PIN);
+	keypadRowLow(KEYPAD_ROW_3_PORT, KEYPAD_ROW_3_PIN);
+	keypadRowLow(KEYPAD_ROW_4_PORT, KEYPAD_ROW_4_PIN);
+	switch (col){
+	case 1:
+			keypadRowHight(KEYPAD_ROW_1_PORT, KEYPAD_ROW_1_PIN);
+			break;
+	case 2:
+			keypadRowHight(KEYPAD_ROW_2_PORT, KEYPAD_ROW_2_PIN);
+			break;
 
-	/* Set column low */
-	if (column == 1) {
-		KEYPAD_COLUMN_1_LOW;
-	}
-	if (column == 2) {
-		KEYPAD_COLUMN_2_LOW;
-	}
-	if (column == 3) {
-		KEYPAD_COLUMN_3_LOW;
-	}
-	if (column == 4) {
-		KEYPAD_COLUMN_4_LOW;
+	case 3:
+			keypadRowHight(KEYPAD_ROW_3_PORT, KEYPAD_ROW_3_PIN);
+			break;
+
+	case 4:
+			keypadRowHight(KEYPAD_ROW_4_PORT, KEYPAD_ROW_4_PIN);
+			break;
 	}
 }
 
+
+char read_keypad_key(){
+	char keypad[] = {'1', '2', '3', 'A', '4', '5', '6','B' ,'7','8','9', 'C' ,  '*' , '0' , '#', 'D'};
+
+	int key_pressed = 0;
+	{
+		int i = 1;
+		for (int keypad_col = 1; keypad_col <= 4; keypad_col++){
+			setColHight(keypad_col);
+						key_pressed = read_active_colomn();
+						if (key_pressed)
+							return keypad[4 * (keypad_col -1 ) + key_pressed - 1 ];
+		}
+	}
+	return 0;
+}
 
