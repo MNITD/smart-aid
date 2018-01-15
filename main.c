@@ -4,7 +4,8 @@
 #include <stdio.h>
 //#include "stm32f0xx_rcc.h"
 //#include "tm_stm32f4_keypad.h"
-
+//#include "stm32f0xx_gpio_init.h"
+#include <stm32f0xx_usart.h>
 #include <stm32f0xx_rcc.h>
 #include <stm32f0xx_gpio.h>
 #include <stm32f0xx_misc.h>
@@ -120,15 +121,77 @@ int servo_45_0_45_test_loop(void){
 
 
 //==================SERVO ===================
+//
+void UART_Init(void) {
+  USART_InitTypeDef USART_InitStructure;
+  NVIC_InitTypeDef NVIC_InitStructure;
+  USART_StructInit(&USART_InitStructure);
+
+  RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
+  //RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2,ENABLE);
+  //RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART3,ENABLE);
+
+  //TX                                GPIO_AF_1 = USART1
+  gpio_pinSetup_AF(GPIOA, GPIO_Pin_9, GPIO_AF_1, GPIO_OType_PP, GPIO_PuPd_UP,
+      GPIO_Speed_50MHz);
+  RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
+  //RX
+  gpio_pinSetup_AF(GPIOA, GPIO_Pin_10, GPIO_AF_1, GPIO_OType_PP, GPIO_PuPd_UP,
+      GPIO_Speed_50MHz);
+  RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
+
+  USART_InitStructure.USART_BaudRate = 19200;
+
+  USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+  USART_InitStructure.USART_StopBits = USART_StopBits_1;
+  USART_InitStructure.USART_Parity = USART_Parity_No;
+  USART_InitStructure.USART_HardwareFlowControl =
+      USART_HardwareFlowControl_None;
+  USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+
+  USART_Init(USART1, &USART_InitStructure);
+  //USART_Init(USART2, &USART_InitStructure);
+  //USART_Init(USART3, &USART_InitStructure);
+
+  // UNCOMMENT IF RX INTERRUPT IS NEEDED
+  // set according NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
+  //NVIC_SetPriority(USART1_IRQn, 3);    // ? don't know if it is neccessary
+  NVIC_EnableIRQ(USART1_IRQn);
+
+  NVIC_InitStructure.NVIC_IRQChannel = USART1_IRQn;
+  //NVIC_InitStructure.NVIC_IRQChannel = USART2_IRQn;
+  //NVIC_InitStructure.NVIC_IRQChannel = USART3_IRQn;
+
+  NVIC_InitStructure.NVIC_IRQChannelPriority = 1; //SET PRIORITY!!!
+
+  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+  NVIC_Init(&NVIC_InitStructure);
+
+  USART_ITConfig(USART1, USART_IT_RXNE, ENABLE); //enable USART1 interrupt - Receive Data register not empty interrupt.
+  //USART_ITConfig(USART2, USART_IT_RXNE, ENABLE);  //enable USART1 interrupt - Receive Data register not empty interrupt.
+  //USART_ITConfig(USART3, USART_IT_RXNE, ENABLE);  //enable USART1 interrupt - Receive Data register not empty interrupt.
+
+  USART_Cmd(USART1, ENABLE);
+  //USART_Cmd(USART2, ENABLE);
+  //USART_Cmd(USART3, ENABLE);
+}
+
+
+
+
 
 
 int main (void) {
+	LR_RED_active = 0;
+	LR_RED_passive = 0;
+	LR_BLUE_active = 0;
+	LR_BLUE_passive= 0 ;
 	prescaler_ms = SystemCoreClock / 1000;
 	prescaler_us = SystemCoreClock / 1000000;
 	SystemInit();
 //	uint32_t  i = 0;
-	initgpio_keyboard();
-	Servo_init();
+//	initgpio_keyboard();
+//	Servo_init();
 
 
 //	LCD_launch() ;
@@ -136,19 +199,48 @@ int main (void) {
 
 
 
-
-
-
-//	SystemInit();
+	SystemInit();
 	InitDelayTIM6();
 
+
 	launch_photoresistor();
+	int resistor_number = 0;
+	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOC, ENABLE);
+	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOA, ENABLE);
+
+	config_light_resistor_pin(LR_RED_PORT, LR_RED_Pin);
+	config_light_resistor_pin(LR_BLUE_PORT, LR_BLUE_Pin);
+	config_light_resistor_pin(LR_RED_DIOD_PORT, LR_RED_DIOD_Pin);
+	config_light_resistor_pin(LR_BLUE_DIOD_PORT, LR_BLUE_DIOD_Pin);
+	listenLR(LR_RED_PORT, LR_RED_Pin);
+	listenLR(LR_BLUE_PORT, LR_BLUE_Pin);
+
+	int LR_data ;
+
+	calibrate_light_resistor(LR_RED_PORT, LR_RED_Pin);
+	printf("RED_ACTIVE = %d, RED_PASSIVE = %d\n\r" ,LR_RED_active ,LR_RED_passive );
+	calibrate_light_resistor(LR_BLUE_PORT, LR_BLUE_Pin);
+	printf("BLUE_ACTIVE = %d, BLUE_PASSIVE = %d\n\r" ,LR_BLUE_active ,LR_BLUE_passive );
+
+	printf("LR calibration OK \n\r");
 
 //			int i ;
-//			while(1){
-//				 ADC1->CR |= ADC_CR_ADSTART; /* start the ADC conversion */
-//				    while ((ADC1->ISR & ADC_ISR_EOC) == 0); /* wait end of conversion */
-//				    printf("Light is %d\n\r", ADC1->DR);
+//			while(1){ // PHOTORESISTOR!!!
+//
+//				if (resistor_number){
+//					unlistenLR(LR_BLUE_PORT, LR_BLUE_Pin);
+//					listenLR(LR_RED_PORT, LR_RED_Pin);
+//					LR_data = read_from_LR(LR_RED_PORT, LR_RED_Pin);
+//					printf("LR RED is %d\n\r", LR_data);
+//					resistor_number ^= 1;
+//				}else{
+//					unlistenLR(LR_RED_PORT, LR_RED_Pin);
+//					listenLR(LR_BLUE_PORT, LR_BLUE_Pin);
+//					LR_data = read_from_LR(LR_BLUE_PORT, LR_BLUE_Pin);
+//					printf("LR BLUE is %d\n\r", LR_data);
+//					resistor_number ^= 1;
+//				}
+//				TIM6delay_ms(500);
 //			}
 
 
@@ -167,18 +259,24 @@ int main (void) {
 //				printf("DEF %d\n\r", KEYPAD_COLUMN_1_PORT);
 //				printf("GPIO %d\n\r", GPIOA);
 	int key;
+//	UART_Init();
 	while(1){
-		while(1)
-		{
-			key = read_keypad_key();
-			if (key){
-				printf("key_col %c \n\r", key);
-				TIM6delay_ms(1000); // Debounce and several ckicks ommit
-			}
+//		puts("test\n");
+//		TIM6delay_ms(1000); // Debounce and several ckicks ommit
 
-//			check_keypad();
 
-		}
+
+//		while(1)
+//		{
+////			key = read_keypad_key();
+////			if (key){
+////				printf("key_col %c \n\r", key);
+////				TIM6delay_ms(1000); // Debounce and several ckicks ommit
+////			}
+//
+////			check_keypad();
+//
+//		}
 
 
 //		pressedBtn = TM_KEYPAD_Read();
