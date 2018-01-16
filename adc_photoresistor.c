@@ -73,7 +73,7 @@ int launch_photoresistor(void){
 void calibrate_light_resistor(GPIO_TypeDef* LR_PORT, uint16_t LR_PIN){ //USE IN DIOD FACING POSITION
 	GPIO_TypeDef* thisLR_DIOD_PORT;
 	uint16_t thisLR_DIOD_PIN;
-	TIM6delay_ms(4000);
+	TIM6delay_ms(2000);
 	if ((LR_PORT == LR_RED_PORT) && (LR_RED_Pin == LR_PIN) ){
 		thisLR_DIOD_PORT = LR_RED_DIOD_PORT;
 		thisLR_DIOD_PIN = LR_RED_DIOD_Pin;
@@ -86,7 +86,7 @@ void calibrate_light_resistor(GPIO_TypeDef* LR_PORT, uint16_t LR_PIN){ //USE IN 
 
 	turnON_LR_DIOD(thisLR_DIOD_PORT, thisLR_DIOD_PIN);
 	listenLR(LR_PORT, LR_PIN);
-	TIM6delay_ms(4000);
+	TIM6delay_ms(2000);
 	if ((LR_PORT == LR_RED_PORT) && (LR_RED_Pin == LR_PIN) ){
 		LR_RED_active= read_from_LR(LR_PORT, LR_PIN);
 		printf("got H = %d\n\r", LR_RED_active);
@@ -96,7 +96,7 @@ void calibrate_light_resistor(GPIO_TypeDef* LR_PORT, uint16_t LR_PIN){ //USE IN 
 	}
 	turnOFF_LR_DIOD(thisLR_DIOD_PORT, thisLR_DIOD_PIN);
 
-	TIM6delay_ms(4000);
+	TIM6delay_ms(2000);
 	if ((LR_PORT == LR_RED_PORT) && (LR_RED_Pin == LR_PIN) ){
 			LR_RED_passive= read_from_LR(LR_PORT, LR_PIN);
 			printf("got L = %d\n\r", LR_RED_passive);

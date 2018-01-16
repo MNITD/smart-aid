@@ -1,6 +1,6 @@
 #include "stm32f0xx.h"
 #include "string.h"
-#include "semihosting.h"
+//#include "semihosting.h"
 #include <stdio.h>
 //#include "stm32f0xx_rcc.h"
 //#include "tm_stm32f4_keypad.h"
@@ -177,8 +177,73 @@ void UART_Init(void) {
 }
 
 
+// SERVO =========================================
+int servo_45_0_45(int container){
+	int checker = 0;
+	int pill = 0;
+	int start_pos = 0;
+	int left = 45;
+	int right = -45;
+	int count = 3;
+	uint8_t res;
+	uint16_t servoPin;
 
+//	if ( container == 1 ) {
+//		 servoPin = GPIO_Pin_0;
+//		 GPIOB->ODR ^= GPIO_ODR_10;
+//		 ConfigureGPIO_ADC4();
+//	}
+//	else if ( container == 2 ) {
+//		servoPin = GPIO_Pin_1;
+//		GPIOB->ODR ^= GPIO_ODR_11;
+//		ConfigureGPIO_ADC5();
+//	}
+	launch_photoresistor();
+	res = APS_AddPin(GPIOA, servoPin, APS_SERVOMIDDLE);
+	if(res != AE_SUCCESS){}
 
+	//Initialize millisecond counter
+	SysTick_Config(SystemCoreClock/1000);
+
+	if(count > 0) {
+		int cur_pos = start_pos;
+		APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
+		APS_WaitForUpdate();
+		Delay(2000);	// 2 sec
+
+		while(!pill) {		// pill not caught yet
+			cur_pos += left;
+			APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
+			APS_WaitForUpdate();
+			Delay(2000);	// 2 sec
+
+			cur_pos += right;
+			APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
+			APS_WaitForUpdate();
+			Delay(2000);	// 2 sec
+
+			ADC1->CR |= ADC_CR_ADSTART; /* start the ADC conversion */
+			while ((ADC1->ISR & ADC_ISR_EOC) == 0); /* wait end of conversion */
+			printf("Light is %d\n\r", ADC1->DR);
+			if (ADC1->DR < 1000) {		// pill's caught
+				cur_pos += right;
+				APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
+				APS_WaitForUpdate();
+				Delay(2000);	// 2 sec
+				pill = 1;		// pill caught
+			}
+			checker++;
+			if ( checker == 10 ) {
+				// SEND ERROR MESSAGE
+				return;
+			}
+		}
+		count--;
+		pill = 0;
+	}
+//	setPinLow(GPIOB, ledPin);
+// SERVO =========================================
+}
 
 
 int main (void) {
@@ -190,23 +255,28 @@ int main (void) {
 	prescaler_us = SystemCoreClock / 1000000;
 	SystemInit();
 //	uint32_t  i = 0;
-//	initgpio_keyboard();
 //	Servo_init();
+//
+//
+
+	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOC, ENABLE);
+	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOF, ENABLE);
+	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOA, ENABLE);
+	LCD_launch() ;
+	LCD_test_run() ;
 
 
-//	LCD_launch() ;
-//	LCD_test_run() ;
-
-
-
-	SystemInit();
 	InitDelayTIM6();
+	delay_init();
 
 
 	launch_photoresistor();
-	int resistor_number = 0;
-	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOC, ENABLE);
-	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOA, ENABLE);
+//	int resistor_number = 0;
+
+
+		InitDelayTIM6();
+		int container = 2;
+//		servo_45_0_45(container);
 
 	config_light_resistor_pin(LR_RED_PORT, LR_RED_Pin);
 	config_light_resistor_pin(LR_BLUE_PORT, LR_BLUE_Pin);
@@ -224,7 +294,7 @@ int main (void) {
 
 	printf("LR calibration OK \n\r");
 
-//			int i ;
+//			int resistor_number = 0 ;
 //			while(1){ // PHOTORESISTOR!!!
 //
 //				if (resistor_number){
@@ -246,37 +316,37 @@ int main (void) {
 
 
 		//TODO make Enum Strings ?
-//		servo_45_0_45_test_loop(void) ////////////SERVO _____T E S T ________
+//	servo_45_0_45(2); ////////////SERVO _____T E S T ________
 
 
 
 //	 =============== KEYBOARD ====================
 //	TM_KEYPAD_Button_t pressedBtn;
-//	InitKeypad();
 //	int a = ;
 //	printf("%d", a);
 //	printf("port %d\n\r", (*key_cols[0].Port));
 //				printf("DEF %d\n\r", KEYPAD_COLUMN_1_PORT);
 //				printf("GPIO %d\n\r", GPIOA);
-	int key;
-//	UART_Init();
+
+		UART_Init();
+	initgpio_keyboard();
+	int key = 0;
+//	puts("test\n");
 	while(1){
-//		puts("test\n");
+		puts("test\n");
+		TIM6delay_ms(1000);
 //		TIM6delay_ms(1000); // Debounce and several ckicks ommit
-
-
-
-//		while(1)
-//		{
-////			key = read_keypad_key();
-////			if (key){
-////				printf("key_col %c \n\r", key);
-////				TIM6delay_ms(1000); // Debounce and several ckicks ommit
-////			}
 //
-////			check_keypad();
+//		key = read_keypad_key();
+//				if (key){
+//					printf("key_col %c \n\r", key);
+//					TIM6delay_ms(1000); // Debounce and several ckicks ommit
 //
-//		}
+//
+//				}
+
+//			check_keypad();
+
 
 
 //		pressedBtn = TM_KEYPAD_Read();

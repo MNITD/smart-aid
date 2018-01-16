@@ -39,13 +39,13 @@ typedef struct {
 #endif
 /* Column 2 default */
 #ifndef KEYPAD_COLUMN_2_PIN
-#define KEYPAD_COLUMN_2_PORT		GPIOA
-#define KEYPAD_COLUMN_2_PIN			GPIO_Pin_9
+#define KEYPAD_COLUMN_2_PORT		GPIOC
+#define KEYPAD_COLUMN_2_PIN			GPIO_Pin_10
 #endif
 /* Column 3 default */
 #ifndef KEYPAD_COLUMN_3_PIN
-#define KEYPAD_COLUMN_3_PORT		GPIOA
-#define KEYPAD_COLUMN_3_PIN			GPIO_Pin_10
+#define KEYPAD_COLUMN_3_PORT		GPIOC
+#define KEYPAD_COLUMN_3_PIN			GPIO_Pin_11
 #endif
 /* Column 4 default */
 #ifndef KEYPAD_COLUMN_4_PIN

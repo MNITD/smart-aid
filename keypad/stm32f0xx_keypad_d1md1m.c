@@ -26,7 +26,7 @@ void keypad_init_GPIO_OUT(GPIO_TypeDef* PORT, uint16_t Pin){
 void initgpio_keyboard()
 {
 	GPIO_InitTypeDef GPIO_InitStructure;
-	RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA | RCC_AHBPeriph_GPIOB | RCC_AHBPeriph_GPIOC, ENABLE);
+	RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA | RCC_AHBPeriph_GPIOB | RCC_AHBPeriph_GPIOD  |RCC_AHBPeriph_GPIOC, ENABLE);
 	keypad_init_GPIO_OUT(KEYPAD_ROW_4_PORT, KEYPAD_ROW_4_PIN);
 	keypad_init_GPIO_OUT(KEYPAD_ROW_3_PORT, KEYPAD_ROW_3_PIN);
 	keypad_init_GPIO_OUT(KEYPAD_ROW_2_PORT, KEYPAD_ROW_2_PIN);

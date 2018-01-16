@@ -70,8 +70,6 @@
   </Target>
   <Components path="./">
     <Component id="30" name="C Library" path="" type="2"/>
-    <Component id="31" name="Retarget printf" path="" type="2"/>
-    <Component id="33" name="Semihosting" path="" type="2"/>
     <Component id="46" name="M0 Cmsis Core" path="" type="2"/>
     <Component id="1079" name="cmsis_boot" path="" type="2"/>
     <Component id="1080" name="RCC" path="" type="2"/>
@@ -100,22 +98,20 @@
     <File name="cmsis_boot" path="" type="2"/>
     <File name="ADC_photoresistor/adc_photoresistor.c" path="adc_photoresistor.c" type="1"/>
     <File name="keypad" path="" type="2"/>
-    <File name="semihosting/sh_cmd.s" path="semihosting/sh_cmd.s" type="1"/>
-    <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis_lib/include/stm32f0xx_can.h" path="cmsis_lib/include/stm32f0xx_can.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="keypad/tm_stm32f4_keypad.c" path="keypad/tm_stm32f4_keypad.c" type="1"/>
     <File name="cmsis_core" path="" type="2"/>
     <File name="damogranlabs" path="" type="2"/>
     <File name="ADC_photoresistor/adc_photoresistor.h" path="adc_photoresistor.h" type="1"/>
-    <File name="semihosting/semihosting.c" path="semihosting/semihosting.c" type="1"/>
     <File name="delay" path="" type="2"/>
     <File name="damogranlabs/millis/systick_millis.h" path="libs/damogranlabs/MILLIS/systick_millis.h" type="1"/>
     <File name="delay/delay.h" path="delay/delay.h" type="1"/>
     <File name="cmsis_boot/stm32f0xx.h" path="cmsis_boot/stm32f0xx.h" type="1"/>
     <File name="servo" path="" type="2"/>
     <File name="lcd/LCD1602_main.c" path="LCD1602_main.c" type="1"/>
-    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
     <File name="cmsis_lib/source/stm32f0xx_exti.c" path="cmsis_lib/source/stm32f0xx_exti.c" type="1"/>
+    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
     <File name="cmsis_core/core_cm0.h" path="cmsis_core/core_cm0.h" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_exti.h" path="cmsis_lib/include/stm32f0xx_exti.h" type="1"/>
     <File name="cmsis_lib/source" path="" type="2"/>
@@ -124,14 +120,12 @@
     <File name="damogranlabs/gpio/stm32f0xx_gpio_init.h" path="libs/damogranlabs/GPIO/stm32f0xx_gpio_init.h" type="1"/>
     <File name="d1md1mkeypad/stm32f0xx_keypad_d1md1m.h" path="keypad/stm32f0xx_keypad_d1md1m.h" type="1"/>
     <File name="delay/delay.c" path="delay/delay.c" type="1"/>
-    <File name="stdio/printf.c" path="stdio/printf.c" type="1"/>
     <File name="damogranlabs/millis/systick_millis.c" path="libs/damogranlabs/MILLIS/systick_millis.c" type="1"/>
     <File name="ADC_photoresistor" path="" type="2"/>
     <File name="cmsis_lib/source/stm32f0xx_can.c" path="cmsis_lib/source/stm32f0xx_can.c" type="1"/>
     <File name="cmsis_lib/source/stm32f0xx_adc.c" path="cmsis_lib/source/stm32f0xx_adc.c" type="1"/>
     <File name="keypad/tm_stm32f4_keypad.h" path="keypad/tm_stm32f4_keypad.h" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_dac.h" path="cmsis_lib/include/stm32f0xx_dac.h" type="1"/>
-    <File name="stdio" path="" type="2"/>
     <File name="cmsis_boot/startup/startup_stm32f0xx.s" path="cmsis_boot/startup/startup_stm32f0xx.s" type="1"/>
     <File name="keypad/tm_stm32f4_gpio.c" path="../tm_stm32f4_gpio.c" type="1"/>
     <File name="damogranlabs/millis" path="" type="2"/>
@@ -139,9 +133,8 @@
     <File name="cmsis_lib/source/stm32f0xx_rtc.c" path="cmsis_lib/source/stm32f0xx_rtc.c" type="1"/>
     <File name="cmsis_core/core_cmFunc.h" path="cmsis_core/core_cmFunc.h" type="1"/>
     <File name="main_lcd1602.c" path="main_lcd1602.c" type="1"/>
-    <File name="before_code_change.c" path="before_code_change.c" type="1"/>
     <File name="servo/APS.c" path="STM32F0-AnyPinServo-master/APS.c" type="1"/>
-    <File name="semihosting" path="" type="2"/>
+    <File name="before_code_change.c" path="before_code_change.c" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_i2c.h" path="cmsis_lib/include/stm32f0xx_i2c.h" type="1"/>
     <File name="cmsis_lib/source/stm32f0xx_syscfg.c" path="cmsis_lib/source/stm32f0xx_syscfg.c" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_usart.h" path="cmsis_lib/include/stm32f0xx_usart.h" type="1"/>
@@ -167,7 +160,6 @@
     <File name="I2CSAVE.c" path="I2CSAVE.c" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_rtc.h" path="cmsis_lib/include/stm32f0xx_rtc.h" type="1"/>
     <File name="cmsis_lib/include" path="" type="2"/>
-    <File name="semihosting/semihosting.h" path="semihosting/semihosting.h" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_tim.h" path="cmsis_lib/include/stm32f0xx_tim.h" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_syscfg.h" path="cmsis_lib/include/stm32f0xx_syscfg.h" type="1"/>
     <File name="main.c" path="main.c" type="1"/>

@@ -12,16 +12,16 @@ int launch_photoresistor(void);
 
 
 #define LR_RED_PORT GPIOC
-#define LR_RED_Pin GPIO_Pin_7
+#define LR_RED_Pin GPIO_Pin_13
 
 #define LR_BLUE_PORT GPIOC
-#define LR_BLUE_Pin GPIO_Pin_8
+#define LR_BLUE_Pin GPIO_Pin_14
 
-#define LR_RED_DIOD_PORT GPIOA
-#define LR_RED_DIOD_Pin GPIO_Pin_8
+#define LR_RED_DIOD_PORT GPIOF
+#define LR_RED_DIOD_Pin GPIO_Pin_1
 
-#define LR_BLUE_DIOD_PORT GPIOA
-#define LR_BLUE_DIOD_Pin GPIO_Pin_9
+#define LR_BLUE_DIOD_PORT GPIOC
+#define LR_BLUE_DIOD_Pin GPIO_Pin_15
 
 uint16_t LR_RED_active, LR_RED_passive, LR_BLUE_active, LR_BLUE_passive;
 

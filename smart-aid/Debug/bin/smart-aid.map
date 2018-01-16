@@ -8,6 +8,120 @@ g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.
                               g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
                               ..\obj\stm32f0xx_keypad_d1md1m.o (memcpy)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-printf.o)
+                              ..\obj\adc_photoresistor.o (printf)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o)
+                              ..\obj\main.o (puts)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sprintf.o)
+                              ..\obj\i2c_lcd.o (sprintf)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen-stub.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o) (strlen)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sprintf.o) (_svfprintf_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-printf.o) (_vfprintf_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wsetup.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o) (__swsetup_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o) (_dtoa_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fflush.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o) (_fflush_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o) (__sinit)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-freer.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wsetup.o) (_free_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fvwrite.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o) (__sfvwrite_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fwalk.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o) (_fwalk)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fflush.o) (_global_impure_ptr)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o) (_localeconv_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-makebuf.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wsetup.o) (__smakebuf_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o) (_malloc_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memchr-stub.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o) (memchr)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memmove.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fvwrite.o) (memmove)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o) (memset)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mlock.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-freer.o) (__malloc_lock)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o) (_Balloc)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reallocr.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fvwrite.o) (_realloc_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sbrkr.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-freer.o) (_sbrk_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o) (__sread)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o) (strcmp)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o) (__ssprint_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o) (__sprint_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-writer.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o) (_write_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-callocr.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o) (_calloc_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-closer.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o) (_close_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fclose.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o) (_fclose_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fputwc.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o) (_fputwc_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fstatr.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-makebuf.o) (_fstat_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-isattyr.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-makebuf.o) (_isatty_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-lseekr.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o) (_lseek_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-readr.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o) (_read_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reent.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sbrkr.o) (errno)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wbuf.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fputwc.o) (__swbuf_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wcrtomb.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fputwc.o) (_wcrtomb_r)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wctomb_r.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wcrtomb.o) (__wctomb)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_arm_cmpdf2.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o) (__aeabi_dcmpeq)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_aeabi_uldivmod.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivmoddi4.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(adddf3.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o) (__aeabi_dadd)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(divdf3.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o) (__aeabi_ddiv)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(eqdf2.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(gedf2.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_arm_cmpdf2.o) (__gedf2)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(ledf2.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_arm_cmpdf2.o) (__ledf2)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(muldf3.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o) (__aeabi_dmul)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(subdf3.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o) (__aeabi_dsub)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(unorddf2.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o) (__aeabi_dcmpun)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(fixdfsi.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o) (__aeabi_d2iz)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatsidf.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o) (__aeabi_i2d)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatunsidf.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o) (__aeabi_ui2d)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_clzsi2.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(adddf3.o) (__clzsi2)
+g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_clzdi2.o)
+                              g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivmoddi4.o) (__clzdi2)
 
 Allocating common symbols
 Common symbol       size              file
@@ -15,6 +129,7 @@ Common symbol       size              file
 N                   0x3               ..\obj\main.o
 TB                  0xc               ..\obj\APS.o
 list                0x60              ..\obj\APS.o
+errno               0x4               g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reent.o)
 prescaler_ms        0x2               ..\obj\delay.o
 LR_BLUE_active      0x2               ..\obj\adc_photoresistor.o
 prescaler_us        0x2               ..\obj\delay.o
@@ -27,19 +142,9 @@ RC                  0x24              ..\obj\APS.o
 
 Discarded input sections
 
- .text          0x00000000        0x0 ..\obj\semihosting.o
- .data          0x00000000        0x0 ..\obj\semihosting.o
- .text.SH_SendString
-                0x00000000       0x1c ..\obj\semihosting.o
- .text.SH_GetChar
-                0x00000000       0x3c ..\obj\semihosting.o
  .text          0x00000000        0x0 ..\obj\delay.o
  .data          0x00000000        0x0 ..\obj\delay.o
  .bss           0x00000000        0x0 ..\obj\delay.o
- .text.TIM6delay_us
-                0x00000000       0x68 ..\obj\delay.o
- .text.delay_init
-                0x00000000       0x1c ..\obj\delay.o
  .text.delay    0x00000000       0x6c ..\obj\delay.o
  .text.delay_ms
                 0x00000000       0x68 ..\obj\delay.o
@@ -47,9 +152,8 @@ Discarded input sections
  .data          0x00000000        0x0 ..\obj\adc_photoresistor.o
  .bss           0x00000000        0x0 ..\obj\adc_photoresistor.o
  .text.check_if_pill
-                0x00000000      0x124 ..\obj\adc_photoresistor.o
+                0x00000000      0x128 ..\obj\adc_photoresistor.o
  .text          0x00000000        0x0 ..\obj\stm32f0xx_rcc.o
- .data          0x00000000       0x10 ..\obj\stm32f0xx_rcc.o
  .bss           0x00000000        0x0 ..\obj\stm32f0xx_rcc.o
  .text.RCC_DeInit
                 0x00000000       0x88 ..\obj\stm32f0xx_rcc.o
@@ -103,15 +207,11 @@ Discarded input sections
                 0x00000000       0x50 ..\obj\stm32f0xx_rcc.o
  .text.RCC_USBCLKConfig
                 0x00000000       0x2c ..\obj\stm32f0xx_rcc.o
- .text.RCC_GetClocksFreq
-                0x00000000      0x264 ..\obj\stm32f0xx_rcc.o
  .text.RCC_RTCCLKConfig
                 0x00000000       0x20 ..\obj\stm32f0xx_rcc.o
  .text.RCC_RTCCLKCmd
                 0x00000000       0x40 ..\obj\stm32f0xx_rcc.o
  .text.RCC_BackupResetCmd
-                0x00000000       0x40 ..\obj\stm32f0xx_rcc.o
- .text.RCC_APB2PeriphClockCmd
                 0x00000000       0x40 ..\obj\stm32f0xx_rcc.o
  .text.RCC_APB1PeriphClockCmd
                 0x00000000       0x40 ..\obj\stm32f0xx_rcc.o
@@ -228,8 +328,6 @@ Discarded input sections
                 0x00000000       0x31 ..\obj\main_lcd1602.o
  .text          0x00000000        0x0 ..\obj\main.o
  .data          0x00000000        0x0 ..\obj\main.o
- .text.NVIC_EnableIRQ
-                0x00000000       0x2c ..\obj\main.o
  .text.NVIC_SetPriority
                 0x00000000       0xdc ..\obj\main.o
  .text.SysTick_Config
@@ -239,28 +337,15 @@ Discarded input sections
  .text.Delay    0x00000000       0x2c ..\obj\main.o
  .text.servo_45_0_45_test_loop
                 0x00000000      0x128 ..\obj\main.o
- .text.UART_Init
-                0x00000000       0xec ..\obj\main.o
+ .text.servo_45_0_45
+                0x00000000      0x174 ..\obj\main.o
  COMMON         0x00000000        0xc ..\obj\main.o
  .text          0x00000000       0x14 ..\obj\startup_stm32f0xx.o
  .data          0x00000000        0x0 ..\obj\startup_stm32f0xx.o
  .bss           0x00000000        0x0 ..\obj\startup_stm32f0xx.o
- .text          0x00000000        0x0 ..\obj\printf.o
- .bss           0x00000000        0x0 ..\obj\printf.o
- .text.snprintf
-                0x00000000       0x34 ..\obj\printf.o
- .text.fprintf  0x00000000       0x30 ..\obj\printf.o
- .text.sprintf  0x00000000       0x30 ..\obj\printf.o
- .text.puts     0x00000000       0x28 ..\obj\printf.o
  .text          0x00000000        0x0 ..\obj\stm32f0xx_keypad_d1md1m.o
  .data          0x00000000        0x0 ..\obj\stm32f0xx_keypad_d1md1m.o
  .bss           0x00000000        0x0 ..\obj\stm32f0xx_keypad_d1md1m.o
- .text.keypad_init_GPIO_IN
-                0x00000000       0x50 ..\obj\stm32f0xx_keypad_d1md1m.o
- .text.keypad_init_GPIO_OUT
-                0x00000000       0x48 ..\obj\stm32f0xx_keypad_d1md1m.o
- .text.initgpio_keyboard
-                0x00000000       0x90 ..\obj\stm32f0xx_keypad_d1md1m.o
  .text.keypadRowHight
                 0x00000000       0x20 ..\obj\stm32f0xx_keypad_d1md1m.o
  .text.keypadRowLow
@@ -272,17 +357,6 @@ Discarded input sections
  .rodata        0x00000000       0x10 ..\obj\stm32f0xx_keypad_d1md1m.o
  .text.read_keypad_key
                 0x00000000       0x68 ..\obj\stm32f0xx_keypad_d1md1m.o
- .debug_info    0x00000000      0x456 ..\obj\stm32f0xx_keypad_d1md1m.o
- .debug_abbrev  0x00000000      0x188 ..\obj\stm32f0xx_keypad_d1md1m.o
- .debug_aranges
-                0x00000000       0x58 ..\obj\stm32f0xx_keypad_d1md1m.o
- .debug_ranges  0x00000000       0x48 ..\obj\stm32f0xx_keypad_d1md1m.o
- .debug_line    0x00000000      0x230 ..\obj\stm32f0xx_keypad_d1md1m.o
- .debug_str     0x00000000      0x3de ..\obj\stm32f0xx_keypad_d1md1m.o
- .comment       0x00000000       0x6f ..\obj\stm32f0xx_keypad_d1md1m.o
- .debug_frame   0x00000000      0x10c ..\obj\stm32f0xx_keypad_d1md1m.o
- .ARM.attributes
-                0x00000000       0x31 ..\obj\stm32f0xx_keypad_d1md1m.o
  .text          0x00000000        0x0 ..\obj\stm32f0xx_spi.o
  .data          0x00000000        0x0 ..\obj\stm32f0xx_spi.o
  .bss           0x00000000        0x0 ..\obj\stm32f0xx_spi.o
@@ -366,7 +440,6 @@ Discarded input sections
                 0x00000000       0xd0 ..\obj\stm32f0xx_i2c.o
  .text.I2C_StructInit
                 0x00000000       0x3c ..\obj\stm32f0xx_i2c.o
- .text.I2C_Cmd  0x00000000       0x3c ..\obj\stm32f0xx_i2c.o
  .text.I2C_SoftwareResetCmd
                 0x00000000       0x40 ..\obj\stm32f0xx_i2c.o
  .text.I2C_ITConfig
@@ -443,17 +516,6 @@ Discarded input sections
                 0x00000000       0x88 ..\obj\stm32f0xx_i2c.o
  .text.I2C_ClearITPendingBit
                 0x00000000       0x18 ..\obj\stm32f0xx_i2c.o
- .debug_info    0x00000000      0xbca ..\obj\stm32f0xx_i2c.o
- .debug_abbrev  0x00000000      0x187 ..\obj\stm32f0xx_i2c.o
- .debug_aranges
-                0x00000000      0x168 ..\obj\stm32f0xx_i2c.o
- .debug_ranges  0x00000000      0x158 ..\obj\stm32f0xx_i2c.o
- .debug_line    0x00000000      0x4fe ..\obj\stm32f0xx_i2c.o
- .debug_str     0x00000000      0x631 ..\obj\stm32f0xx_i2c.o
- .comment       0x00000000       0x6f ..\obj\stm32f0xx_i2c.o
- .debug_frame   0x00000000      0x550 ..\obj\stm32f0xx_i2c.o
- .ARM.attributes
-                0x00000000       0x31 ..\obj\stm32f0xx_i2c.o
  .text          0x00000000        0x0 ..\obj\APS.o
  .bss           0x00000000        0x0 ..\obj\APS.o
  .text.APS_Init
@@ -493,10 +555,6 @@ Discarded input sections
                 0x00000000       0x3c ..\obj\stm32f0xx_gpio.o
  .text.GPIO_Write
                 0x00000000       0x20 ..\obj\stm32f0xx_gpio.o
- .text.GPIO_PinAFConfig
-                0x00000000       0xa4 ..\obj\stm32f0xx_gpio.o
- .data          0x00000000        0x0 ..\obj\sh_cmd.o
- .bss           0x00000000        0x0 ..\obj\sh_cmd.o
  .text          0x00000000        0x0 ..\obj\stm32f0xx_rtc.o
  .data          0x00000000        0x0 ..\obj\stm32f0xx_rtc.o
  .bss           0x00000000        0x0 ..\obj\stm32f0xx_rtc.o
@@ -619,42 +677,17 @@ Discarded input sections
                 0x00000000       0x31 ..\obj\stm32f0xx_rtc.o
  .text          0x00000000        0x0 ..\obj\syscalls.o
  .data          0x00000000        0x0 ..\obj\syscalls.o
- .bss           0x00000000        0x4 ..\obj\syscalls.o
- .text._sbrk    0x00000000       0x3c ..\obj\syscalls.o
  .text.link     0x00000000       0x18 ..\obj\syscalls.o
- .text._close   0x00000000       0x14 ..\obj\syscalls.o
- .text._fstat   0x00000000       0x1c ..\obj\syscalls.o
- .text._isatty  0x00000000       0x14 ..\obj\syscalls.o
- .text._lseek   0x00000000       0x18 ..\obj\syscalls.o
- .text._read    0x00000000       0x18 ..\obj\syscalls.o
- .text._write   0x00000000       0x54 ..\obj\syscalls.o
  .text.abort    0x00000000        0x8 ..\obj\syscalls.o
- .debug_info    0x00000000      0x58f ..\obj\syscalls.o
- .debug_abbrev  0x00000000      0x170 ..\obj\syscalls.o
- .debug_aranges
-                0x00000000       0x60 ..\obj\syscalls.o
- .debug_ranges  0x00000000       0x50 ..\obj\syscalls.o
- .debug_line    0x00000000      0x202 ..\obj\syscalls.o
- .debug_str     0x00000000      0x397 ..\obj\syscalls.o
- .comment       0x00000000       0x6f ..\obj\syscalls.o
- .debug_frame   0x00000000      0x12c ..\obj\syscalls.o
- .ARM.attributes
-                0x00000000       0x31 ..\obj\syscalls.o
  .text          0x00000000        0x0 ..\obj\stm32f0xx_usart.o
  .data          0x00000000        0x0 ..\obj\stm32f0xx_usart.o
  .bss           0x00000000        0x0 ..\obj\stm32f0xx_usart.o
  .text.USART_DeInit
                 0x00000000       0xa8 ..\obj\stm32f0xx_usart.o
- .text.USART_Init
-                0x00000000      0x174 ..\obj\stm32f0xx_usart.o
- .text.USART_StructInit
-                0x00000000       0x38 ..\obj\stm32f0xx_usart.o
  .text.USART_ClockInit
                 0x00000000       0x4c ..\obj\stm32f0xx_usart.o
  .text.USART_ClockStructInit
                 0x00000000       0x28 ..\obj\stm32f0xx_usart.o
- .text.USART_Cmd
-                0x00000000       0x3c ..\obj\stm32f0xx_usart.o
  .text.USART_DirectionModeCmd
                 0x00000000       0x3c ..\obj\stm32f0xx_usart.o
  .text.USART_OverSampling8Cmd
@@ -683,8 +716,6 @@ Discarded input sections
                 0x00000000       0x40 ..\obj\stm32f0xx_usart.o
  .text.USART_AutoBaudRateConfig
                 0x00000000       0x30 ..\obj\stm32f0xx_usart.o
- .text.USART_SendData
-                0x00000000       0x24 ..\obj\stm32f0xx_usart.o
  .text.USART_ReceiveData
                 0x00000000       0x1c ..\obj\stm32f0xx_usart.o
  .text.USART_SetAddress
@@ -727,31 +758,16 @@ Discarded input sections
                 0x00000000       0x3c ..\obj\stm32f0xx_usart.o
  .text.USART_DMAReceptionErrorConfig
                 0x00000000       0x30 ..\obj\stm32f0xx_usart.o
- .text.USART_ITConfig
-                0x00000000       0x88 ..\obj\stm32f0xx_usart.o
  .text.USART_RequestCmd
                 0x00000000       0x48 ..\obj\stm32f0xx_usart.o
  .text.USART_OverrunDetectionConfig
                 0x00000000       0x30 ..\obj\stm32f0xx_usart.o
- .text.USART_GetFlagStatus
-                0x00000000       0x3c ..\obj\stm32f0xx_usart.o
  .text.USART_ClearFlag
                 0x00000000       0x18 ..\obj\stm32f0xx_usart.o
  .text.USART_GetITStatus
                 0x00000000       0xb0 ..\obj\stm32f0xx_usart.o
  .text.USART_ClearITPendingBit
                 0x00000000       0x30 ..\obj\stm32f0xx_usart.o
- .debug_info    0x00000000      0xe4e ..\obj\stm32f0xx_usart.o
- .debug_abbrev  0x00000000      0x15e ..\obj\stm32f0xx_usart.o
- .debug_aranges
-                0x00000000      0x1a0 ..\obj\stm32f0xx_usart.o
- .debug_ranges  0x00000000      0x190 ..\obj\stm32f0xx_usart.o
- .debug_line    0x00000000      0x5ad ..\obj\stm32f0xx_usart.o
- .debug_str     0x00000000      0x96f ..\obj\stm32f0xx_usart.o
- .comment       0x00000000       0x6f ..\obj\stm32f0xx_usart.o
- .debug_frame   0x00000000      0x630 ..\obj\stm32f0xx_usart.o
- .ARM.attributes
-                0x00000000       0x31 ..\obj\stm32f0xx_usart.o
  .text          0x00000000        0x0 ..\obj\I2CSAVE.o
  .data          0x00000000        0x0 ..\obj\I2CSAVE.o
  .bss           0x00000000        0x0 ..\obj\I2CSAVE.o
@@ -955,21 +971,8 @@ Discarded input sections
                 0x00000000       0x48 ..\obj\stm32f0xx_gpio_init.o
  .text.gpio_pinSetup
                 0x00000000       0xf8 ..\obj\stm32f0xx_gpio_init.o
- .text.gpio_pinSetup_AF
-                0x00000000      0x1ec ..\obj\stm32f0xx_gpio_init.o
  .text.gpio_pinSetup_interrupt
                 0x00000000      0x2e4 ..\obj\stm32f0xx_gpio_init.o
- .debug_info    0x00000000      0x66c ..\obj\stm32f0xx_gpio_init.o
- .debug_abbrev  0x00000000      0x13c ..\obj\stm32f0xx_gpio_init.o
- .debug_aranges
-                0x00000000       0x38 ..\obj\stm32f0xx_gpio_init.o
- .debug_ranges  0x00000000       0x28 ..\obj\stm32f0xx_gpio_init.o
- .debug_line    0x00000000      0x23e ..\obj\stm32f0xx_gpio_init.o
- .debug_str     0x00000000      0x75f ..\obj\stm32f0xx_gpio_init.o
- .comment       0x00000000       0x6f ..\obj\stm32f0xx_gpio_init.o
- .debug_frame   0x00000000       0x90 ..\obj\stm32f0xx_gpio_init.o
- .ARM.attributes
-                0x00000000       0x31 ..\obj\stm32f0xx_gpio_init.o
  .text          0x00000000        0x0 ..\obj\stm32f0xx_exti.o
  .data          0x00000000        0x0 ..\obj\stm32f0xx_exti.o
  .bss           0x00000000        0x0 ..\obj\stm32f0xx_exti.o
@@ -1159,23 +1162,10 @@ Discarded input sections
  .text          0x00000000        0x0 ..\obj\stm32f0xx_misc.o
  .data          0x00000000        0x0 ..\obj\stm32f0xx_misc.o
  .bss           0x00000000        0x0 ..\obj\stm32f0xx_misc.o
- .text.NVIC_Init
-                0x00000000       0xac ..\obj\stm32f0xx_misc.o
  .text.NVIC_SystemLPConfig
                 0x00000000       0x48 ..\obj\stm32f0xx_misc.o
  .text.SysTick_CLKSourceConfig
                 0x00000000       0x34 ..\obj\stm32f0xx_misc.o
- .debug_info    0x00000000      0x36e ..\obj\stm32f0xx_misc.o
- .debug_abbrev  0x00000000      0x145 ..\obj\stm32f0xx_misc.o
- .debug_aranges
-                0x00000000       0x30 ..\obj\stm32f0xx_misc.o
- .debug_ranges  0x00000000       0x20 ..\obj\stm32f0xx_misc.o
- .debug_line    0x00000000      0x1e0 ..\obj\stm32f0xx_misc.o
- .debug_str     0x00000000      0x2ed ..\obj\stm32f0xx_misc.o
- .comment       0x00000000       0x6f ..\obj\stm32f0xx_misc.o
- .debug_frame   0x00000000       0x70 ..\obj\stm32f0xx_misc.o
- .ARM.attributes
-                0x00000000       0x31 ..\obj\stm32f0xx_misc.o
  .text          0x00000000        0x0 ..\obj\stm32f0xx_dac.o
  .data          0x00000000        0x0 ..\obj\stm32f0xx_dac.o
  .bss           0x00000000        0x0 ..\obj\stm32f0xx_dac.o
@@ -1224,62 +1214,274 @@ Discarded input sections
  .ARM.attributes
                 0x00000000       0x31 ..\obj\stm32f0xx_dac.o
  .text          0x00000000        0x0 ..\obj\i2c_lcd.o
- .data          0x00000000        0x1 ..\obj\i2c_lcd.o
  .bss           0x00000000        0x0 ..\obj\i2c_lcd.o
- .text.gpioInit
-                0x00000000       0x5c ..\obj\i2c_lcd.o
- .text.i2cInit  0x00000000       0x5c ..\obj\i2c_lcd.o
  .text.lcd_Goto
                 0x00000000       0x1c ..\obj\i2c_lcd.o
- .text.lcd_PrintC
-                0x00000000       0x48 ..\obj\i2c_lcd.o
- .text.lcd_Init
-                0x00000000       0x50 ..\obj\i2c_lcd.o
- .text.lcd_Send
-                0x00000000       0x68 ..\obj\i2c_lcd.o
- .text.lcd_FirstCommand
-                0x00000000       0xc8 ..\obj\i2c_lcd.o
- .text.lcd_Command
-                0x00000000      0x1a8 ..\obj\i2c_lcd.o
  .text.lcd_Backlight
                 0x00000000       0x34 ..\obj\i2c_lcd.o
- .text.lcd_Data
-                0x00000000      0x1ec ..\obj\i2c_lcd.o
  .text.lcd_checkBusy
                 0x00000000       0xb8 ..\obj\i2c_lcd.o
- .text.LCD_launch
-                0x00000000       0x28 ..\obj\i2c_lcd.o
- .rodata        0x00000000        0xc ..\obj\i2c_lcd.o
- .text.LCD_test_run
-                0x00000000       0xc0 ..\obj\i2c_lcd.o
- .debug_info    0x00000000      0x753 ..\obj\i2c_lcd.o
- .debug_abbrev  0x00000000      0x272 ..\obj\i2c_lcd.o
- .debug_aranges
-                0x00000000       0x80 ..\obj\i2c_lcd.o
- .debug_ranges  0x00000000       0x70 ..\obj\i2c_lcd.o
- .debug_line    0x00000000      0x31e ..\obj\i2c_lcd.o
- .debug_str     0x00000000      0x4f7 ..\obj\i2c_lcd.o
- .comment       0x00000000       0x6f ..\obj\i2c_lcd.o
- .debug_frame   0x00000000      0x1a0 ..\obj\i2c_lcd.o
- .ARM.attributes
-                0x00000000       0x31 ..\obj\i2c_lcd.o
  .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
  .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
- .text          0x00000000      0x1d4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
  .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
  .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
- .debug_frame   0x00000000       0x20 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
- .ARM.attributes
-                0x00000000       0x1e g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
  .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
  .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
  .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
- .text.memcpy   0x00000000       0x7c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00000000       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-printf.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-printf.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-printf.o)
+ .text._printf_r
+                0x00000000       0x1c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-printf.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sprintf.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sprintf.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sprintf.o)
+ .text._sprintf_r
+                0x00000000       0x40 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sprintf.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen-stub.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen-stub.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen-stub.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+ .text.vfprintf
+                0x00000000       0x18 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wsetup.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wsetup.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wsetup.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fflush.o)
+ .text.fflush   0x00000000       0x28 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fflush.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x00000000        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x00000000       0x30 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .text.__sfp    0x00000000       0x90 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .text._cleanup
+                0x00000000       0x18 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x00000000        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x00000000        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x18 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x18 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-freer.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-freer.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-freer.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fvwrite.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fvwrite.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fvwrite.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fwalk.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fwalk.o)
+ .text._fwalk   0x00000000       0x44 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fwalk.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x00000000       0x44 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .text.__locale_msgcharset
+                0x00000000        0x8 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .text.__locale_cjk_lang
+                0x00000000        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .text.setlocale
+                0x00000000       0x18 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .text.localeconv
+                0x00000000        0x8 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .data.lc_message_charset
+                0x00000000       0x20 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x00000000        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .bss.__nlocale_changed
+                0x00000000        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .bss.__mlocale_changed
+                0x00000000        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-makebuf.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-makebuf.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-makebuf.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memchr-stub.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memchr-stub.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memchr-stub.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .text.__s2b    0x00000000       0x90 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .text.__ulp    0x00000000       0x4c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .text.__b2d    0x00000000       0xd8 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .text.__ratio  0x00000000       0x74 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .text._mprec_log10
+                0x00000000       0x34 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .text.__copybits
+                0x00000000       0x40 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .text.__any_on
+                0x00000000       0x60 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .rodata.__mprec_tinytens
+                0x00000000       0x28 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reallocr.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reallocr.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reallocr.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o)
+ .text          0x00000000       0x88 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
+ .debug_frame   0x00000000       0x20 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
  .ARM.attributes
-                0x00000000       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+                0x00000000       0x1b g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+ .text._svfiprintf_r
+                0x00000000      0xc88 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+ .rodata._svfiprintf_r
+                0x00000000      0x164 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+ .rodata.blanks.6999
+                0x00000000       0x10 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+ .rodata.str1.4
+                0x00000000       0x2f g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+ .rodata.zeroes.7000
+                0x00000000       0x10 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .text._vfiprintf_r
+                0x00000000      0xe24 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .rodata._vfiprintf_r
+                0x00000000      0x164 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .text.vfiprintf
+                0x00000000       0x18 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .text.__sbprintf
+                0x00000000       0x74 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .rodata.blanks.7013
+                0x00000000       0x10 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .rodata.str1.4
+                0x00000000       0x2f g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .rodata.zeroes.7014
+                0x00000000       0x10 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-writer.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-writer.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-writer.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-callocr.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-callocr.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-callocr.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-closer.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-closer.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-closer.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fclose.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fclose.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fclose.o)
+ .text.fclose   0x00000000       0x14 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fclose.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fputwc.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fputwc.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fputwc.o)
+ .text.fputwc   0x00000000       0x44 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fputwc.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fstatr.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fstatr.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fstatr.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-isattyr.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-isattyr.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-isattyr.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-lseekr.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-lseekr.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-lseekr.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-readr.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-readr.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-readr.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reent.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0x94 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reent.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wbuf.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wbuf.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wbuf.o)
+ .text.__swbuf  0x00000000       0x18 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wbuf.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wcrtomb.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wcrtomb.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wcrtomb.o)
+ .text.wcrtomb  0x00000000       0x5c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wcrtomb.o)
+ .text          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wctomb_r.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wctomb_r.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x00000000       0x34 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wctomb_r.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(adddf3.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(adddf3.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(divdf3.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(divdf3.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(eqdf2.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(eqdf2.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(gedf2.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(gedf2.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(ledf2.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(ledf2.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(muldf3.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(muldf3.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(subdf3.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(subdf3.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(unorddf2.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(unorddf2.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(fixdfsi.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(fixdfsi.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatsidf.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatsidf.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatunsidf.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatunsidf.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_clzsi2.o)
+ .data          0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_clzdi2.o)
+ .bss           0x00000000        0x0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_clzdi2.o)
 
 Memory Configuration
 
@@ -1292,174 +1494,457 @@ Linker script and memory map
 
                 0x20004000                _eram = 0x20004000
 
-.text           0x08000000     0x14a4
+.text           0x08000000     0xab14
  *(.isr_vector)
  .isr_vector    0x08000000       0xc4 ..\obj\startup_stm32f0xx.o
                 0x08000000                g_pfnVectors
  *(.text*)
- .text.SH_SendChar
-                0x080000c4       0x60 ..\obj\semihosting.o
-                0x080000c4                SH_SendChar
  .text.InitDelayTIM6
-                0x08000124       0x5c ..\obj\delay.o
-                0x08000124                InitDelayTIM6
+                0x080000c4       0x5c ..\obj\delay.o
+                0x080000c4                InitDelayTIM6
  .text.TIM6delay_ms
-                0x08000180       0x68 ..\obj\delay.o
-                0x08000180                TIM6delay_ms
+                0x08000120       0x68 ..\obj\delay.o
+                0x08000120                TIM6delay_ms
+ .text.TIM6delay_us
+                0x08000188       0x68 ..\obj\delay.o
+                0x08000188                TIM6delay_us
+ .text.delay_init
+                0x080001f0       0x1c ..\obj\delay.o
+                0x080001f0                delay_init
  .text.ConfigureGPIO_ADC
-                0x080001e8       0x30 ..\obj\adc_photoresistor.o
-                0x080001e8                ConfigureGPIO_ADC
+                0x0800020c       0x30 ..\obj\adc_photoresistor.o
+                0x0800020c                ConfigureGPIO_ADC
  .text.SetClockForADC
-                0x08000218       0x34 ..\obj\adc_photoresistor.o
-                0x08000218                SetClockForADC
+                0x0800023c       0x34 ..\obj\adc_photoresistor.o
+                0x0800023c                SetClockForADC
  .text.CalibrateADC
-                0x0800024c       0x3c ..\obj\adc_photoresistor.o
-                0x0800024c                CalibrateADC
+                0x08000270       0x3c ..\obj\adc_photoresistor.o
+                0x08000270                CalibrateADC
  .text.EnableADC
-                0x08000288       0x24 ..\obj\adc_photoresistor.o
-                0x08000288                EnableADC
+                0x080002ac       0x24 ..\obj\adc_photoresistor.o
+                0x080002ac                EnableADC
  .text.ConfigureADC
-                0x080002ac       0x18 ..\obj\adc_photoresistor.o
-                0x080002ac                ConfigureADC
+                0x080002d0       0x18 ..\obj\adc_photoresistor.o
+                0x080002d0                ConfigureADC
  .text.launch_photoresistor
-                0x080002c4       0x20 ..\obj\adc_photoresistor.o
-                0x080002c4                launch_photoresistor
+                0x080002e8       0x20 ..\obj\adc_photoresistor.o
+                0x080002e8                launch_photoresistor
  .text.calibrate_light_resistor
-                0x080002e4      0x17c ..\obj\adc_photoresistor.o
-                0x080002e4                calibrate_light_resistor
+                0x08000308      0x188 ..\obj\adc_photoresistor.o
+                0x08000308                calibrate_light_resistor
  .text.config_light_resistor_pin
-                0x08000460       0x48 ..\obj\adc_photoresistor.o
-                0x08000460                config_light_resistor_pin
+                0x08000490       0x48 ..\obj\adc_photoresistor.o
+                0x08000490                config_light_resistor_pin
  .text.turnON_LR_DIOD
-                0x080004a8       0x20 ..\obj\adc_photoresistor.o
-                0x080004a8                turnON_LR_DIOD
+                0x080004d8       0x20 ..\obj\adc_photoresistor.o
+                0x080004d8                turnON_LR_DIOD
  .text.turnOFF_LR_DIOD
-                0x080004c8       0x20 ..\obj\adc_photoresistor.o
-                0x080004c8                turnOFF_LR_DIOD
+                0x080004f8       0x20 ..\obj\adc_photoresistor.o
+                0x080004f8                turnOFF_LR_DIOD
  .text.listenLR
-                0x080004e8       0x20 ..\obj\adc_photoresistor.o
-                0x080004e8                listenLR
+                0x08000518       0x20 ..\obj\adc_photoresistor.o
+                0x08000518                listenLR
  .text.unlistenLR
-                0x08000508       0x20 ..\obj\adc_photoresistor.o
-                0x08000508                unlistenLR
+                0x08000538       0x20 ..\obj\adc_photoresistor.o
+                0x08000538                unlistenLR
  .text.read_from_LR
-                0x08000528       0x38 ..\obj\adc_photoresistor.o
-                0x08000528                read_from_LR
+                0x08000558       0x38 ..\obj\adc_photoresistor.o
+                0x08000558                read_from_LR
+ .text.RCC_GetClocksFreq
+                0x08000590      0x264 ..\obj\stm32f0xx_rcc.o
+                0x08000590                RCC_GetClocksFreq
  .text.RCC_AHBPeriphClockCmd
-                0x08000560       0x40 ..\obj\stm32f0xx_rcc.o
-                0x08000560                RCC_AHBPeriphClockCmd
+                0x080007f4       0x40 ..\obj\stm32f0xx_rcc.o
+                0x080007f4                RCC_AHBPeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x08000834       0x40 ..\obj\stm32f0xx_rcc.o
+                0x08000834                RCC_APB2PeriphClockCmd
+ .text.NVIC_EnableIRQ
+                0x08000874       0x2c ..\obj\main.o
  .text.SysTick_Handler
-                0x080005a0       0x18 ..\obj\main.o
-                0x080005a0                SysTick_Handler
- .text.main     0x080005b8      0x140 ..\obj\main.o
-                0x080005b8                main
+                0x080008a0       0x18 ..\obj\main.o
+                0x080008a0                SysTick_Handler
+ .text.UART_Init
+                0x080008b8       0xec ..\obj\main.o
+                0x080008b8                UART_Init
+ .text.main     0x080009a4      0x180 ..\obj\main.o
+                0x080009a4                main
  .text.Reset_Handler
-                0x080006f8       0x44 ..\obj\startup_stm32f0xx.o
-                0x080006f8                Reset_Handler
+                0x08000b24       0x44 ..\obj\startup_stm32f0xx.o
+                0x08000b24                Reset_Handler
  .text.Default_Handler
-                0x0800073c        0x2 ..\obj\startup_stm32f0xx.o
-                0x0800073c                PVD_VDDUSB_LP_IRQHandler
-                0x0800073c                TIM1_CC_IRQHandler
-                0x0800073c                ADC1_COMP_IRQHandler
-                0x0800073c                PendSV_Handler
-                0x0800073c                NMI_Handler
-                0x0800073c                I2C1_IRQHandler
-                0x0800073c                RCC_CRS_IRQHandler
-                0x0800073c                SPI1_IRQHandler
-                0x0800073c                TIM6_DAC_IRQHandler
-                0x0800073c                USART3_4_IRQHandler
-                0x0800073c                EXTI2_3_IRQHandler
-                0x0800073c                I2C2_IRQHandler
-                0x0800073c                TIM17_IRQHandler
-                0x0800073c                CEC_CAN_IRQHandler
-                0x0800073c                RTC_IRQHandler
-                0x0800073c                DMA1_Channel4_5_6_7_IRQHandler
-                0x0800073c                TIM16_IRQHandler
-                0x0800073c                TIM3_IRQHandler
-                0x0800073c                EXTI4_15_IRQHandler
-                0x0800073c                DMA1_Channel1_IRQHandler
-                0x0800073c                Default_Handler
-                0x0800073c                TIM7_IRQHandler
-                0x0800073c                TIM15_IRQHandler
-                0x0800073c                EXTI0_1_IRQHandler
-                0x0800073c                SPI2_IRQHandler
-                0x0800073c                SVC_Handler
-                0x0800073c                USB_LP_IRQHandler
-                0x0800073c                TS_IRQHandler
-                0x0800073c                WWDG_IRQHandler
-                0x0800073c                TIM2_IRQHandler
-                0x0800073c                DMA1_Channel2_3_IRQHandler
-                0x0800073c                USART2_IRQHandler
-                0x0800073c                FLASH_IRQHandler
-                0x0800073c                USART1_IRQHandler
-                0x0800073c                TIM1_BRK_UP_TRG_COM_IRQHandler
- *fill*         0x0800073e        0x2 
- .text.PrintChar
-                0x08000740       0x20 ..\obj\printf.o
-                0x08000740                PrintChar
- .text.PutChar  0x08000760       0x20 ..\obj\printf.o
-                0x08000760                PutChar
- .text.PutString
-                0x08000780       0x38 ..\obj\printf.o
-                0x08000780                PutString
- .text.PutUnsignedInt
-                0x080007b8       0xa8 ..\obj\printf.o
-                0x080007b8                PutUnsignedInt
- .text.PutSignedInt
-                0x08000860      0x110 ..\obj\printf.o
-                0x08000860                PutSignedInt
- .text.PutHexa  0x08000970       0xf8 ..\obj\printf.o
-                0x08000970                PutHexa
- .text.vsnprintf
-                0x08000a68      0x228 ..\obj\printf.o
-                0x08000a68                vsnprintf
- .text.vsprintf
-                0x08000c90       0x24 ..\obj\printf.o
-                0x08000c90                vsprintf
- .text.vfprintf
-                0x08000cb4       0x68 ..\obj\printf.o
-                0x08000cb4                vfprintf
- .text.vprintf  0x08000d1c       0x28 ..\obj\printf.o
-                0x08000d1c                vprintf
- .text.printf   0x08000d44       0x30 ..\obj\printf.o
-                0x08000d44                printf
- .text.fputc    0x08000d74       0x40 ..\obj\printf.o
-                0x08000d74                fputc
- .text.fputs    0x08000db4       0x4c ..\obj\printf.o
-                0x08000db4                fputs
+                0x08000b68        0x2 ..\obj\startup_stm32f0xx.o
+                0x08000b68                PVD_VDDUSB_LP_IRQHandler
+                0x08000b68                TIM1_CC_IRQHandler
+                0x08000b68                HardFault_Handler
+                0x08000b68                ADC1_COMP_IRQHandler
+                0x08000b68                PendSV_Handler
+                0x08000b68                NMI_Handler
+                0x08000b68                I2C1_IRQHandler
+                0x08000b68                RCC_CRS_IRQHandler
+                0x08000b68                SPI1_IRQHandler
+                0x08000b68                TIM6_DAC_IRQHandler
+                0x08000b68                USART3_4_IRQHandler
+                0x08000b68                EXTI2_3_IRQHandler
+                0x08000b68                I2C2_IRQHandler
+                0x08000b68                TIM17_IRQHandler
+                0x08000b68                CEC_CAN_IRQHandler
+                0x08000b68                RTC_IRQHandler
+                0x08000b68                DMA1_Channel4_5_6_7_IRQHandler
+                0x08000b68                TIM16_IRQHandler
+                0x08000b68                TIM3_IRQHandler
+                0x08000b68                EXTI4_15_IRQHandler
+                0x08000b68                DMA1_Channel1_IRQHandler
+                0x08000b68                Default_Handler
+                0x08000b68                TIM7_IRQHandler
+                0x08000b68                TIM15_IRQHandler
+                0x08000b68                EXTI0_1_IRQHandler
+                0x08000b68                SPI2_IRQHandler
+                0x08000b68                SVC_Handler
+                0x08000b68                USB_LP_IRQHandler
+                0x08000b68                TS_IRQHandler
+                0x08000b68                WWDG_IRQHandler
+                0x08000b68                TIM2_IRQHandler
+                0x08000b68                DMA1_Channel2_3_IRQHandler
+                0x08000b68                USART2_IRQHandler
+                0x08000b68                FLASH_IRQHandler
+                0x08000b68                USART1_IRQHandler
+                0x08000b68                TIM1_BRK_UP_TRG_COM_IRQHandler
+ *fill*         0x08000b6a        0x2 
+ .text.keypad_init_GPIO_IN
+                0x08000b6c       0x50 ..\obj\stm32f0xx_keypad_d1md1m.o
+                0x08000b6c                keypad_init_GPIO_IN
+ .text.keypad_init_GPIO_OUT
+                0x08000bbc       0x48 ..\obj\stm32f0xx_keypad_d1md1m.o
+                0x08000bbc                keypad_init_GPIO_OUT
+ .text.initgpio_keyboard
+                0x08000c04       0x8c ..\obj\stm32f0xx_keypad_d1md1m.o
+                0x08000c04                initgpio_keyboard
+ .text.I2C_Cmd  0x08000c90       0x3c ..\obj\stm32f0xx_i2c.o
+                0x08000c90                I2C_Cmd
  .text.TIM14_IRQHandler
-                0x08000e00      0x110 ..\obj\APS.o
-                0x08000e00                TIM14_IRQHandler
+                0x08000ccc      0x110 ..\obj\APS.o
+                0x08000ccc                TIM14_IRQHandler
  .text.GPIO_Init
-                0x08000f10      0x130 ..\obj\stm32f0xx_gpio.o
-                0x08000f10                GPIO_Init
+                0x08000ddc      0x130 ..\obj\stm32f0xx_gpio.o
+                0x08000ddc                GPIO_Init
  .text.GPIO_SetBits
-                0x08001040       0x20 ..\obj\stm32f0xx_gpio.o
-                0x08001040                GPIO_SetBits
+                0x08000f0c       0x20 ..\obj\stm32f0xx_gpio.o
+                0x08000f0c                GPIO_SetBits
  .text.GPIO_ResetBits
-                0x08001060       0x20 ..\obj\stm32f0xx_gpio.o
-                0x08001060                GPIO_ResetBits
- .text          0x08001080       0x28 ..\obj\sh_cmd.o
-                0x08001080                SH_DoCommand
-                0x08001092                HardFault_Handler
+                0x08000f2c       0x20 ..\obj\stm32f0xx_gpio.o
+                0x08000f2c                GPIO_ResetBits
+ .text.GPIO_PinAFConfig
+                0x08000f4c       0xa4 ..\obj\stm32f0xx_gpio.o
+                0x08000f4c                GPIO_PinAFConfig
+ .text._sbrk    0x08000ff0       0x3c ..\obj\syscalls.o
+                0x08000ff0                _sbrk
+ .text._close   0x0800102c       0x14 ..\obj\syscalls.o
+                0x0800102c                _close
+ .text._fstat   0x08001040       0x1c ..\obj\syscalls.o
+                0x08001040                _fstat
+ .text._isatty  0x0800105c       0x14 ..\obj\syscalls.o
+                0x0800105c                _isatty
+ .text._lseek   0x08001070       0x18 ..\obj\syscalls.o
+                0x08001070                _lseek
+ .text._read    0x08001088       0x18 ..\obj\syscalls.o
+                0x08001088                _read
+ .text._write   0x080010a0       0x54 ..\obj\syscalls.o
+                0x080010a0                _write
+ .text.USART_Init
+                0x080010f4      0x174 ..\obj\stm32f0xx_usart.o
+                0x080010f4                USART_Init
+ .text.USART_StructInit
+                0x08001268       0x38 ..\obj\stm32f0xx_usart.o
+                0x08001268                USART_StructInit
+ .text.USART_Cmd
+                0x080012a0       0x3c ..\obj\stm32f0xx_usart.o
+                0x080012a0                USART_Cmd
+ .text.USART_SendData
+                0x080012dc       0x24 ..\obj\stm32f0xx_usart.o
+                0x080012dc                USART_SendData
+ .text.USART_ITConfig
+                0x08001300       0x88 ..\obj\stm32f0xx_usart.o
+                0x08001300                USART_ITConfig
+ .text.USART_GetFlagStatus
+                0x08001388       0x3c ..\obj\stm32f0xx_usart.o
+                0x08001388                USART_GetFlagStatus
  .text.TIM_GetITStatus
-                0x080010a8       0x80 ..\obj\stm32f0xx_tim.o
-                0x080010a8                TIM_GetITStatus
+                0x080013c4       0x80 ..\obj\stm32f0xx_tim.o
+                0x080013c4                TIM_GetITStatus
  .text.TIM_ClearITPendingBit
-                0x08001128       0x24 ..\obj\stm32f0xx_tim.o
-                0x08001128                TIM_ClearITPendingBit
+                0x08001444       0x24 ..\obj\stm32f0xx_tim.o
+                0x08001444                TIM_ClearITPendingBit
  .text.SystemInit
-                0x0800114c       0x8c ..\obj\system_stm32f0xx.o
-                0x0800114c                SystemInit
+                0x08001468       0x8c ..\obj\system_stm32f0xx.o
+                0x08001468                SystemInit
  .text.SetSysClock
-                0x080011d8       0x88 ..\obj\system_stm32f0xx.o
- .text          0x08001260      0x114 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
-                0x08001260                __aeabi_uidiv
-                0x08001260                __udivsi3
-                0x0800136c                __aeabi_uidivmod
- .text          0x08001374        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
-                0x08001374                __aeabi_idiv0
-                0x08001374                __aeabi_ldiv0
+                0x080014f4       0x88 ..\obj\system_stm32f0xx.o
+ .text.gpio_pinSetup_AF
+                0x0800157c      0x1ec ..\obj\stm32f0xx_gpio_init.o
+                0x0800157c                gpio_pinSetup_AF
+ .text.NVIC_Init
+                0x08001768       0xac ..\obj\stm32f0xx_misc.o
+                0x08001768                NVIC_Init
+ .text.gpioInit
+                0x08001814       0x5c ..\obj\i2c_lcd.o
+                0x08001814                gpioInit
+ .text.i2cInit  0x08001870       0x5c ..\obj\i2c_lcd.o
+                0x08001870                i2cInit
+ .text.lcd_PrintC
+                0x080018cc       0x48 ..\obj\i2c_lcd.o
+                0x080018cc                lcd_PrintC
+ .text.lcd_Init
+                0x08001914       0x50 ..\obj\i2c_lcd.o
+                0x08001914                lcd_Init
+ .text.lcd_Send
+                0x08001964       0x68 ..\obj\i2c_lcd.o
+                0x08001964                lcd_Send
+ .text.lcd_FirstCommand
+                0x080019cc       0xc8 ..\obj\i2c_lcd.o
+                0x080019cc                lcd_FirstCommand
+ .text.lcd_Command
+                0x08001a94      0x1a8 ..\obj\i2c_lcd.o
+                0x08001a94                lcd_Command
+ .text.lcd_Data
+                0x08001c3c      0x1ec ..\obj\i2c_lcd.o
+                0x08001c3c                lcd_Data
+ .text.LCD_launch
+                0x08001e28       0x28 ..\obj\i2c_lcd.o
+                0x08001e28                LCD_launch
+ .text.LCD_test_run
+                0x08001e50       0xc0 ..\obj\i2c_lcd.o
+                0x08001e50                LCD_test_run
+ .text          0x08001f10      0x114 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+                0x08001f10                __aeabi_uidiv
+                0x08001f10                __udivsi3
+                0x0800201c                __aeabi_uidivmod
+ .text          0x08002024      0x1d4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
+                0x08002024                __divsi3
+                0x08002024                __aeabi_idiv
+                0x080021f0                __aeabi_idivmod
+ .text          0x080021f8        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x080021f8                __aeabi_idiv0
+                0x080021f8                __aeabi_ldiv0
+ .text.memcpy   0x080021fc       0x7c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+                0x080021fc                memcpy
+ .text.printf   0x08002278       0x24 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-printf.o)
+                0x08002278                printf
+ .text._puts_r  0x0800229c       0x70 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o)
+                0x0800229c                _puts_r
+ .text.puts     0x0800230c       0x14 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o)
+                0x0800230c                puts
+ .text.sprintf  0x08002320       0x44 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sprintf.o)
+                0x08002320                sprintf
+ .text.strlen   0x08002364       0x68 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen-stub.o)
+                0x08002364                strlen
+ .text._svfprintf_r
+                0x080023cc     0x1820 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o)
+                0x080023cc                _svfprintf_r
+ .text._vfprintf_r
+                0x08003bec     0x1828 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+                0x08003bec                _vfprintf_r
+ .text.__sbprintf
+                0x08005414       0x74 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+ .text.__swsetup_r
+                0x08005488       0xd4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wsetup.o)
+                0x08005488                __swsetup_r
+ .text.quorem   0x0800555c      0x150 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x080056ac      0xf54 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o)
+                0x080056ac                _dtoa_r
+ .text.__sflush_r
+                0x08006600      0x150 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fflush.o)
+                0x08006600                __sflush_r
+ .text._fflush_r
+                0x08006750       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fflush.o)
+                0x08006750                _fflush_r
+ .text._cleanup_r
+                0x0800677c       0x10 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+                0x0800677c                _cleanup_r
+ .text.__sinit.part.1
+                0x0800678c       0xf0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .text.__sinit  0x0800687c       0x10 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+                0x0800687c                __sinit
+ .text.__sfp_lock_acquire
+                0x0800688c        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+                0x0800688c                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x08006890        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+                0x08006890                __sfp_lock_release
+ .text._malloc_trim_r
+                0x08006894       0xa0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-freer.o)
+                0x08006894                _malloc_trim_r
+ .text._free_r  0x08006934      0x1c4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-freer.o)
+                0x08006934                _free_r
+ .text.__sfvwrite_r
+                0x08006af8      0x31c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fvwrite.o)
+                0x08006af8                __sfvwrite_r
+ .text._fwalk_reent
+                0x08006e14       0x4c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fwalk.o)
+                0x08006e14                _fwalk_reent
+ .text.__locale_charset
+                0x08006e60        0x8 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+                0x08006e60                __locale_charset
+ .text.__locale_mb_cur_max
+                0x08006e68        0xc g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+                0x08006e68                __locale_mb_cur_max
+ .text._localeconv_r
+                0x08006e74        0x8 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+                0x08006e74                _localeconv_r
+ .text.__swhatbuf_r
+                0x08006e7c       0x60 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-makebuf.o)
+                0x08006e7c                __swhatbuf_r
+ .text.__smakebuf_r
+                0x08006edc       0x88 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-makebuf.o)
+                0x08006edc                __smakebuf_r
+ .text._malloc_r
+                0x08006f64      0x554 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+                0x08006f64                _malloc_r
+ .text.memchr   0x080074b8       0x90 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memchr-stub.o)
+                0x080074b8                memchr
+ .text.memmove  0x08007548       0x98 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memmove.o)
+                0x08007548                memmove
+ .text.memset   0x080075e0       0x8c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+                0x080075e0                memset
+ .text.__malloc_lock
+                0x0800766c        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mlock.o)
+                0x0800766c                __malloc_lock
+ .text.__malloc_unlock
+                0x08007670        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mlock.o)
+                0x08007670                __malloc_unlock
+ .text._Balloc  0x08007674       0x50 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x08007674                _Balloc
+ .text._Bfree   0x080076c4       0x14 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x080076c4                _Bfree
+ .text.__multadd
+                0x080076d8       0x8c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x080076d8                __multadd
+ .text.__hi0bits
+                0x08007764       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x08007764                __hi0bits
+ .text.__lo0bits
+                0x080077a0       0x5c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x080077a0                __lo0bits
+ .text.__i2b    0x080077fc       0x14 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x080077fc                __i2b
+ .text.__multiply
+                0x08007810      0x15c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x08007810                __multiply
+ .text.__pow5mult
+                0x0800796c       0xbc g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x0800796c                __pow5mult
+ .text.__lshift
+                0x08007a28       0xc0 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x08007a28                __lshift
+ .text.__mcmp   0x08007ae8       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x08007ae8                __mcmp
+ .text.__mdiff  0x08007b24      0x11c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x08007b24                __mdiff
+ .text.__d2b    0x08007c40       0xbc g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x08007c40                __d2b
+ .text._realloc_r
+                0x08007cfc      0x3dc g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reallocr.o)
+                0x08007cfc                _realloc_r
+ .text._sbrk_r  0x080080d8       0x24 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sbrkr.o)
+                0x080080d8                _sbrk_r
+ .text.__sread  0x080080fc       0x28 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o)
+                0x080080fc                __sread
+ .text.__swrite
+                0x08008124       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o)
+                0x08008124                __swrite
+ .text.__sseek  0x08008160       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o)
+                0x08008160                __sseek
+ .text.__sclose
+                0x0800818c        0xc g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o)
+                0x0800818c                __sclose
+ .text.__ssprint_r
+                0x08008198      0x130 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+                0x08008198                __ssprint_r
+ .text.__sprint_r.part.0
+                0x080082c8       0x78 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .text.__sprint_r
+                0x08008340       0x14 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+                0x08008340                __sprint_r
+ .text._write_r
+                0x08008354       0x28 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-writer.o)
+                0x08008354                _write_r
+ .text._calloc_r
+                0x0800837c       0x60 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-callocr.o)
+                0x0800837c                _calloc_r
+ .text._close_r
+                0x080083dc       0x24 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-closer.o)
+                0x080083dc                _close_r
+ .text._fclose_r
+                0x08008400       0x8c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fclose.o)
+                0x08008400                _fclose_r
+ .text.__fputwc
+                0x0800848c       0x98 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fputwc.o)
+                0x0800848c                __fputwc
+ .text._fputwc_r
+                0x08008524       0x20 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fputwc.o)
+                0x08008524                _fputwc_r
+ .text._fstat_r
+                0x08008544       0x28 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fstatr.o)
+                0x08008544                _fstat_r
+ .text._isatty_r
+                0x0800856c       0x24 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-isattyr.o)
+                0x0800856c                _isatty_r
+ .text._lseek_r
+                0x08008590       0x28 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-lseekr.o)
+                0x08008590                _lseek_r
+ .text._read_r  0x080085b8       0x28 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-readr.o)
+                0x080085b8                _read_r
+ .text.__swbuf_r
+                0x080085e0       0xbc g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wbuf.o)
+                0x080085e0                __swbuf_r
+ .text._wcrtomb_r
+                0x0800869c       0x58 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wcrtomb.o)
+                0x0800869c                _wcrtomb_r
+ .text.__ascii_wctomb
+                0x080086f4       0x1c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wctomb_r.o)
+                0x080086f4                __ascii_wctomb
+ .text          0x08008710       0x7c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_arm_cmpdf2.o)
+                0x08008710                __aeabi_cdrcmple
+                0x08008720                __aeabi_cdcmple
+                0x08008720                __aeabi_cdcmpeq
+                0x08008730                __aeabi_dcmpeq
+                0x0800873c                __aeabi_dcmplt
+                0x08008750                __aeabi_dcmple
+                0x08008764                __aeabi_dcmpgt
+                0x08008778                __aeabi_dcmpge
+ .text          0x0800878c       0x40 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_aeabi_uldivmod.o)
+                0x0800878c                __aeabi_uldivmod
+ .text          0x080087cc      0x180 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivmoddi4.o)
+                0x080087cc                __udivmoddi4
+ .text          0x0800894c      0x658 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(adddf3.o)
+                0x0800894c                __aeabi_dadd
+ .text          0x08008fa4      0x62c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(divdf3.o)
+                0x08008fa4                __aeabi_ddiv
+ .text          0x080095d0       0x80 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(eqdf2.o)
+                0x080095d0                __nedf2
+                0x080095d0                __eqdf2
+ .text          0x08009650       0xc8 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(gedf2.o)
+                0x08009650                __gedf2
+                0x08009650                __gtdf2
+ .text          0x08009718       0xd4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(ledf2.o)
+                0x08009718                __ledf2
+                0x08009718                __ltdf2
+ .text          0x080097ec      0x4f4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(muldf3.o)
+                0x080097ec                __aeabi_dmul
+ .text          0x08009ce0      0x6a8 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(subdf3.o)
+                0x08009ce0                __aeabi_dsub
+ .text          0x0800a388       0x40 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(unorddf2.o)
+                0x0800a388                __aeabi_dcmpun
+ .text          0x0800a3c8       0x6c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(fixdfsi.o)
+                0x0800a3c8                __aeabi_d2iz
+ .text          0x0800a434       0x84 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatsidf.o)
+                0x0800a434                __aeabi_i2d
+ .text          0x0800a4b8       0x70 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatunsidf.o)
+                0x0800a4b8                __aeabi_ui2d
+ .text          0x0800a528       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_clzsi2.o)
+                0x0800a528                __clzsi2
+ .text          0x0800a564       0x18 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_clzdi2.o)
+                0x0800a564                __clzdi2
  *(.init)
  *(.fini)
  *crtbegin.o(.ctors)
@@ -1473,119 +1958,196 @@ Linker script and memory map
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata        0x08001378       0x1d ..\obj\adc_photoresistor.o
- *fill*         0x08001395        0x3 
- .rodata        0x08001398       0x61 ..\obj\main.o
- *fill*         0x080013f9        0x3 
- .rodata        0x080013fc       0xa8 ..\obj\printf.o
+ .rodata        0x0800a57c       0x1d ..\obj\adc_photoresistor.o
+ *fill*         0x0800a599        0x3 
+ .rodata        0x0800a59c       0x7a ..\obj\main.o
+ *fill*         0x0800a616        0x2 
+ .rodata        0x0800a618        0xc ..\obj\i2c_lcd.o
+ .rodata.str1.4
+                0x0800a624        0x2 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o)
+ *fill*         0x0800a626        0x2 
+ .rodata._svfprintf_r
+                0x0800a628      0x164 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o)
+ .rodata.blanks.7055
+                0x0800a78c       0x10 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o)
+ .rodata.str1.4
+                0x0800a79c       0x42 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o)
+ *fill*         0x0800a7de        0x2 
+ .rodata.zeroes.7056
+                0x0800a7e0       0x10 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o)
+ .rodata._vfprintf_r
+                0x0800a7f0      0x164 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+ .rodata.blanks.7070
+                0x0800a954       0x10 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+ .rodata.str1.4
+                0x0800a964       0x42 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+ .rodata.zeroes.7071
+                0x0800a964       0x10 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+ .rodata.str1.4
+                0x0800a974       0x10 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o)
+                                 0x12 (size before relaxing)
+ .rodata.str1.4
+                0x0800a984        0x2 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ *fill*         0x0800a986        0x2 
+ .rodata.str1.4
+                0x0800a988        0xc g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+                                 0x12 (size before relaxing)
+ *fill*         0x0800a994        0x4 
+ .rodata.__mprec_tens
+                0x0800a998       0xc8 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x0800a998                __mprec_tens
+ .rodata.__mprec_bigtens
+                0x0800aa60       0x28 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+                0x0800aa60                __mprec_bigtens
+ .rodata.p05.5396
+                0x0800aa88        0xc g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .rodata        0x0800aa94       0x40 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(divdf3.o)
+ .rodata        0x0800aad4       0x40 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(muldf3.o)
  *(.eh_fram e*)
 
-.glue_7         0x080014a4        0x0
- .glue_7        0x080014a4        0x0 linker stubs
+.glue_7         0x0800ab14        0x0
+ .glue_7        0x0800ab14        0x0 linker stubs
 
-.glue_7t        0x080014a4        0x0
- .glue_7t       0x080014a4        0x0 linker stubs
+.glue_7t        0x0800ab14        0x0
+ .glue_7t       0x0800ab14        0x0 linker stubs
 
-.vfp11_veneer   0x080014a4        0x0
- .vfp11_veneer  0x080014a4        0x0 linker stubs
+.vfp11_veneer   0x0800ab14        0x0
+ .vfp11_veneer  0x0800ab14        0x0 linker stubs
 
-.v4_bx          0x080014a4        0x0
- .v4_bx         0x080014a4        0x0 linker stubs
+.v4_bx          0x0800ab14        0x0
+ .v4_bx         0x0800ab14        0x0 linker stubs
 
-.iplt           0x080014a4        0x0
- .iplt          0x080014a4        0x0 ..\obj\semihosting.o
-
-.rel.dyn        0x080014a4        0x0
- .rel.iplt      0x080014a4        0x0 ..\obj\semihosting.o
+.iplt           0x0800ab14        0x0
+ .iplt          0x0800ab14        0x0 ..\obj\delay.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080014a4                __exidx_start = .
+                0x0800ab14                __exidx_start = .
 
-.ARM.exidx
+.ARM.exidx      0x0800ab14        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x080014a4                __exidx_end = .
-                0x080014a4                __etext = .
-                0x080014a4                _sidata = __etext
+ .ARM.exidx     0x0800ab14        0x8 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivmoddi4.o)
+                0x0800ab1c                __exidx_end = .
+                0x0800ab1c                __etext = .
+                0x0800ab1c                _sidata = __etext
 
-.data           0x20000000      0x444 load address 0x080014a4
+.rel.dyn        0x0800ab1c        0x0
+ .rel.iplt      0x0800ab1c        0x0 ..\obj\delay.o
+
+.data           0x20000000      0x8cc load address 0x0800ab1c
                 0x20000000                __data_start__ = .
                 0x20000000                _sdata = __data_start__
  *(vtable)
  *(.data*)
- .data          0x20000000      0x42c ..\obj\printf.o
-                0x20000000                r
-                0x20000428                _impure_ptr
- .data          0x2000042c        0x4 ..\obj\APS.o
-                0x2000042c                oscnt
- .data          0x20000430       0x14 ..\obj\system_stm32f0xx.o
-                0x20000430                SystemCoreClock
-                0x20000434                AHBPrescTable
-                0x20000444                . = ALIGN (0x4)
+ .data          0x20000000       0x10 ..\obj\stm32f0xx_rcc.o
+ .data          0x20000010        0x4 ..\obj\APS.o
+                0x20000010                oscnt
+ .data          0x20000014       0x14 ..\obj\system_stm32f0xx.o
+                0x20000014                SystemCoreClock
+                0x20000018                AHBPrescTable
+ .data          0x20000028        0x1 ..\obj\i2c_lcd.o
+                0x20000028                backlightState
+ *fill*         0x20000029        0x7 
+ .data.impure_data
+                0x20000030      0x428 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000458        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+                0x20000458                _impure_ptr
+ .data.lconv    0x2000045c       0x38 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .data.lc_ctype_charset
+                0x20000494       0x20 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .data.__mb_cur_max
+                0x200004b4        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+                0x200004b4                __mb_cur_max
+ .data.__malloc_av_
+                0x200004b8      0x408 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+                0x200004b8                __malloc_av_
+ .data.__malloc_trim_threshold
+                0x200008c0        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+                0x200008c0                __malloc_trim_threshold
+ .data.__malloc_sbrk_base
+                0x200008c4        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+                0x200008c4                __malloc_sbrk_base
+ .data.__wctomb
+                0x200008c8        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wctomb_r.o)
+                0x200008c8                __wctomb
+                0x200008cc                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
                 [!provide]                PROVIDE (__preinit_array_end, .)
-                0x20000444                . = ALIGN (0x4)
+                0x200008cc                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
                 [!provide]                PROVIDE (__init_array_end, .)
-                0x20000444                . = ALIGN (0x4)
+                0x200008cc                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array)
                 [!provide]                PROVIDE (__fini_array_end, .)
  *(.jcr*)
-                0x20000444                . = ALIGN (0x4)
-                0x20000444                __data_end__ = .
-                0x20000444                _edata = __data_end__
+                0x200008cc                . = ALIGN (0x4)
+                0x200008cc                __data_end__ = .
+                0x200008cc                _edata = __data_end__
 
-.igot.plt       0x20000444        0x0 load address 0x080018e8
- .igot.plt      0x20000444        0x0 ..\obj\semihosting.o
+.igot.plt       0x200008cc        0x0 load address 0x0800b3e8
+ .igot.plt      0x200008cc        0x0 ..\obj\delay.o
 
-.bss            0x20000444       0xbc load address 0x080018e8
-                0x20000444                . = ALIGN (0x4)
-                0x20000444                __bss_start__ = .
-                0x20000444                _sbss = __bss_start__
+.bss            0x200008cc       0xe4 load address 0x0800b3e8
+                0x200008cc                . = ALIGN (0x4)
+                0x200008cc                __bss_start__ = .
+                0x200008cc                _sbss = __bss_start__
  *(.bss*)
- .bss           0x20000444       0x11 ..\obj\semihosting.o
- *fill*         0x20000455        0x3 
- .bss           0x20000458        0x8 ..\obj\main.o
-                0x20000458                MSec
-                0x2000045c                pill
+ .bss           0x200008cc        0x8 ..\obj\main.o
+                0x200008cc                MSec
+                0x200008d0                pill
+ .bss           0x200008d4        0x4 ..\obj\syscalls.o
+ .bss.__malloc_max_total_mem
+                0x200008d8        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+                0x200008d8                __malloc_max_total_mem
+ .bss.__malloc_max_sbrked_mem
+                0x200008dc        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+                0x200008dc                __malloc_max_sbrked_mem
+ .bss.__malloc_top_pad
+                0x200008e0        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+                0x200008e0                __malloc_top_pad
+ .bss.__malloc_current_mallinfo
+                0x200008e4       0x28 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+                0x200008e4                __malloc_current_mallinfo
  *(COMMON)
- COMMON         0x20000460        0x4 ..\obj\delay.o
-                0x20000460                prescaler_ms
-                0x20000462                prescaler_us
- COMMON         0x20000464        0x8 ..\obj\adc_photoresistor.o
-                0x20000464                LR_BLUE_active
-                0x20000466                LR_RED_active
-                0x20000468                LR_BLUE_passive
-                0x2000046a                LR_RED_passive
- COMMON         0x2000046c       0x94 ..\obj\APS.o
-                0x2000046c                TB
-                0x20000478                list
-                0x200004d8                Period
-                0x200004dc                RC
-                0x20000500                . = ALIGN (0x4)
-                0x20000500                __bss_end__ = .
-                0x20000500                _ebss = __bss_end__
+ COMMON         0x2000090c        0x4 ..\obj\delay.o
+                0x2000090c                prescaler_ms
+                0x2000090e                prescaler_us
+ COMMON         0x20000910        0x8 ..\obj\adc_photoresistor.o
+                0x20000910                LR_BLUE_active
+                0x20000912                LR_RED_active
+                0x20000914                LR_BLUE_passive
+                0x20000916                LR_RED_passive
+ COMMON         0x20000918       0x94 ..\obj\APS.o
+                0x20000918                TB
+                0x20000924                list
+                0x20000984                Period
+                0x20000988                RC
+ COMMON         0x200009ac        0x4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reent.o)
+                0x200009ac                errno
+                0x200009b0                . = ALIGN (0x4)
+                0x200009b0                __bss_end__ = .
+                0x200009b0                _ebss = __bss_end__
 
-.heap           0x20000500        0x0
-                0x20000500                __end__ = .
-                0x20000500                _end = __end__
-                0x20000500                end = __end__
+.heap           0x200009b0        0x0
+                0x200009b0                __end__ = .
+                0x200009b0                _end = __end__
+                0x200009b0                end = __end__
  *(.heap*)
-                0x20000500                __HeapLimit = .
+                0x200009b0                __HeapLimit = .
 
-.co_stack       0x20000500        0x0
-                0x20000500                . = ALIGN (0x8)
+.co_stack       0x200009b0        0x0
+                0x200009b0                . = ALIGN (0x8)
  *(.co_stack .co_stack.*)
                 0x20004000                __StackTop = (ORIGIN (ram) + LENGTH (ram))
                 0x20004000                __StackLimit = (__StackTop - SIZEOF (.co_stack))
                 [!provide]                PROVIDE (__stack, __StackTop)
                 0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
-LOAD ..\obj\semihosting.o
 LOAD ..\obj\delay.o
 LOAD ..\obj\adc_photoresistor.o
 LOAD ..\obj\stm32f0xx_rcc.o
@@ -1595,13 +2157,11 @@ LOAD ..\obj\LCD1602_main.o
 LOAD ..\obj\main_lcd1602.o
 LOAD ..\obj\main.o
 LOAD ..\obj\startup_stm32f0xx.o
-LOAD ..\obj\printf.o
 LOAD ..\obj\stm32f0xx_keypad_d1md1m.o
 LOAD ..\obj\stm32f0xx_spi.o
 LOAD ..\obj\stm32f0xx_i2c.o
 LOAD ..\obj\APS.o
 LOAD ..\obj\stm32f0xx_gpio.o
-LOAD ..\obj\sh_cmd.o
 LOAD ..\obj\stm32f0xx_rtc.o
 LOAD ..\obj\syscalls.o
 LOAD ..\obj\stm32f0xx_usart.o
@@ -1625,162 +2185,384 @@ LOAD g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-e
 END GROUP
 OUTPUT(smart-aid.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x5dff
- .debug_info    0x00000000      0x136 ..\obj\semihosting.o
- .debug_info    0x00000136      0x433 ..\obj\delay.o
- .debug_info    0x00000569      0x785 ..\obj\adc_photoresistor.o
- .debug_info    0x00000cee      0xa41 ..\obj\stm32f0xx_rcc.o
- .debug_info    0x0000172f      0x9b4 ..\obj\main.o
- .debug_info    0x000020e3       0xa1 ..\obj\startup_stm32f0xx.o
- .debug_info    0x00002184      0xe3d ..\obj\printf.o
- .debug_info    0x00002fc1      0x8ab ..\obj\APS.o
- .debug_info    0x0000386c      0x5e7 ..\obj\stm32f0xx_gpio.o
- .debug_info    0x00003e53       0x93 ..\obj\sh_cmd.o
- .debug_info    0x00003ee6     0x1c6f ..\obj\stm32f0xx_tim.o
- .debug_info    0x00005b55      0x2aa ..\obj\system_stm32f0xx.o
+.debug_info     0x00000000     0x84a4
+ .debug_info    0x00000000      0x433 ..\obj\delay.o
+ .debug_info    0x00000433      0x785 ..\obj\adc_photoresistor.o
+ .debug_info    0x00000bb8      0xa41 ..\obj\stm32f0xx_rcc.o
+ .debug_info    0x000015f9      0xb35 ..\obj\main.o
+ .debug_info    0x0000212e       0xa1 ..\obj\startup_stm32f0xx.o
+ .debug_info    0x000021cf      0x456 ..\obj\stm32f0xx_keypad_d1md1m.o
+ .debug_info    0x00002625      0xbca ..\obj\stm32f0xx_i2c.o
+ .debug_info    0x000031ef      0x8ab ..\obj\APS.o
+ .debug_info    0x00003a9a      0x5e7 ..\obj\stm32f0xx_gpio.o
+ .debug_info    0x00004081      0x58f ..\obj\syscalls.o
+ .debug_info    0x00004610      0xe4e ..\obj\stm32f0xx_usart.o
+ .debug_info    0x0000545e     0x1c6f ..\obj\stm32f0xx_tim.o
+ .debug_info    0x000070cd      0x2aa ..\obj\system_stm32f0xx.o
+ .debug_info    0x00007377      0x66c ..\obj\stm32f0xx_gpio_init.o
+ .debug_info    0x000079e3      0x36e ..\obj\stm32f0xx_misc.o
+ .debug_info    0x00007d51      0x753 ..\obj\i2c_lcd.o
 
-.debug_abbrev   0x00000000     0x10c2
- .debug_abbrev  0x00000000       0xad ..\obj\semihosting.o
- .debug_abbrev  0x000000ad      0x118 ..\obj\delay.o
- .debug_abbrev  0x000001c5      0x1ee ..\obj\adc_photoresistor.o
- .debug_abbrev  0x000003b3      0x1ee ..\obj\stm32f0xx_rcc.o
- .debug_abbrev  0x000005a1      0x271 ..\obj\main.o
- .debug_abbrev  0x00000812       0x12 ..\obj\startup_stm32f0xx.o
- .debug_abbrev  0x00000824      0x262 ..\obj\printf.o
- .debug_abbrev  0x00000a86      0x1ce ..\obj\APS.o
- .debug_abbrev  0x00000c54      0x19f ..\obj\stm32f0xx_gpio.o
- .debug_abbrev  0x00000df3       0x14 ..\obj\sh_cmd.o
- .debug_abbrev  0x00000e07      0x1b7 ..\obj\stm32f0xx_tim.o
- .debug_abbrev  0x00000fbe      0x104 ..\obj\system_stm32f0xx.o
+.debug_abbrev   0x00000000     0x188f
+ .debug_abbrev  0x00000000      0x118 ..\obj\delay.o
+ .debug_abbrev  0x00000118      0x1ee ..\obj\adc_photoresistor.o
+ .debug_abbrev  0x00000306      0x1ee ..\obj\stm32f0xx_rcc.o
+ .debug_abbrev  0x000004f4      0x291 ..\obj\main.o
+ .debug_abbrev  0x00000785       0x12 ..\obj\startup_stm32f0xx.o
+ .debug_abbrev  0x00000797      0x188 ..\obj\stm32f0xx_keypad_d1md1m.o
+ .debug_abbrev  0x0000091f      0x187 ..\obj\stm32f0xx_i2c.o
+ .debug_abbrev  0x00000aa6      0x1ce ..\obj\APS.o
+ .debug_abbrev  0x00000c74      0x19f ..\obj\stm32f0xx_gpio.o
+ .debug_abbrev  0x00000e13      0x170 ..\obj\syscalls.o
+ .debug_abbrev  0x00000f83      0x15e ..\obj\stm32f0xx_usart.o
+ .debug_abbrev  0x000010e1      0x1b7 ..\obj\stm32f0xx_tim.o
+ .debug_abbrev  0x00001298      0x104 ..\obj\system_stm32f0xx.o
+ .debug_abbrev  0x0000139c      0x13c ..\obj\stm32f0xx_gpio_init.o
+ .debug_abbrev  0x000014d8      0x145 ..\obj\stm32f0xx_misc.o
+ .debug_abbrev  0x0000161d      0x272 ..\obj\i2c_lcd.o
 
-.debug_aranges  0x00000000      0x7b8
+.debug_aranges  0x00000000      0xb78
  .debug_aranges
-                0x00000000       0x30 ..\obj\semihosting.o
+                0x00000000       0x48 ..\obj\delay.o
  .debug_aranges
-                0x00000030       0x48 ..\obj\delay.o
+                0x00000048       0x88 ..\obj\adc_photoresistor.o
  .debug_aranges
-                0x00000078       0x88 ..\obj\adc_photoresistor.o
+                0x000000d0      0x160 ..\obj\stm32f0xx_rcc.o
  .debug_aranges
-                0x00000100      0x160 ..\obj\stm32f0xx_rcc.o
+                0x00000230       0x68 ..\obj\main.o
  .debug_aranges
-                0x00000260       0x60 ..\obj\main.o
+                0x00000298       0x28 ..\obj\startup_stm32f0xx.o
  .debug_aranges
-                0x000002c0       0x28 ..\obj\startup_stm32f0xx.o
+                0x000002c0       0x58 ..\obj\stm32f0xx_keypad_d1md1m.o
  .debug_aranges
-                0x000002e8       0xa0 ..\obj\printf.o
+                0x00000318      0x168 ..\obj\stm32f0xx_i2c.o
  .debug_aranges
-                0x00000388       0x60 ..\obj\APS.o
+                0x00000480       0x60 ..\obj\APS.o
  .debug_aranges
-                0x000003e8       0x80 ..\obj\stm32f0xx_gpio.o
+                0x000004e0       0x80 ..\obj\stm32f0xx_gpio.o
  .debug_aranges
-                0x00000468       0x20 ..\obj\sh_cmd.o
+                0x00000560       0x60 ..\obj\syscalls.o
  .debug_aranges
-                0x00000488      0x300 ..\obj\stm32f0xx_tim.o
+                0x000005c0      0x1a0 ..\obj\stm32f0xx_usart.o
  .debug_aranges
-                0x00000788       0x30 ..\obj\system_stm32f0xx.o
+                0x00000760      0x300 ..\obj\stm32f0xx_tim.o
+ .debug_aranges
+                0x00000a60       0x30 ..\obj\system_stm32f0xx.o
+ .debug_aranges
+                0x00000a90       0x38 ..\obj\stm32f0xx_gpio_init.o
+ .debug_aranges
+                0x00000ac8       0x30 ..\obj\stm32f0xx_misc.o
+ .debug_aranges
+                0x00000af8       0x80 ..\obj\i2c_lcd.o
 
-.debug_ranges   0x00000000      0x6f0
- .debug_ranges  0x00000000       0x20 ..\obj\semihosting.o
- .debug_ranges  0x00000020       0x38 ..\obj\delay.o
- .debug_ranges  0x00000058       0x78 ..\obj\adc_photoresistor.o
- .debug_ranges  0x000000d0      0x150 ..\obj\stm32f0xx_rcc.o
- .debug_ranges  0x00000220       0x50 ..\obj\main.o
- .debug_ranges  0x00000270       0x20 ..\obj\startup_stm32f0xx.o
- .debug_ranges  0x00000290       0x90 ..\obj\printf.o
- .debug_ranges  0x00000320       0x50 ..\obj\APS.o
- .debug_ranges  0x00000370       0x70 ..\obj\stm32f0xx_gpio.o
- .debug_ranges  0x000003e0      0x2f0 ..\obj\stm32f0xx_tim.o
- .debug_ranges  0x000006d0       0x20 ..\obj\system_stm32f0xx.o
+.debug_ranges   0x00000000      0xa80
+ .debug_ranges  0x00000000       0x38 ..\obj\delay.o
+ .debug_ranges  0x00000038       0x78 ..\obj\adc_photoresistor.o
+ .debug_ranges  0x000000b0      0x150 ..\obj\stm32f0xx_rcc.o
+ .debug_ranges  0x00000200       0x58 ..\obj\main.o
+ .debug_ranges  0x00000258       0x20 ..\obj\startup_stm32f0xx.o
+ .debug_ranges  0x00000278       0x48 ..\obj\stm32f0xx_keypad_d1md1m.o
+ .debug_ranges  0x000002c0      0x158 ..\obj\stm32f0xx_i2c.o
+ .debug_ranges  0x00000418       0x50 ..\obj\APS.o
+ .debug_ranges  0x00000468       0x70 ..\obj\stm32f0xx_gpio.o
+ .debug_ranges  0x000004d8       0x50 ..\obj\syscalls.o
+ .debug_ranges  0x00000528      0x190 ..\obj\stm32f0xx_usart.o
+ .debug_ranges  0x000006b8      0x2f0 ..\obj\stm32f0xx_tim.o
+ .debug_ranges  0x000009a8       0x20 ..\obj\system_stm32f0xx.o
+ .debug_ranges  0x000009c8       0x28 ..\obj\stm32f0xx_gpio_init.o
+ .debug_ranges  0x000009f0       0x20 ..\obj\stm32f0xx_misc.o
+ .debug_ranges  0x00000a10       0x70 ..\obj\i2c_lcd.o
 
-.debug_line     0x00000000     0x2305
- .debug_line    0x00000000       0xa7 ..\obj\semihosting.o
- .debug_line    0x000000a7      0x1d1 ..\obj\delay.o
- .debug_line    0x00000278      0x2dc ..\obj\adc_photoresistor.o
- .debug_line    0x00000554      0x50f ..\obj\stm32f0xx_rcc.o
- .debug_line    0x00000a63      0x330 ..\obj\main.o
- .debug_line    0x00000d93       0xa6 ..\obj\startup_stm32f0xx.o
- .debug_line    0x00000e39      0x301 ..\obj\printf.o
- .debug_line    0x0000113a      0x32c ..\obj\APS.o
- .debug_line    0x00001466      0x2b8 ..\obj\stm32f0xx_gpio.o
- .debug_line    0x0000171e       0x7b ..\obj\sh_cmd.o
- .debug_line    0x00001799      0xa16 ..\obj\stm32f0xx_tim.o
- .debug_line    0x000021af      0x156 ..\obj\system_stm32f0xx.o
+.debug_line     0x00000000     0x3556
+ .debug_line    0x00000000      0x1d1 ..\obj\delay.o
+ .debug_line    0x000001d1      0x2dc ..\obj\adc_photoresistor.o
+ .debug_line    0x000004ad      0x50f ..\obj\stm32f0xx_rcc.o
+ .debug_line    0x000009bc      0x38b ..\obj\main.o
+ .debug_line    0x00000d47       0xa6 ..\obj\startup_stm32f0xx.o
+ .debug_line    0x00000ded      0x230 ..\obj\stm32f0xx_keypad_d1md1m.o
+ .debug_line    0x0000101d      0x4fe ..\obj\stm32f0xx_i2c.o
+ .debug_line    0x0000151b      0x32c ..\obj\APS.o
+ .debug_line    0x00001847      0x2b8 ..\obj\stm32f0xx_gpio.o
+ .debug_line    0x00001aff      0x202 ..\obj\syscalls.o
+ .debug_line    0x00001d01      0x5ad ..\obj\stm32f0xx_usart.o
+ .debug_line    0x000022ae      0xa16 ..\obj\stm32f0xx_tim.o
+ .debug_line    0x00002cc4      0x156 ..\obj\system_stm32f0xx.o
+ .debug_line    0x00002e1a      0x23e ..\obj\stm32f0xx_gpio_init.o
+ .debug_line    0x00003058      0x1e0 ..\obj\stm32f0xx_misc.o
+ .debug_line    0x00003238      0x31e ..\obj\i2c_lcd.o
 
-.debug_str      0x00000000     0x23a4
- .debug_str     0x00000000      0x18b ..\obj\semihosting.o
-                                0x1c4 (size before relaxing)
- .debug_str     0x0000018b      0x1dc ..\obj\delay.o
+.debug_str      0x00000000     0x2f51
+ .debug_str     0x00000000      0x2b1 ..\obj\delay.o
                                 0x306 (size before relaxing)
- .debug_str     0x00000367      0x332 ..\obj\adc_photoresistor.o
+ .debug_str     0x000002b1      0x367 ..\obj\adc_photoresistor.o
                                 0x55d (size before relaxing)
- .debug_str     0x00000699      0x5a4 ..\obj\stm32f0xx_rcc.o
+ .debug_str     0x00000618      0x5a4 ..\obj\stm32f0xx_rcc.o
                                 0x77b (size before relaxing)
- .debug_str     0x00000c3d      0x45f ..\obj\main.o
-                                0x82c (size before relaxing)
- .debug_str     0x0000109c      0x4bb ..\obj\printf.o
-                                0x661 (size before relaxing)
- .debug_str     0x00001557      0x188 ..\obj\APS.o
+ .debug_str     0x00000bbc      0x481 ..\obj\main.o
+                                0x869 (size before relaxing)
+ .debug_str     0x0000103d       0xe6 ..\obj\stm32f0xx_keypad_d1md1m.o
+                                0x3de (size before relaxing)
+ .debug_str     0x00001123      0x48e ..\obj\stm32f0xx_i2c.o
+                                0x631 (size before relaxing)
+ .debug_str     0x000015b1      0x18d ..\obj\APS.o
                                 0x70f (size before relaxing)
- .debug_str     0x000016df      0x18c ..\obj\stm32f0xx_gpio.o
+ .debug_str     0x0000173e      0x186 ..\obj\stm32f0xx_gpio.o
                                 0x483 (size before relaxing)
- .debug_str     0x0000186b      0xaa9 ..\obj\stm32f0xx_tim.o
+ .debug_str     0x000018c4      0x17a ..\obj\syscalls.o
+                                0x397 (size before relaxing)
+ .debug_str     0x00001a3e      0x663 ..\obj\stm32f0xx_usart.o
+                                0x96f (size before relaxing)
+ .debug_str     0x000020a1      0xaa9 ..\obj\stm32f0xx_tim.o
                                 0xdd5 (size before relaxing)
- .debug_str     0x00002314       0x90 ..\obj\system_stm32f0xx.o
+ .debug_str     0x00002b4a       0x90 ..\obj\system_stm32f0xx.o
                                 0x255 (size before relaxing)
+ .debug_str     0x00002bda      0x1de ..\obj\stm32f0xx_gpio_init.o
+                                0x75f (size before relaxing)
+ .debug_str     0x00002db8       0xb4 ..\obj\stm32f0xx_misc.o
+                                0x2ed (size before relaxing)
+ .debug_str     0x00002e6c       0xe5 ..\obj\i2c_lcd.o
+                                0x4f7 (size before relaxing)
 
 .comment        0x00000000       0x6e
- .comment       0x00000000       0x6e ..\obj\semihosting.o
+ .comment       0x00000000       0x6e ..\obj\delay.o
                                  0x6f (size before relaxing)
- .comment       0x0000006e       0x6f ..\obj\delay.o
  .comment       0x0000006e       0x6f ..\obj\adc_photoresistor.o
  .comment       0x0000006e       0x6f ..\obj\stm32f0xx_rcc.o
  .comment       0x0000006e       0x6f ..\obj\main.o
- .comment       0x0000006e       0x6f ..\obj\printf.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f0xx_keypad_d1md1m.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f0xx_i2c.o
  .comment       0x0000006e       0x6f ..\obj\APS.o
  .comment       0x0000006e       0x6f ..\obj\stm32f0xx_gpio.o
+ .comment       0x0000006e       0x6f ..\obj\syscalls.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f0xx_usart.o
  .comment       0x0000006e       0x6f ..\obj\stm32f0xx_tim.o
  .comment       0x0000006e       0x6f ..\obj\system_stm32f0xx.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f0xx_gpio_init.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f0xx_misc.o
+ .comment       0x0000006e       0x6f ..\obj\i2c_lcd.o
 
 .ARM.attributes
                 0x00000000       0x2f
  .ARM.attributes
-                0x00000000       0x31 ..\obj\semihosting.o
+                0x00000000       0x31 ..\obj\delay.o
  .ARM.attributes
-                0x00000031       0x31 ..\obj\delay.o
+                0x00000031       0x31 ..\obj\adc_photoresistor.o
  .ARM.attributes
-                0x00000062       0x31 ..\obj\adc_photoresistor.o
+                0x00000062       0x31 ..\obj\stm32f0xx_rcc.o
  .ARM.attributes
-                0x00000093       0x31 ..\obj\stm32f0xx_rcc.o
+                0x00000093       0x31 ..\obj\main.o
  .ARM.attributes
-                0x000000c4       0x31 ..\obj\main.o
+                0x000000c4       0x21 ..\obj\startup_stm32f0xx.o
  .ARM.attributes
-                0x000000f5       0x21 ..\obj\startup_stm32f0xx.o
+                0x000000e5       0x31 ..\obj\stm32f0xx_keypad_d1md1m.o
  .ARM.attributes
-                0x00000116       0x31 ..\obj\printf.o
+                0x00000116       0x31 ..\obj\stm32f0xx_i2c.o
  .ARM.attributes
                 0x00000147       0x31 ..\obj\APS.o
  .ARM.attributes
                 0x00000178       0x31 ..\obj\stm32f0xx_gpio.o
  .ARM.attributes
-                0x000001a9       0x21 ..\obj\sh_cmd.o
+                0x000001a9       0x31 ..\obj\syscalls.o
  .ARM.attributes
-                0x000001ca       0x31 ..\obj\stm32f0xx_tim.o
+                0x000001da       0x31 ..\obj\stm32f0xx_usart.o
  .ARM.attributes
-                0x000001fb       0x31 ..\obj\system_stm32f0xx.o
+                0x0000020b       0x31 ..\obj\stm32f0xx_tim.o
  .ARM.attributes
-                0x0000022c       0x1e g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+                0x0000023c       0x31 ..\obj\system_stm32f0xx.o
  .ARM.attributes
-                0x0000024a       0x1e g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x0000026d       0x31 ..\obj\stm32f0xx_gpio_init.o
+ .ARM.attributes
+                0x0000029e       0x31 ..\obj\stm32f0xx_misc.o
+ .ARM.attributes
+                0x000002cf       0x31 ..\obj\i2c_lcd.o
+ .ARM.attributes
+                0x00000300       0x1e g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000031e       0x1e g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000033c       0x1e g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000035a       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000386       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-printf.o)
+ .ARM.attributes
+                0x000003b2       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o)
+ .ARM.attributes
+                0x000003de       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x0000040a       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x00000436       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o)
+ .ARM.attributes
+                0x00000462       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+ .ARM.attributes
+                0x0000048e       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x000004ba       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x000004e6       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x00000512       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x0000053e       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x0000056a       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x00000596       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x000005c2       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000005ee       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000061a       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x00000646       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000672       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x0000069e       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x000006ca       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000006f6       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000722       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x0000074e       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x0000077a       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x000007a6       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x000007d2       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+ .ARM.attributes
+                0x000007fe       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .ARM.attributes
+                0x0000082a       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-writer.o)
+ .ARM.attributes
+                0x00000856       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x00000882       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-closer.o)
+ .ARM.attributes
+                0x000008ae       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x000008da       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fputwc.o)
+ .ARM.attributes
+                0x00000906       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x00000932       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x0000095e       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x0000098a       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-readr.o)
+ .ARM.attributes
+                0x000009b6       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reent.o)
+ .ARM.attributes
+                0x000009e2       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x00000a0e       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wcrtomb.o)
+ .ARM.attributes
+                0x00000a3a       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x00000a66       0x1e g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000a84       0x1e g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000aa2       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000ace       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x00000afa       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(divdf3.o)
+ .ARM.attributes
+                0x00000b26       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x00000b52       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x00000b7e       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x00000baa       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(muldf3.o)
+ .ARM.attributes
+                0x00000bd6       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x00000c02       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(unorddf2.o)
+ .ARM.attributes
+                0x00000c2e       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(fixdfsi.o)
+ .ARM.attributes
+                0x00000c5a       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatsidf.o)
+ .ARM.attributes
+                0x00000c86       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatunsidf.o)
+ .ARM.attributes
+                0x00000cb2       0x1e g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x00000cd0       0x1e g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_clzdi2.o)
 
-.debug_frame    0x00000000     0x1a84
- .debug_frame   0x00000000       0x70 ..\obj\semihosting.o
- .debug_frame   0x00000070       0xc8 ..\obj\delay.o
- .debug_frame   0x00000138      0x1b8 ..\obj\adc_photoresistor.o
- .debug_frame   0x000002f0      0x524 ..\obj\stm32f0xx_rcc.o
- .debug_frame   0x00000814      0x12c ..\obj\main.o
- .debug_frame   0x00000940      0x234 ..\obj\printf.o
- .debug_frame   0x00000b74      0x128 ..\obj\APS.o
- .debug_frame   0x00000c9c      0x1b0 ..\obj\stm32f0xx_gpio.o
- .debug_frame   0x00000e4c      0xbb0 ..\obj\stm32f0xx_tim.o
- .debug_frame   0x000019fc       0x68 ..\obj\system_stm32f0xx.o
- .debug_frame   0x00001a64       0x20 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+.debug_frame    0x00000000     0x3974
+ .debug_frame   0x00000000       0xc8 ..\obj\delay.o
+ .debug_frame   0x000000c8      0x1b8 ..\obj\adc_photoresistor.o
+ .debug_frame   0x00000280      0x524 ..\obj\stm32f0xx_rcc.o
+ .debug_frame   0x000007a4      0x14c ..\obj\main.o
+ .debug_frame   0x000008f0      0x10c ..\obj\stm32f0xx_keypad_d1md1m.o
+ .debug_frame   0x000009fc      0x550 ..\obj\stm32f0xx_i2c.o
+ .debug_frame   0x00000f4c      0x128 ..\obj\APS.o
+ .debug_frame   0x00001074      0x1b0 ..\obj\stm32f0xx_gpio.o
+ .debug_frame   0x00001224      0x12c ..\obj\syscalls.o
+ .debug_frame   0x00001350      0x630 ..\obj\stm32f0xx_usart.o
+ .debug_frame   0x00001980      0xbb0 ..\obj\stm32f0xx_tim.o
+ .debug_frame   0x00002530       0x68 ..\obj\system_stm32f0xx.o
+ .debug_frame   0x00002598       0x90 ..\obj\stm32f0xx_gpio_init.o
+ .debug_frame   0x00002628       0x70 ..\obj\stm32f0xx_misc.o
+ .debug_frame   0x00002698      0x1a0 ..\obj\i2c_lcd.o
+ .debug_frame   0x00002838       0x20 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00002858       0x20 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x00002878       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000028a4       0x48 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-printf.o)
+ .debug_frame   0x000028ec       0x44 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-puts.o)
+ .debug_frame   0x00002930       0x50 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sprintf.o)
+ .debug_frame   0x00002980       0x28 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-strlen-stub.o)
+ .debug_frame   0x000029a8       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfprintf.o)
+ .debug_frame   0x000029e4       0x74 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfprintf.o)
+ .debug_frame   0x00002a58       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wsetup.o)
+ .debug_frame   0x00002a84       0x68 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-dtoa.o)
+ .debug_frame   0x00002aec       0x68 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fflush.o)
+ .debug_frame   0x00002b54      0x14c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-findfp.o)
+ .debug_frame   0x00002ca0       0x54 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-freer.o)
+ .debug_frame   0x00002cf4       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fvwrite.o)
+ .debug_frame   0x00002d30       0x5c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fwalk.o)
+ .debug_frame   0x00002d8c       0xa4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-locale.o)
+ .debug_frame   0x00002e30       0x50 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-makebuf.o)
+ .debug_frame   0x00002e80       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mallocr.o)
+ .debug_frame   0x00002ebc       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00002ee8       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memmove.o)
+ .debug_frame   0x00002f14       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memset.o)
+ .debug_frame   0x00002f40       0x30 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mlock.o)
+ .debug_frame   0x00002f70      0x258 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-mprec.o)
+ .debug_frame   0x000031c8       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reallocr.o)
+ .debug_frame   0x00003204       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x00003230       0x90 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-stdio.o)
+ .debug_frame   0x000032c0       0x68 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-svfiprintf.o)
+ .debug_frame   0x00003328       0xb4 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-vfiprintf.o)
+ .debug_frame   0x000033dc       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-writer.o)
+ .debug_frame   0x00003408       0x28 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-callocr.o)
+ .debug_frame   0x00003430       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-closer.o)
+ .debug_frame   0x0000345c       0x44 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fclose.o)
+ .debug_frame   0x000034a0       0x6c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fputwc.o)
+ .debug_frame   0x0000350c       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-fstatr.o)
+ .debug_frame   0x00003538       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-isattyr.o)
+ .debug_frame   0x00003564       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-lseekr.o)
+ .debug_frame   0x00003590       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-readr.o)
+ .debug_frame   0x000035bc       0x48 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-reent.o)
+ .debug_frame   0x00003604       0x48 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wbuf.o)
+ .debug_frame   0x0000364c       0x60 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wcrtomb.o)
+ .debug_frame   0x000036ac       0x48 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-wctomb_r.o)
+ .debug_frame   0x000036f4       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00003730       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(adddf3.o)
+ .debug_frame   0x0000376c       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(divdf3.o)
+ .debug_frame   0x000037a8       0x38 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(eqdf2.o)
+ .debug_frame   0x000037e0       0x38 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(gedf2.o)
+ .debug_frame   0x00003818       0x38 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(ledf2.o)
+ .debug_frame   0x00003850       0x3c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(muldf3.o)
+ .debug_frame   0x0000388c       0x38 g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(subdf3.o)
+ .debug_frame   0x000038c4       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(unorddf2.o)
+ .debug_frame   0x000038f0       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(fixdfsi.o)
+ .debug_frame   0x0000391c       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatsidf.o)
+ .debug_frame   0x00003948       0x2c g:/iot/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(floatunsidf.o)
