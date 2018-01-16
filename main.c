@@ -30,14 +30,11 @@ NVIC_InitTypeDef N;
 
 //#define ROW1 GPIOA->GPIO_Pin_9
 
-
 //==================SERVO ===================
 GPIO_InitTypeDef G;
 
 //Timekeeping functions
 volatile uint32_t MSec = 0;
-//int count = 10;
-int pill = 0;
 
 void SysTick_Handler(void){
 	MSec++;
@@ -65,62 +62,75 @@ void Delay(uint32_t T){
 	while((MSec-MSS)<T) __NOP;
 }
 
-int servo_45_0_45_test_loop(void){
-				// SERVO =========================================
-			uint8_t res;
-				res = APS_AddPin(GPIOA, GPIO_Pin_0, APS_SERVOMIDDLE);
-				if(res != AE_SUCCESS){
-					//Do something with result
-				}
 
-				res = APS_AddPin(GPIOA, GPIO_Pin_1, APS_SERVOMIDDLE);
-				if(res != AE_SUCCESS){
-					//Do something with result
-				}
 
-				//Initialize millisecond counter
-				SysTick_Config(SystemCoreClock/1000);
-				int start_pos = 0;
-				int left = 45;
-				int right = -45;
-				int count = 3;
-				int phres = 1;
-				while (1){
-					if(count > 0) {
-						int cur_pos = start_pos;
-						APS_SetPositionDegree(GPIOA, GPIO_Pin_0, cur_pos);
-						APS_WaitForUpdate();
-						Delay(2000);	// 2 sec
+// SERVO =========================================
+int servo_45_0_45(int container){
+	int checker = 0;
+	int pill = 0;
+	int start_pos = 0;
+	int left = 45;
+	int right = -45;
+	int count = 3;
+	uint8_t res;
+	uint16_t servoPin;
 
-						while(!pill) {		// pill not caught yet
-							cur_pos += left;
-							APS_SetPositionDegree(GPIOA, GPIO_Pin_0, cur_pos);
-							APS_WaitForUpdate();
-							Delay(2000);	// 2 sec
+	if ( container == 1 ) {
+		 servoPin = GPIO_Pin_0;
+//		 GPIOB->ODR ^= GPIO_ODR_10;
+//		 ConfigureGPIO_ADC4();
+	}
+	else if ( container == 2 ) {
+		servoPin = GPIO_Pin_1;
+//		GPIOB->ODR ^= GPIO_ODR_11;
+//		ConfigureGPIO_ADC5();
+	}
+	launch_photoresistor();
+	res = APS_AddPin(GPIOA, servoPin, APS_SERVOMIDDLE);
+	if(res != AE_SUCCESS){}
 
-							cur_pos += right;
-							APS_SetPositionDegree(GPIOA, GPIO_Pin_0, cur_pos);
-							APS_WaitForUpdate();
-							Delay(2000);	// 2 sec
+	//Initialize millisecond counter
+	SysTick_Config(SystemCoreClock/1000);
 
-							if (phres == 1) {	// check "pill caught"
-								cur_pos += right;
-								APS_SetPositionDegree(GPIOA, GPIO_Pin_0, cur_pos);
-								APS_WaitForUpdate();
-								Delay(2000);	// 2 sec
-								pill = 1;		// pill caught
-							}
+	if(count > 0) {
+		int cur_pos = start_pos;
+		APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
+		APS_WaitForUpdate();
+		Delay(2000);	// 2 sec
 
-						}
-						count--;
-						pill = 0;
-					}
-				}
-				// SERVO =========================================
+		while(!pill) {		// pill not caught yet
+			cur_pos += left;
+			APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
+			APS_WaitForUpdate();
+			Delay(2000);	// 2 sec
+
+			cur_pos += right;
+			APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
+			APS_WaitForUpdate();
+			Delay(2000);	// 2 sec
+
+			ADC1->CR |= ADC_CR_ADSTART; /* start the ADC conversion */
+			while ((ADC1->ISR & ADC_ISR_EOC) == 0); /* wait end of conversion */
+			printf("Light is %d\n\r", ADC1->DR);
+			if (ADC1->DR < 1000) {		// pill's caught
+				cur_pos += right;
+				APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
+				APS_WaitForUpdate();
+				Delay(2000);	// 2 sec
+				pill = 1;		// pill caught
 			}
-
-
-//==================SERVO ===================
+			checker++;
+			if ( checker == 10 ) {
+				// SEND ERROR MESSAGE
+				return;
+			}
+		}
+		count--;
+		pill = 0;
+	}
+//	setPinLow(GPIOB, ledPin);
+// SERVO =========================================
+}
 //
 void UART_Init(void) {
   USART_InitTypeDef USART_InitStructure;
@@ -176,74 +186,18 @@ void UART_Init(void) {
   //USART_Cmd(USART3, ENABLE);
 }
 
+void USART1_IRQHandler(){
+	while(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET){			// Received characters added to fifo
+		USART_ClearITPendingBit(USART1, USART_IT_RXNE);
 
-// SERVO =========================================
-int servo_45_0_45(int container){
-	int checker = 0;
-	int pill = 0;
-	int start_pos = 0;
-	int left = 45;
-	int right = -45;
-	int count = 3;
-	uint8_t res;
-	uint16_t servoPin;
-
-//	if ( container == 1 ) {
-//		 servoPin = GPIO_Pin_0;
-//		 GPIOB->ODR ^= GPIO_ODR_10;
-//		 ConfigureGPIO_ADC4();
-//	}
-//	else if ( container == 2 ) {
-//		servoPin = GPIO_Pin_1;
-//		GPIOB->ODR ^= GPIO_ODR_11;
-//		ConfigureGPIO_ADC5();
-//	}
-	launch_photoresistor();
-	res = APS_AddPin(GPIOA, servoPin, APS_SERVOMIDDLE);
-	if(res != AE_SUCCESS){}
-
-	//Initialize millisecond counter
-	SysTick_Config(SystemCoreClock/1000);
-
-	if(count > 0) {
-		int cur_pos = start_pos;
-		APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
-		APS_WaitForUpdate();
-		Delay(2000);	// 2 sec
-
-		while(!pill) {		// pill not caught yet
-			cur_pos += left;
-			APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
-			APS_WaitForUpdate();
-			Delay(2000);	// 2 sec
-
-			cur_pos += right;
-			APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
-			APS_WaitForUpdate();
-			Delay(2000);	// 2 sec
-
-			ADC1->CR |= ADC_CR_ADSTART; /* start the ADC conversion */
-			while ((ADC1->ISR & ADC_ISR_EOC) == 0); /* wait end of conversion */
-			printf("Light is %d\n\r", ADC1->DR);
-			if (ADC1->DR < 1000) {		// pill's caught
-				cur_pos += right;
-				APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
-				APS_WaitForUpdate();
-				Delay(2000);	// 2 sec
-				pill = 1;		// pill caught
-			}
-			checker++;
-			if ( checker == 10 ) {
-				// SEND ERROR MESSAGE
-				return;
-			}
+		// Receive the character
+		if(USART_ReceiveData(USART1) == 'x'){
+			puts("uart in interrupt\n");
 		}
-		count--;
-		pill = 0;
 	}
-//	setPinLow(GPIOB, ledPin);
-// SERVO =========================================
 }
+
+
 
 
 int main (void) {
@@ -255,9 +209,12 @@ int main (void) {
 	prescaler_us = SystemCoreClock / 1000000;
 	SystemInit();
 //	uint32_t  i = 0;
-//	Servo_init();
+	Servo_init();
 //
 //
+
+
+
 
 	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOC, ENABLE);
 	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOF, ENABLE);
@@ -270,13 +227,16 @@ int main (void) {
 	delay_init();
 
 
-	launch_photoresistor();
+	// ===========================SERVO =====================
+	int container = 2;
+	servo_45_0_45(container);
+	// ===========================SERVO =====================
+
+//	launch_photoresistor();
+	UART_Init();
 //	int resistor_number = 0;
 
 
-		InitDelayTIM6();
-		int container = 2;
-//		servo_45_0_45(container);
 
 	config_light_resistor_pin(LR_RED_PORT, LR_RED_Pin);
 	config_light_resistor_pin(LR_BLUE_PORT, LR_BLUE_Pin);
@@ -328,24 +288,24 @@ int main (void) {
 //				printf("DEF %d\n\r", KEYPAD_COLUMN_1_PORT);
 //				printf("GPIO %d\n\r", GPIOA);
 
-		UART_Init();
+
 	initgpio_keyboard();
 	int key = 0;
-//	puts("test\n");
+	puts("test\n");
+	TIM6delay_ms(1000); // Debounce and several ckicks ommit
 	while(1){
-		puts("test\n");
-		TIM6delay_ms(1000);
-//		TIM6delay_ms(1000); // Debounce and several ckicks ommit
-//
-//		key = read_keypad_key();
-//				if (key){
-//					printf("key_col %c \n\r", key);
-//					TIM6delay_ms(1000); // Debounce and several ckicks ommit
-//
-//
-//				}
+//		puts("test\n");
+//		TIM6delay_ms(1000);
 
-//			check_keypad();
+//
+		key = read_keypad_key();
+				if (key){
+					printf("key_col %c \n\r", key);
+					TIM6delay_ms(1000); // Debounce and several ckicks ommit
+
+
+				}
+
 
 
 

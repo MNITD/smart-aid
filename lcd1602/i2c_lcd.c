@@ -489,8 +489,8 @@ void LCD_test_run(void){
 			lcd_PrintC(str);
 
 			TIM6delay_ms(1000);
-			lcd_Command(0x01);
-			lcd_Command(0xC0);
+			lcd_Command(0x01); // CLEAR
+			lcd_Command(0xC0); // ROW 2
 
 			/*lcd_PrintC(mes);
 			lcd_PrintC(mes);*/
@@ -498,6 +498,12 @@ void LCD_test_run(void){
 	//		lcd_Goto(1, 0);
 
 			sprintf(str, "Value of Pi");
+			lcd_PrintC(str);
+			TIM6delay_ms(1000);
+			lcd_Command(0x01);
+//			lcd_Command(0xC0);
+			lcd_Command(0x80);
+			sprintf(str, "Calibration OK");
 			lcd_PrintC(str);
 		// LCD ===================================================
 }
