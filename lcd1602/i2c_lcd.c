@@ -505,5 +505,10 @@ void LCD_test_run(void){
 			lcd_Command(0x80);
 			sprintf(str, "Calibration OK");
 			lcd_PrintC(str);
+			TIM6delay_ms(1000);
+						lcd_Command(0x01);
+			//			lcd_Command(0xC0);
+						lcd_Command(0x80);
+						sprintf(str, "SMART AID");
 		// LCD ===================================================
 }

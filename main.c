@@ -19,16 +19,19 @@
 extern uint16_t prescaler_us;
 extern uint16_t prescaler_ms;
 
-// LCD ==============================
 
 
-
-//ADC_InitTypeDef A;
 GPIO_InitTypeDef G;
 NVIC_InitTypeDef N;
-//DMA_InitTypeDef D;
 
-//#define ROW1 GPIOA->GPIO_Pin_9
+
+
+
+//==================UART HANDLER ============
+ char recieveBuffer [256];
+int rbi; // recieveBuffer index
+int msgLen;
+
 
 //==================SERVO ===================
 GPIO_InitTypeDef G;
@@ -77,15 +80,11 @@ int servo_45_0_45(int container){
 
 	if ( container == 1 ) {
 		 servoPin = GPIO_Pin_0;
-//		 GPIOB->ODR ^= GPIO_ODR_10;
-//		 ConfigureGPIO_ADC4();
 	}
 	else if ( container == 2 ) {
 		servoPin = GPIO_Pin_1;
-//		GPIOB->ODR ^= GPIO_ODR_11;
-//		ConfigureGPIO_ADC5();
 	}
-	launch_photoresistor();
+//	launch_photoresistor();
 	res = APS_AddPin(GPIOA, servoPin, APS_SERVOMIDDLE);
 	if(res != AE_SUCCESS){}
 
@@ -109,18 +108,21 @@ int servo_45_0_45(int container){
 			APS_WaitForUpdate();
 			Delay(2000);	// 2 sec
 
-			ADC1->CR |= ADC_CR_ADSTART; /* start the ADC conversion */
-			while ((ADC1->ISR & ADC_ISR_EOC) == 0); /* wait end of conversion */
-			printf("Light is %d\n\r", ADC1->DR);
-			if (ADC1->DR < 1000) {		// pill's caught
+			if ( container == 1 ){
+				pill = check_if_pill(LR_BLUE_PORT, LR_BLUE_Pin, LR_BLUE_DIOD_PORT, LR_BLUE_DIOD_Pin );
+			}else{
+				pill = check_if_pill(LR_RED_PORT, LR_RED_Pin, LR_RED_DIOD_PORT, LR_RED_DIOD_Pin );
+			}
+
+			if (pill) {		// pill's caught
 				cur_pos += right;
 				APS_SetPositionDegree(GPIOA, servoPin, cur_pos);
 				APS_WaitForUpdate();
 				Delay(2000);	// 2 sec
-				pill = 1;		// pill caught
+//				pill = 1;		// pill caught
 			}
 			checker++;
-			if ( checker == 10 ) {
+			if ( checker == 5 ) {
 				// SEND ERROR MESSAGE
 				return;
 			}
@@ -128,7 +130,6 @@ int servo_45_0_45(int container){
 		count--;
 		pill = 0;
 	}
-//	setPinLow(GPIOB, ledPin);
 // SERVO =========================================
 }
 //
@@ -186,21 +187,82 @@ void UART_Init(void) {
   //USART_Cmd(USART3, ENABLE);
 }
 
-void USART1_IRQHandler(){
-	while(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET){			// Received characters added to fifo
-		USART_ClearITPendingBit(USART1, USART_IT_RXNE);
 
-		// Receive the character
-		if(USART_ReceiveData(USART1) == 'x'){
-			puts("uart in interrupt\n");
+int readPWD(){
+	char pwd [5] = {'#','#','#','#','\0'};
+	uint8_t str [20];
+	int key = 0;
+	int pwd_len = 0;
+	lcd_Command(0x01); // CLEAR
+	sprintf(str, "TYPE_PWD:");
+	lcd_PrintC(str);
+	TIM6delay_ms(1000);
+	while (pwd_len < 4){
+		key = read_keypad_key();
+		if (key){
+			pwd[pwd_len] = key;
+			pwd_len++;
+			lcd_Command(0x01); // CLEAR
+			lcd_PrintC(pwd);
+			TIM6delay_ms(1000); // Debounce and several ckicks ommit
 		}
+
+
 	}
+
+
+	printf("pass%s\n", pwd);
+	TIM6delay_ms(1000); // Debounce and several ckicks ommit
+	lcd_Command(0x01); // CLEAR
+	lcd_Command(0xC0); // ROW 2
+}
+
+//int give_one_pill(int container)
+
+
+void USART1_IRQHandler(){
+
+  if(rbi > msgLen){
+    rbi = 0;
+    msgLen = 0;
+  }
+
+  while(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET){      // Received characters added to fifo
+    USART_ClearITPendingBit(USART1, USART_IT_RXNE);
+
+    char receivedChar =  USART_ReceiveData(USART1);
+
+    // first symbol, that describe msg length A - 1, Z - 26
+    if(msgLen == 0 ){
+      msgLen = receivedChar - 64;
+    } else { // second and other symbols
+      recieveBuffer[rbi] = receivedChar;
+      rbi++;
+    }
+    // all data has been received
+    if(rbi == msgLen){
+    	printf("%s\n", recieveBuffer);
+    	if ((strcmp(recieveBuffer, "ptc1n1") == 0) ){
+    		readPWD();
+    	}
+    	if ((strcmp(recieveBuffer, "ak") == 0) ){
+    		//pas OK
+    		int container = 2;
+    		servo_45_0_45(container);
+    		puts("pillsTaken\n");
+    	}
+      rbi++;
+
+    }
+  }
 }
 
 
 
 
 int main (void) {
+	rbi = 0; // recieveBuffer index
+	msgLen = 0;
 	LR_RED_active = 0;
 	LR_RED_passive = 0;
 	LR_BLUE_active = 0;
@@ -208,10 +270,8 @@ int main (void) {
 	prescaler_ms = SystemCoreClock / 1000;
 	prescaler_us = SystemCoreClock / 1000000;
 	SystemInit();
-//	uint32_t  i = 0;
+
 	Servo_init();
-//
-//
 
 
 
@@ -219,22 +279,19 @@ int main (void) {
 	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOC, ENABLE);
 	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOF, ENABLE);
 	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOA, ENABLE);
-	LCD_launch() ;
-	LCD_test_run() ;
+	LCD_launch() ; //<========== uncomment
+	LCD_test_run() ;// <========== uncomment
 
 
 	InitDelayTIM6();
 	delay_init();
 
 
-	// ===========================SERVO =====================
-	int container = 2;
-	servo_45_0_45(container);
-	// ===========================SERVO =====================
+	launch_photoresistor();
 
-//	launch_photoresistor();
+
 	UART_Init();
-//	int resistor_number = 0;
+	int resistor_number = 0;
 
 
 
@@ -254,6 +311,11 @@ int main (void) {
 
 	printf("LR calibration OK \n\r");
 
+
+	// ===========================SERVO =====================
+//		int container = 2;
+//		servo_45_0_45(container);
+		// ===========================SERVO =====================
 //			int resistor_number = 0 ;
 //			while(1){ // PHOTORESISTOR!!!
 //
@@ -275,18 +337,7 @@ int main (void) {
 
 
 
-		//TODO make Enum Strings ?
-//	servo_45_0_45(2); ////////////SERVO _____T E S T ________
-
-
-
-//	 =============== KEYBOARD ====================
-//	TM_KEYPAD_Button_t pressedBtn;
-//	int a = ;
-//	printf("%d", a);
-//	printf("port %d\n\r", (*key_cols[0].Port));
-//				printf("DEF %d\n\r", KEYPAD_COLUMN_1_PORT);
-//				printf("GPIO %d\n\r", GPIOA);
+	servo_45_0_45(2); ////////////SERVO _____T E S T ________
 
 
 	initgpio_keyboard();
@@ -294,27 +345,16 @@ int main (void) {
 	puts("test\n");
 	TIM6delay_ms(1000); // Debounce and several ckicks ommit
 	while(1){
-//		puts("test\n");
-//		TIM6delay_ms(1000);
+		servo_45_0_45(2); ////////////SERVO _____T E S T ________
 
-//
+//		puts("test\n");
+//		TIM6delay_ms(1000); // Debounce and several ckicks ommit
 		key = read_keypad_key();
 				if (key){
 					printf("key_col %c \n\r", key);
 					TIM6delay_ms(1000); // Debounce and several ckicks ommit
-
-
-				}
-
-
-
-
-//		pressedBtn = TM_KEYPAD_Read();
-//		printf("test: %d\n\r", GPIOA->IDR & GPIO_Pin_10 );
-//		printf("The value is %s\n\r", pressedBtn);
-
 	}
 //	 ==================== KEYBOARD ===========================
-}
+}}
 
 

@@ -12,20 +12,6 @@ void  ConfigureGPIO_ADC(void)
                | ( GPIO_MODER_MODER4);
 }
 
-//GPIO_InitTypeDef G;
-
-//void GPIO_analog_init(void){
-//	RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOC, ENABLE);
-//	RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1, ENABLE);
-//
-//	G.GPIO_Pin = GPIO_Pin_4;
-//	G.GPIO_Mode = GPIO_Mode_AN;
-////	G.GPIO_OType = GPIO_OType_PP;
-////	G.GPIO_PuPd = GPIO_PuPd_NOPULL;
-//	G.GPIO_Speed = GPIO_Speed_2MHz;
-//	GPIO_Init(GPIOC, &G);
-//}
-
 void SetClockForADC(void)
 {
   RCC->APB2ENR |= RCC_APB2ENR_ADC1EN;
@@ -80,8 +66,6 @@ void calibrate_light_resistor(GPIO_TypeDef* LR_PORT, uint16_t LR_PIN){ //USE IN 
 		}else{
 			thisLR_DIOD_PORT = LR_BLUE_DIOD_PORT;
 			thisLR_DIOD_PIN = LR_BLUE_DIOD_Pin;
-//			thisLR_PIN_hight = &LR_BLUE_active;
-//			thisLR_PIN_low =  &LR_BLUE_passive;
 		}
 
 	turnON_LR_DIOD(thisLR_DIOD_PORT, thisLR_DIOD_PIN);
