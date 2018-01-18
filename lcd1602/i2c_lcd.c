@@ -483,9 +483,9 @@ void LCD_test_run(void){
 			lcd_Command(0x01);
 			lcd_Command(0x80);
 
-			sprintf(str, "ABO");
+			sprintf(str, "Calibration");
 			lcd_PrintC(str);
-			sprintf(str, "ABO");
+			sprintf(str, " START");
 			lcd_PrintC(str);
 
 			TIM6delay_ms(1000);
@@ -497,18 +497,16 @@ void LCD_test_run(void){
 
 	//		lcd_Goto(1, 0);
 
-			sprintf(str, "Value of Pi");
+			sprintf(str, "CS@UCU");
 			lcd_PrintC(str);
 			TIM6delay_ms(1000);
-			lcd_Command(0x01);
-//			lcd_Command(0xC0);
-			lcd_Command(0x80);
-			sprintf(str, "Calibration OK");
+
 			lcd_PrintC(str);
 			TIM6delay_ms(1000);
 						lcd_Command(0x01);
 			//			lcd_Command(0xC0);
 						lcd_Command(0x80);
 						sprintf(str, "SMART AID");
+						TIM6delay_ms(1000);
 		// LCD ===================================================
 }

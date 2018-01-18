@@ -261,6 +261,7 @@ void USART1_IRQHandler(){
 
 
 int main (void) {
+	uint8_t str [20];
 	rbi = 0; // recieveBuffer index
 	msgLen = 0;
 	LR_RED_active = 0;
@@ -311,6 +312,11 @@ int main (void) {
 
 	printf("LR calibration OK \n\r");
 
+	lcd_Command(0x01);
+//				lcd_Command(0xC0);
+				lcd_Command(0x80);
+				sprintf(str, "Calibration OK");
+				TIM6delay_ms(1000);
 
 	// ===========================SERVO =====================
 //		int container = 2;
@@ -337,7 +343,7 @@ int main (void) {
 
 
 
-	servo_45_0_45(2); ////////////SERVO _____T E S T ________
+//	servo_45_0_45(2); ////////////SERVO _____T E S T ________
 
 
 	initgpio_keyboard();

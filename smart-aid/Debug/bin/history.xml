@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="5.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=smart-aid.map -O0 --gc-sections -LG:\IoT\CoIDE\configuration\ProgramData\smart-aid -TG:\IoT\CoIDE\configuration\ProgramData\smart-aid/arm-gcc-link.ld -g">
-      <target file="smart-aid.elf" lastModified="160fec1299f">
-         <source file="..\obj\delay.o" lastModified="160fec11962"/>
-         <source file="..\obj\adc_photoresistor.o" lastModified="160fec11a5f"/>
-         <source file="..\obj\stm32f0xx_rcc.o" lastModified="160fec11afb"/>
-         <source file="..\obj\stm32f0xx_adc.o" lastModified="160fec11b83"/>
-         <source file="..\obj\systick_millis.o" lastModified="160fec11bbc"/>
-         <source file="..\obj\main.o" lastModified="160fec11d2a"/>
-         <source file="..\obj\startup_stm32f0xx.o" lastModified="160fec11d40"/>
-         <source file="..\obj\stm32f0xx_keypad_d1md1m.o" lastModified="160fec11ddc"/>
-         <source file="..\obj\stm32f0xx_spi.o" lastModified="160fec11e78"/>
-         <source file="..\obj\stm32f0xx_i2c.o" lastModified="160fec11f9c"/>
-         <source file="..\obj\APS.o" lastModified="160fec12009"/>
-         <source file="..\obj\stm32f0xx_gpio.o" lastModified="160fec12081"/>
-         <source file="..\obj\stm32f0xx_rtc.o" lastModified="160fec1214f"/>
-         <source file="..\obj\syscalls.o" lastModified="160fec121af"/>
-         <source file="..\obj\stm32f0xx_usart.o" lastModified="160fec12239"/>
-         <source file="..\obj\stm32f0xx_tim.o" lastModified="160fec1230b"/>
-         <source file="..\obj\system_stm32f0xx.o" lastModified="160fec12361"/>
-         <source file="..\obj\stm32f0xx_gpio_init.o" lastModified="160fec123cb"/>
-         <source file="..\obj\stm32f0xx_exti.o" lastModified="160fec12424"/>
-         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="160fec12479"/>
-         <source file="..\obj\stm32f0xx_can.o" lastModified="160fec124f9"/>
-         <source file="..\obj\stm32f0xx_misc.o" lastModified="160fec12547"/>
-         <source file="..\obj\stm32f0xx_dac.o" lastModified="160fec125a9"/>
-         <source file="..\obj\i2c_lcd.o" lastModified="160fec12769"/>
+      <target file="smart-aid.elf" lastModified="161055e3dd1">
+         <source file="..\obj\delay.o" lastModified="16105352886"/>
+         <source file="..\obj\adc_photoresistor.o" lastModified="16105352984"/>
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="16105352a42"/>
+         <source file="..\obj\stm32f0xx_adc.o" lastModified="16105352abc"/>
+         <source file="..\obj\systick_millis.o" lastModified="16105352af7"/>
+         <source file="..\obj\main.o" lastModified="161055e3b97"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="16105352d96"/>
+         <source file="..\obj\stm32f0xx_keypad_d1md1m.o" lastModified="16105352e27"/>
+         <source file="..\obj\stm32f0xx_spi.o" lastModified="16105352ec3"/>
+         <source file="..\obj\stm32f0xx_i2c.o" lastModified="16105352f73"/>
+         <source file="..\obj\APS.o" lastModified="16105352ffb"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="1610535306a"/>
+         <source file="..\obj\stm32f0xx_rtc.o" lastModified="1610535311f"/>
+         <source file="..\obj\syscalls.o" lastModified="1610535318f"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="1610535321f"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="161053532ff"/>
+         <source file="..\obj\system_stm32f0xx.o" lastModified="16105353355"/>
+         <source file="..\obj\stm32f0xx_gpio_init.o" lastModified="161053533ba"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="16105353414"/>
+         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="1610535346d"/>
+         <source file="..\obj\stm32f0xx_can.o" lastModified="161053534ff"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="16105353553"/>
+         <source file="..\obj\stm32f0xx_dac.o" lastModified="161053535bd"/>
+         <source file="..\obj\i2c_lcd.o" lastModified="1610535386f"/>
       </target>
    </processor>
 </history>

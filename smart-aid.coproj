@@ -89,15 +89,15 @@
   <Files>
     <File name="lcd/i2c_lcd.c" path="lcd1602/i2c_lcd.c" type="1"/>
     <File name="damogranlabs/gpio/stm32f0xx_gpio_init.c" path="libs/damogranlabs/GPIO/stm32f0xx_gpio_init.c" type="1"/>
-    <File name="cmsis_lib/source/stm32f0xx_usart.c" path="cmsis_lib/source/stm32f0xx_usart.c" type="1"/>
     <File name="cmsis_core/core_cmInstr.h" path="cmsis_core/core_cmInstr.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f0xx_usart.c" path="cmsis_lib/source/stm32f0xx_usart.c" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_adc.h" path="cmsis_lib/include/stm32f0xx_adc.h" type="1"/>
     <File name="cmsis_lib/source/stm32f0xx_tim.c" path="cmsis_lib/source/stm32f0xx_tim.c" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_rcc.h" path="cmsis_lib/include/stm32f0xx_rcc.h" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
     <File name="ADC_photoresistor/adc_photoresistor.c" path="adc_photoresistor.c" type="1"/>
-    <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis_lib/include/stm32f0xx_can.h" path="cmsis_lib/include/stm32f0xx_can.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis_core" path="" type="2"/>
     <File name="damogranlabs" path="" type="2"/>
     <File name="ADC_photoresistor/adc_photoresistor.h" path="adc_photoresistor.h" type="1"/>
@@ -106,8 +106,8 @@
     <File name="delay/delay.h" path="delay/delay.h" type="1"/>
     <File name="cmsis_boot/stm32f0xx.h" path="cmsis_boot/stm32f0xx.h" type="1"/>
     <File name="servo" path="" type="2"/>
-    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
     <File name="cmsis_lib/source/stm32f0xx_exti.c" path="cmsis_lib/source/stm32f0xx_exti.c" type="1"/>
+    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
     <File name="cmsis_core/core_cm0.h" path="cmsis_core/core_cm0.h" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_exti.h" path="cmsis_lib/include/stm32f0xx_exti.h" type="1"/>
     <File name="cmsis_lib/source" path="" type="2"/>
